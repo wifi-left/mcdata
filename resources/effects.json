@@ -1,0 +1,157 @@
+[
+    {
+        "name": "速度",
+        "id": "speed",
+        "num": "1"
+    },
+    {
+        "name": "缓慢",
+        "id": "slowness",
+        "num": "2"
+    },
+    {
+        "name": "急迫",
+        "id": "haste",
+        "num": "3"
+    },
+    {
+        "name": "挖掘疲劳",
+        "id": "mining_fatigue",
+        "num": "4"
+    },
+    {
+        "name": "力量",
+        "id": "strength",
+        "num": "5"
+    },
+    {
+        "name": "瞬间治疗",
+        "id": "instant_health",
+        "num": "6"
+    },
+    {
+        "name": "瞬间伤害",
+        "id": "instant_damage",
+        "num": "7"
+    },
+    {
+        "name": "跳跃提升",
+        "id": "jump_boost",
+        "num": "8"
+    },
+    {
+        "name": "反胃",
+        "id": "nausea",
+        "num": "9"
+    },
+    {
+        "name": "再生",
+        "id": "regeneration",
+        "num": "10"
+    },
+    {
+        "name": "抗性提升",
+        "id": "resistance",
+        "num": "11"
+    },
+    {
+        "name": "抗火",
+        "id": "fire_resistance",
+        "num": "12"
+    },
+    {
+        "name": "水下呼吸",
+        "id": "water_breathing",
+        "num": "13"
+    },
+    {
+        "name": "隐形",
+        "id": "invisibility",
+        "num": "14"
+    },
+    {
+        "name": "失明",
+        "id": "blindness",
+        "num": "15"
+    },
+    {
+        "name": "夜视",
+        "id": "night_vision",
+        "num": "16"
+    },
+    {
+        "name": "饥饿",
+        "id": "hunger",
+        "num": "17"
+    },
+    {
+        "name": "虚弱",
+        "id": "weakness",
+        "num": "18"
+    },
+    {
+        "name": "中毒",
+        "id": "poison",
+        "num": "19"
+    },
+    {
+        "name": "凋零",
+        "id": "wither",
+        "num": "20"
+    },
+    {
+        "name": "生命提升",
+        "id": "health_boost",
+        "num": "21"
+    },
+    {
+        "name": "伤害吸收",
+        "id": "absorption",
+        "num": "22"
+    },
+    {
+        "name": "饱和",
+        "id": "saturation",
+        "num": "23"
+    },
+    {
+        "name": "发光",
+        "id": "glowing",
+        "num": "24"
+    },
+    {
+        "name": "漂浮",
+        "id": "levitation",
+        "num": "25"
+    },
+    {
+        "name": "幸运",
+        "id": "luck",
+        "num": "26"
+    },
+    {
+        "name": "霉运",
+        "id": "unluck",
+        "num": "27"
+    },
+    {
+        "name": "缓降",
+        "id": "slow_falling",
+        "num": "28"
+    },
+    {
+        "name": "潮涌能量",
+        "id": "conduit_power",
+        "num": "29"
+    },
+    {
+        "name": "海豚的恩惠",
+        "id": "dolphins_grace",
+        "num": "30"
+    },
+    {
+        "name": "不祥之兆",
+        "id": "bad_omen",
+        "num": "31"
+    }
+]

@@ -1,0 +1,187 @@
+[
+    {
+        "name": "保护",
+        "id": "protection",
+        "num": "0"
+    },
+    {
+        "name": "火焰保护",
+        "id": "fire_protection",
+        "num": "1"
+    },
+    {
+        "name": "摔落保护",
+        "id": "feather_falling",
+        "num": "2"
+    },
+    {
+        "name": "爆炸保护",
+        "id": "blast_protection",
+        "num": "3"
+    },
+    {
+        "name": "弹射物保护",
+        "id": "projectile_protection",
+        "num": "4"
+    },
+    {
+        "name": "水下呼吸",
+        "id": "respiration",
+        "num": "5"
+    },
+    {
+        "name": "水下速掘",
+        "id": "aqua_affinity",
+        "num": "6"
+    },
+    {
+        "name": "荆棘",
+        "id": "thorns",
+        "num": "7"
+    },
+    {
+        "name": "深海探索者",
+        "id": "depth_strider",
+        "num": "8"
+    },
+    {
+        "name": "冰霜行者",
+        "id": "frost_walker",
+        "num": "9"
+    },
+    {
+        "name": "绑定诅咒",
+        "id": "binding_curse",
+        "num": "10"
+    },
+    {
+        "name": "锋利",
+        "id": "sharpness",
+        "num": "16"
+    },
+    {
+        "name": "亡灵杀手",
+        "id": "smite",
+        "num": "17"
+    },
+    {
+        "name": "节肢杀手",
+        "id": "bane_of_arthropods",
+        "num": "18"
+    },
+    {
+        "name": "击退",
+        "id": "knockback",
+        "num": "19"
+    },
+    {
+        "name": "火焰附加",
+        "id": "fire_aspect",
+        "num": "20"
+    },
+    {
+        "name": "抢夺",
+        "id": "looting",
+        "num": "21"
+    },
+    {
+        "name": "横扫之刃",
+        "id": "sweeping",
+        "num": "22"
+    },
+    {
+        "name": "效率",
+        "id": "efficiency",
+        "num": "32"
+    },
+    {
+        "name": "精准采集",
+        "id": "silk_touch",
+        "num": "33"
+    },
+    {
+        "name": "耐久",
+        "id": "unbreaking",
+        "num": "34"
+    },
+    {
+        "name": "时运",
+        "id": "fortune",
+        "num": "35"
+    },
+    {
+        "name": "力量",
+        "id": "power",
+        "num": "48"
+    },
+    {
+        "name": "冲击",
+        "id": "punch",
+        "num": "49"
+    },
+    {
+        "name": "火矢",
+        "id": "flame",
+        "num": "50"
+    },
+    {
+        "name": "无限",
+        "id": "infinity",
+        "num": "51"
+    },
+    {
+        "name": "海之眷顾",
+        "id": "luck_of_the_sea",
+        "num": "61"
+    },
+    {
+        "name": "饵钓",
+        "id": "lure",
+        "num": "62"
+    },
+    {
+        "name": "忠诚",
+        "id": "loyalty",
+        "num": "65"
+    },
+    {
+        "name": "穿刺",
+        "id": "impaling",
+        "num": "66"
+    },
+    {
+        "name": "激流",
+        "id": "riptide",
+        "num": "67"
+    },
+    {
+        "name": "引雷",
+        "id": "channeling",
+        "num": "68"
+    },
+    {
+        "name": "经验修补",
+        "id": "mending",
+        "num": "70"
+    },
+    {
+        "name": "消失诅咒",
+        "id": "vanishing_curse",
+        "num": "71"
+    },
+    {
+        "name": "多重射击",
+        "id": "multishot",
+        "num": "unknown"
+    },
+    {
+        "name": "穿透",
+        "id": "piercing",
+        "num": "unknown"
+    },
+    {
+        "name": "快速装填",
+        "id": "quick_charge",
+        "num": "unknown"
+    }
+]

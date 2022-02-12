@@ -249,6 +249,7 @@
         "player": "$entity|获得进度的玩家"
     },
     "changed_dimension": {
+        "DES":"玩家在两个维度间旅行时触发",
         "from": "$text|实体出发的维度。默认有minecraft:overworld（主世界）、minecraft:the_nether（下界）或minecraft:the_end（末地）",
         "to": "$text|实体到达的维度。默认有minecraft:overworld（主世界）、minecraft:the_nether（下界）或minecraft:the_end（末地）",
         "player": "$entity|获得进度的玩家"
@@ -451,13 +452,13 @@
         "player":"$entity|获得进度的玩家"
     },
     "player_killed_entity":{
-        "DES":"玩家杀死实体时触发",
+        "DES":"玩家杀死实体时触发（经测试不包含矿车等实体）",
         "entity":"$entity|被杀死的实体",
         "killing_blow":"$damageType|杀死实体的伤害类型",
         "player":"$entity|获得进度的玩家"
     },
     "recipe_unlocked":{
-        "DES":"玩家解锁配方时触发（包括知识之书）",
+        "DES":"玩家解锁配方时触发（包括知识之书）（用配方合成物品后将自动解锁该配方，可用此原理自定义合成）",
         "recipe":"$text|被解锁的配方",
         "player":"$entity|获得进度的玩家"
     },

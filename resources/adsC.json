@@ -44,7 +44,11 @@
         "used_totem",
         "using_item",
         "villager_trade",
-        "voluntary_exile"
+        "voluntary_exile",
+        "allay_drop_item_on_block",
+        "avoid_vibration",
+        "kill_mob_near_sculk_catalyst",
+        "thrown_item_picked_up_by_player"
     ],
     "position": {
         "x": "$number|x 坐标",
@@ -225,6 +229,28 @@
         "type": "$damageType|检查伤害的类型。"
     },
     "ALL": {},
+    "allay_drop_item_on_block":{
+        "DES":"当悦灵将物品投掷至方块时触发",
+        "location":"$tlocation|物品投掷至的方块中心位置",
+        "item":"$item|物品投掷至的方块",
+        "player":"$entity|获得进度的玩家"
+    },
+    "avoid_vibration":{
+        "DES":"当振动因其来源玩家处于潜行状态而被忽略时触发",
+        "player":"$entity|获得进度的玩家"
+    },
+    "kill_mob_near_sculk_catalyst":{
+        "DES":"当玩家是在幽匿催发体附近的一个生物或玩家被杀死的伤害来源时触发",
+        "entity":"$entity|杀死的实体对象",
+        "killing_blow":"$damageType|杀死实体的伤害类型",
+        "player":"$entity|获得进度的玩家"
+    },
+    "thrown_item_picked_up_by_player":{
+        "DES":"在玩家拾起实体掷出的物品时触发",
+        "item":"$item|互动的物品",
+        "entity":"$entity|投掷物品的实体的谓词",
+        "player":"$entity|获得进度的玩家"
+    },
     "bee_nest_destroyed": {
         "block": "$text|被摧毁的方块（minecraft:beehive 或 minecraft:bee_nest）",
         "item": "$item|破坏该方块的物品",

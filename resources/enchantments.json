@@ -172,16 +172,21 @@
     {
         "name": "多重射击",
         "id": "multishot",
-        "num": "unknown"
+        "num": null
     },
     {
         "name": "穿透",
         "id": "piercing",
-        "num": "unknown"
+        "num": null
     },
     {
         "name": "快速装填",
         "id": "quick_charge",
-        "num": "unknown"
+        "num": null
+    },
+    {
+        "name": "黑暗",
+        "id": "darkness",
+        "num": "33"
     }
 ]

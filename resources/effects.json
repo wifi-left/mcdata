@@ -153,5 +153,10 @@
         "name": "不祥之兆",
         "id": "bad_omen",
         "num": "31"
+    },
+    {
+        "name":"迅捷潜行",
+        "id":"swift_sneak",
+        "num":"37"
     }
 ]

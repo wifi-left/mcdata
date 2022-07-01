@@ -51,513 +51,513 @@
         "thrown_item_picked_up_by_player"
     ],
     "position": {
-        "x": "$number|x ×ø±ê",
-        "y": "$number|y ×ø±ê",
-        "z": "$number|z ×ø±ê"
+        "x": "$number|x åæ ‡",
+        "y": "$number|y åæ ‡",
+        "z": "$number|z åæ ‡"
     },
     "tlocation": {
-        "biome": "$text|ÉúÎïÈºÏµ¡£Ö§³Ö£ºbadlands¡¢badlands_plateau¡¢beach¡¢birch_forest¡¢birch_forest_hills¡¢cold_ocean¡¢dark_forest¡¢dark_forest_hills¡¢deep_cold_ocean¡¢deep_frozen_ocean¡¢deep_lukewarm_ocean¡¢deep_ocean¡¢deep_warm_ocean¡¢desert¡¢desert_hills¡¢desert_lakes¡¢end_barrens¡¢end_highlands¡¢end_midlands¡¢eroded_badlands¡¢flower_forest¡¢forest¡¢frozen_ocean¡¢frozen_river¡¢giant_spruce_taiga¡¢giant_spruce_taiga_hills¡¢giant_tree_taiga¡¢giant_tree_taiga_hills¡¢gravelly_mountains¡¢ice_spikes¡¢jungle¡¢jungle_edge¡¢jungle_hills¡¢lukewarm_ocean¡¢modified_badlands_plateau¡¢modified_gravelly_mountains¡¢modified_jungle¡¢modified_jungle_edge¡¢modified_wooded_badlands_plateau¡¢mountain_edge¡¢mountains¡¢mushroom_field_shore¡¢mushroom_fields¡¢nether¡¢ocean¡¢plains¡¢river¡¢savanna¡¢savanna_plateau¡¢shattered_savanna¡¢shattered_savanna_plateau¡¢small_end_islands¡¢snowy_beach¡¢snowy_mountains¡¢snowy_taiga¡¢snowy_taiga_hills¡¢snowy_taiga_mountains¡¢snowy_tundra¡¢stone_shore¡¢sunflower_plains¡¢swamp¡¢swamp_hills¡¢taiga¡¢taiga_hills¡¢taiga_mountains¡¢tall_birch_forest¡¢tall_birch_hills¡¢the_end¡¢the_void¡¢warm_ocean¡¢wooded_badlands_plateau¡¢wooded_hillsºÍwooded_mountains",
+        "biome": "$text|ç”Ÿç‰©ç¾¤ç³»ã€‚æ”¯æŒï¼šbadlandsã€badlands_plateauã€beachã€birch_forestã€birch_forest_hillsã€cold_oceanã€dark_forestã€dark_forest_hillsã€deep_cold_oceanã€deep_frozen_oceanã€deep_lukewarm_oceanã€deep_oceanã€deep_warm_oceanã€desertã€desert_hillsã€desert_lakesã€end_barrensã€end_highlandsã€end_midlandsã€eroded_badlandsã€flower_forestã€forestã€frozen_oceanã€frozen_riverã€giant_spruce_taigaã€giant_spruce_taiga_hillsã€giant_tree_taigaã€giant_tree_taiga_hillsã€gravelly_mountainsã€ice_spikesã€jungleã€jungle_edgeã€jungle_hillsã€lukewarm_oceanã€modified_badlands_plateauã€modified_gravelly_mountainsã€modified_jungleã€modified_jungle_edgeã€modified_wooded_badlands_plateauã€mountain_edgeã€mountainsã€mushroom_field_shoreã€mushroom_fieldsã€netherã€oceanã€plainsã€riverã€savannaã€savanna_plateauã€shattered_savannaã€shattered_savanna_plateauã€small_end_islandsã€snowy_beachã€snowy_mountainsã€snowy_taigaã€snowy_taiga_hillsã€snowy_taiga_mountainsã€snowy_tundraã€stone_shoreã€sunflower_plainsã€swampã€swamp_hillsã€taigaã€taiga_hillsã€taiga_mountainsã€tall_birch_forestã€tall_birch_hillsã€the_endã€the_voidã€warm_oceanã€wooded_badlands_plateauã€wooded_hillså’Œwooded_mountains",
         "block": {
-            "DES": "´ËÎ»ÖÃ´¦µÄ·½¿é",
+            "DES": "æ­¤ä½ç½®å¤„çš„æ–¹å—",
             "blocks": {
-                "DES": "·½¿é ID ÁĞ±í",
+                "DES": "æ–¹å— ID åˆ—è¡¨",
                 "TYPE": "ARRAY"
             },
-            "tag": "$text|·½¿é±êÇ©",
-            "nbt": "$text|·½¿éµÄNBT",
+            "tag": "$text|æ–¹å—æ ‡ç­¾",
+            "nbt": "$text|æ–¹å—çš„NBT",
             "state": {
-                "DES": "·½¿é×´Ì¬",
+                "DES": "æ–¹å—çŠ¶æ€",
                 "TYPE": "JSON",
                 "LISTCONTENT": {
                     "T": "true",
-                    "key": "$number|·½¿éÊôĞÔµÄ¼üÖµ"
+                    "key": "$number|æ–¹å—å±æ€§çš„é”®å€¼"
                 }
             }
         },
-        "dimension": "$text|ÊµÌåËùÔÚÎ¬¶È¡£Ö§³Ö£ºoverworld¡¢the_netherºÍthe_end",
-        "feature": "$text|½á¹¹Ãû³Æ",
+        "dimension": "$text|å®ä½“æ‰€åœ¨ç»´åº¦ã€‚æ”¯æŒï¼šoverworldã€the_netherå’Œthe_end",
+        "feature": "$text|ç»“æ„åç§°",
         "fluid": {
-            "DES": "´Ë´¦µÄÒºÌå",
-            "fluid": "$text|ÒºÌå ID",
-            "tag": "$text|ÒºÌå±êÇ©",
+            "DES": "æ­¤å¤„çš„æ¶²ä½“",
+            "fluid": "$text|æ¶²ä½“ ID",
+            "tag": "$text|æ¶²ä½“æ ‡ç­¾",
             "state": {
-                "DES": "ÒºÌå·½¿é×´Ì¬",
+                "DES": "æ¶²ä½“æ–¹å—çŠ¶æ€",
                 "TYPE": "JSON",
                 "LISTCONTENT": {
                     "T": "true",
-                    "key": "$number|ÒºÌå·½¿éÊôĞÔµÄ¼üÖµ"
+                    "key": "$number|æ¶²ä½“æ–¹å—å±æ€§çš„é”®å€¼"
                 }
             }
         },
-        "light": "$number|´ËÎ»ÖÃ´¦µÄÁÁ¶È¡£Ê¹ÓÃmax(sky-darkening, block)¼ÆËã",
-        "position": "$position|×ø±ê",
-        "smokey": "$text|Èç¹û¸Ã·½¿éÎ»ÓÚÒ»¸öÓª»ğ»òÁé»êÓª»ğµÄÉÏ·½ÔòÎªÕæ"
+        "light": "$number|æ­¤ä½ç½®å¤„çš„äº®åº¦ã€‚ä½¿ç”¨max(sky-darkening, block)è®¡ç®—",
+        "position": "$position|åæ ‡",
+        "smokey": "$text|å¦‚æœè¯¥æ–¹å—ä½äºä¸€ä¸ªè¥ç«æˆ–çµé­‚è¥ç«çš„ä¸Šæ–¹åˆ™ä¸ºçœŸ"
     },
     "entity": {
         "T": "true",
         "distance": {
-            "DES": "¾àÀëÓë×ø±ê",
-            "absolute": "$number|¾ø¶Ô¾àÀë",
-            "horizontal": "$number|Ë®Æ½¾àÀë",
-            "x": "$number|x ×ø±ê",
-            "y": "$number|y ×ø±ê",
-            "z": "$number|z ×ø±ê"
+            "DES": "è·ç¦»ä¸åæ ‡",
+            "absolute": "$number|ç»å¯¹è·ç¦»",
+            "horizontal": "$number|æ°´å¹³è·ç¦»",
+            "x": "$number|x åæ ‡",
+            "y": "$number|y åæ ‡",
+            "z": "$number|z åæ ‡"
         },
         "effects": {
-            "DES": "×´Ì¬Ğ§¹ûÁĞ±í",
+            "DES": "çŠ¶æ€æ•ˆæœåˆ—è¡¨",
             "TYPE": "JSON",
             "LISTCONTENT": {
                 "key": {
-                    "DES": "×´Ì¬Ğ§¹ûÃû³Æ",
-                    "amplifier": "$number|Ğ§¹ûµÈ¼¶",
-                    "duration": "$number|Ğ§¹û³ÖĞøÊ±¼ä£¬ÒÔ¿ÌÎªµ¥Î»"
+                    "DES": "çŠ¶æ€æ•ˆæœåç§°",
+                    "amplifier": "$number|æ•ˆæœç­‰çº§",
+                    "duration": "$number|æ•ˆæœæŒç»­æ—¶é—´ï¼Œä»¥åˆ»ä¸ºå•ä½"
                 }
             }
         },
         "equipment": {
-            "DES": "ÊµÌå×°±¸",
-            "mainhand": "$item|Ö÷ÊÖ",
-            "offhand": "$item|¸±ÊÖ",
-            "head": "$item|Í·²¿",
-            "chest": "$item|ĞØ²¿",
-            "legs": "$item|ÍÈ²¿",
-            "feet": "$item½Å²¿ÊÖ"
+            "DES": "å®ä½“è£…å¤‡",
+            "mainhand": "$item|ä¸»æ‰‹",
+            "offhand": "$item|å‰¯æ‰‹",
+            "head": "$item|å¤´éƒ¨",
+            "chest": "$item|èƒ¸éƒ¨",
+            "legs": "$item|è…¿éƒ¨",
+            "feet": "$itemè„šéƒ¨æ‰‹"
         },
         "flags": {
-            "DES": "ÊµÌåÌØÖÊ£¨Predicate Flags£©",
-            "is_on_fire": "$text|²âÊÔ¸ÃÊµÌåÊÇ·ñÕıÔÚ×Å»ğ¡£",
-            "is_sneaking": "$text|²âÊÔ¸ÃÊµÌåÊÇ·ñÕıÔÚÇ±ĞĞ",
-            "is_sprinting": "$text|²âÊÔ¸ÃÊµÌåÊÇ·ñÕıÔÚ¼²ÅÜ",
-            "is_swimming": "$text|²âÊÔ¸ÃÊµÌåÊÇ·ñÕıÔÚÓÎÓ¾",
-            "is_baby": "$text|²âÊÔ¸ÃÊµÌåÊÇ·ñÊÇÓ×Ìå"
+            "DES": "å®ä½“ç‰¹è´¨ï¼ˆPredicate Flagsï¼‰",
+            "is_on_fire": "$text|æµ‹è¯•è¯¥å®ä½“æ˜¯å¦æ­£åœ¨ç€ç«ã€‚",
+            "is_sneaking": "$text|æµ‹è¯•è¯¥å®ä½“æ˜¯å¦æ­£åœ¨æ½œè¡Œ",
+            "is_sprinting": "$text|æµ‹è¯•è¯¥å®ä½“æ˜¯å¦æ­£åœ¨ç–¾è·‘",
+            "is_swimming": "$text|æµ‹è¯•è¯¥å®ä½“æ˜¯å¦æ­£åœ¨æ¸¸æ³³",
+            "is_baby": "$text|æµ‹è¯•è¯¥å®ä½“æ˜¯å¦æ˜¯å¹¼ä½“"
         },
         "fishing_hook": {
-            "DES": "¶ÔÓã¹³ÊµÌåµÄÅĞ¶¨Ìõ¼ş",
-            "in_open_water": "$text|²âÊÔ¸ÃÓã¹³ÊÇ·ñÎ»ÓÚ¿ªÀ«Ë®Óò¡£¿ªÀ«Ë®ÓòÄ¬ÈÏ×îĞ¡ÎªÒÔÓã¹³ÎªÖĞĞÄÏòÍâÑÓÉì5¸ñµÄ¾ØĞÎË®Óò¡£"
+            "DES": "å¯¹é±¼é’©å®ä½“çš„åˆ¤å®šæ¡ä»¶",
+            "in_open_water": "$text|æµ‹è¯•è¯¥é±¼é’©æ˜¯å¦ä½äºå¼€é˜”æ°´åŸŸã€‚å¼€é˜”æ°´åŸŸé»˜è®¤æœ€å°ä¸ºä»¥é±¼é’©ä¸ºä¸­å¿ƒå‘å¤–å»¶ä¼¸5æ ¼çš„çŸ©å½¢æ°´åŸŸã€‚"
         },
         "lightning_bolt": {
-            "DES": "¶ÔÉÁµçÊµÌåµÄÅĞ¶¨Ìõ¼ş¡£ÈôÄ¿±ê²»ÊÇÉÁµçÔòÅĞ¶¨Ê§°Ü¡£",
-            "blocks_set_on_fire": "$text|±»¸ÃÉÁµçµãÈ¼µÄ·½¿éÊı",
-            "entity_struck": "$entity|±»ÉÁµç»÷ÖĞµÄÊµÌåÊôĞÔ"
+            "DES": "å¯¹é—ªç”µå®ä½“çš„åˆ¤å®šæ¡ä»¶ã€‚è‹¥ç›®æ ‡ä¸æ˜¯é—ªç”µåˆ™åˆ¤å®šå¤±è´¥ã€‚",
+            "blocks_set_on_fire": "$text|è¢«è¯¥é—ªç”µç‚¹ç‡ƒçš„æ–¹å—æ•°",
+            "entity_struck": "$entity|è¢«é—ªç”µå‡»ä¸­çš„å®ä½“å±æ€§"
         },
-        "location": "$tlocation|ÊµÌåÎ»ÖÃ",
-        "nbt": "$text|ÊµÌåµÄNBT",
+        "location": "$tlocation|å®ä½“ä½ç½®",
+        "nbt": "$text|å®ä½“çš„NBT",
         "player": {
-            "DES": "¼ì²éÍæ¼ÒÊôĞÔ¡£Èç¹ûÊµÌå²»ÊÇÍæ¼ÒÔòÊ§°Ü¡£",
+            "DES": "æ£€æŸ¥ç©å®¶å±æ€§ã€‚å¦‚æœå®ä½“ä¸æ˜¯ç©å®¶åˆ™å¤±è´¥ã€‚",
             "advancements": {
-                "DES": "Òª¼ì²éµÄ½ø¶ÈµÄÓ³Éä¡£",
+                "DES": "è¦æ£€æŸ¥çš„è¿›åº¦çš„æ˜ å°„ã€‚",
                 "TYPE": "JSON",
                 "LISTCONTENT": {
-                    "key": "$text|½ø¶ÈID¡£Ê¹ÓÃ ¡°|¡± ·Ö¸î½ø¶ÈÃûÒÔ¼°ÊÇ·ñÓĞ½ø¶È¡£ÊÇ·ñÓĞ½ø¶È£ºÖ§³Ötrue, false¡£ÀıÈç£ºminecraft:root|true"
+                    "key": "$text|è¿›åº¦IDã€‚ä½¿ç”¨ â€œ|â€ åˆ†å‰²è¿›åº¦åä»¥åŠæ˜¯å¦æœ‰è¿›åº¦ã€‚æ˜¯å¦æœ‰è¿›åº¦ï¼šæ”¯æŒtrue, falseã€‚ä¾‹å¦‚ï¼šminecraft:root|true"
                 }
             },
-            "gamemode": "$text|Íæ¼ÒµÄÓÎÏ·Ä£Ê½¡£±ØĞëÊÇsurvival¡¢adventure¡¢creative»òspectator¡£",
-            "level": "$number|Íæ¼ÒµÄ¾­ÑéµÈ¼¶",
-            "looking_at": "$entity|Íæ¼ÒÕıÔÚ¹Û²ìµÄÊµÌå£¬ĞèÒªÆä¿É¼ûÇÒÔÚ100¸ö·½¿éÄÚ¡£¿É¼ûÊÇÍ¨¹ıÍæ¼ÒÑÛ¾¦µ½¸ÃÊµÌåÑÛ¾¦µÄÏßÀ´¶¨ÒåµÄ£¬¶ø²»ÊÇÍæ¼ÒÕıÔÚ¿´µÄ·½Ïò¡£",
+            "gamemode": "$text|ç©å®¶çš„æ¸¸æˆæ¨¡å¼ã€‚å¿…é¡»æ˜¯survivalã€adventureã€creativeæˆ–spectatorã€‚",
+            "level": "$number|ç©å®¶çš„ç»éªŒç­‰çº§",
+            "looking_at": "$entity|ç©å®¶æ­£åœ¨è§‚å¯Ÿçš„å®ä½“ï¼Œéœ€è¦å…¶å¯è§ä¸”åœ¨100ä¸ªæ–¹å—å†…ã€‚å¯è§æ˜¯é€šè¿‡ç©å®¶çœ¼ç›åˆ°è¯¥å®ä½“çœ¼ç›çš„çº¿æ¥å®šä¹‰çš„ï¼Œè€Œä¸æ˜¯ç©å®¶æ­£åœ¨çœ‹çš„æ–¹å‘ã€‚",
             "recipes": {
-                "DES": "Åä·½",
+                "DES": "é…æ–¹",
                 "TYPE": "JSON",
                 "LISTCONTENT": {
-                    "key": "$text|Íæ¼ÒÊÇ·ñÓĞÕâ¸öÅä·½¡£true»òfalse¡£Ê¹ÓÃ ¡°|¡± ·Ö¸îÅä·½Ãû³ÆºÍÊÇ·ñÓµÓĞÅä·½¡£minecraft:root|true"
+                    "key": "$text|ç©å®¶æ˜¯å¦æœ‰è¿™ä¸ªé…æ–¹ã€‚trueæˆ–falseã€‚ä½¿ç”¨ â€œ|â€ åˆ†å‰²é…æ–¹åç§°å’Œæ˜¯å¦æ‹¥æœ‰é…æ–¹ã€‚minecraft:root|true"
                 }
             },
             "stats": {
-                "DES": "ÁĞ¾ÙÒªÆ¥ÅäµÄÍ³¼Æ¡£ĞèÒª×¢ÒâµÄÊÇ£¬ÓëÌí¼Ó¼Ç·ÖÏî²»Í¬£¬Í³¼ÆµÄÀàĞÍÓëÊµ¼ÊµÄÍ³¼ÆID²»Ê¹ÓÃ.Á¬½Ó¸ñÊ½£¨Ò²¾ÍÊÇÀàËÆÓÚminecraft.custom:minecraft.sneak_timeµÄ¸ñÊ½£©£¬¶øÊÇÒª·Ö¿ªÔÚÏÂÃæµÄtypeÖ¸¶¨ÀàĞÍ£¨±ÈÈçminecraft:custom£©ºÍÏÂÃæµÄstatÖ¸¶¨Í³¼ÆID£¨±ÈÈçminecraft:sneak_time£©£¬²¢ÇÒ¶¼ÒªÕıÈ·Ğ´³öÃüÃû¿Õ¼äID",
+                "DES": "åˆ—ä¸¾è¦åŒ¹é…çš„ç»Ÿè®¡ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œä¸æ·»åŠ è®°åˆ†é¡¹ä¸åŒï¼Œç»Ÿè®¡çš„ç±»å‹ä¸å®é™…çš„ç»Ÿè®¡IDä¸ä½¿ç”¨.è¿æ¥æ ¼å¼ï¼ˆä¹Ÿå°±æ˜¯ç±»ä¼¼äºminecraft.custom:minecraft.sneak_timeçš„æ ¼å¼ï¼‰ï¼Œè€Œæ˜¯è¦åˆ†å¼€åœ¨ä¸‹é¢çš„typeæŒ‡å®šç±»å‹ï¼ˆæ¯”å¦‚minecraft:customï¼‰å’Œä¸‹é¢çš„statæŒ‡å®šç»Ÿè®¡IDï¼ˆæ¯”å¦‚minecraft:sneak_timeï¼‰ï¼Œå¹¶ä¸”éƒ½è¦æ­£ç¡®å†™å‡ºå‘½åç©ºé—´ID",
                 "TYPE": "JSONARRAY",
                 "LISTCONTENT": {
-                    "type": "$text|ÀàĞÍ¡£½ÓÊÜµÄÖµÓĞminecraft:broken¡¢minecraft:crafted¡¢minecraft:custom¡¢minecraft:dropped¡¢minecraft:killed¡¢minecraft:killed_by¡¢minecraft:mined¡¢minecraft:picked_upºÍminecraft:used",
-                    "stat": "$text|Í³¼ÆID¡£ºÍ¶¨Òå¼Ç·ÖÏîµÄ×¼Ôò²î²»¶à",
-                    "value": "$number|Í³¼ÆµÄÖµ"
+                    "type": "$text|ç±»å‹ã€‚æ¥å—çš„å€¼æœ‰minecraft:brokenã€minecraft:craftedã€minecraft:customã€minecraft:droppedã€minecraft:killedã€minecraft:killed_byã€minecraft:minedã€minecraft:picked_upå’Œminecraft:used",
+                    "stat": "$text|ç»Ÿè®¡IDã€‚å’Œå®šä¹‰è®°åˆ†é¡¹çš„å‡†åˆ™å·®ä¸å¤š",
+                    "value": "$number|ç»Ÿè®¡çš„å€¼"
                 }
             }
         },
-        "team": "$text|ÊµÌåÊôÓÚµÄ¶ÓÎé",
-        "type": "$text|ÊµÌåID",
-        "targeted_entity": "$entity|ÊµÌåÒªÃé×¼¹¥»÷µÄÊµÌå",
-        "vehicle": "$entity|ÊµÌåÕıÔÚÆï³ËµÄÊµÌå"
+        "team": "$text|å®ä½“å±äºçš„é˜Ÿä¼",
+        "type": "$text|å®ä½“ID",
+        "targeted_entity": "$entity|å®ä½“è¦ç„å‡†æ”»å‡»çš„å®ä½“",
+        "vehicle": "$entity|å®ä½“æ­£åœ¨éª‘ä¹˜çš„å®ä½“"
     },
     "number": {
         "T": "true",
-        "min": "$text|×îĞ¡Öµ",
-        "max": "$text|×î´óÖµ"
+        "min": "$text|æœ€å°å€¼",
+        "max": "$text|æœ€å¤§å€¼"
     },
     "item": {
-        "count": "$number|ÎïÆ·ÊıÁ¿",
-        "durability": "$number|ÄÍ¾Ã¶È",
+        "count": "$number|ç‰©å“æ•°é‡",
+        "durability": "$number|è€ä¹…åº¦",
         "enchantments": {
-            "DES": "Ä§ÖäÁĞ±í",
+            "DES": "é­”å’’åˆ—è¡¨",
             "TYPE": "JSONARRAY",
             "LISTCONTENT": {
-                "enchantment": "$text|Ò»¸öÄ§ÖäID",
-                "levels": "$number|µÈ¼¶"
+                "enchantment": "$text|ä¸€ä¸ªé­”å’’ID",
+                "levels": "$number|ç­‰çº§"
             }
         },
         "stored_enchantments": {
-            "DES": "¸½Ä§ÊéÖĞ´¢´æµÄÄ§ÖäµÄÁĞ±í",
+            "DES": "é™„é­”ä¹¦ä¸­å‚¨å­˜çš„é­”å’’çš„åˆ—è¡¨",
             "TYPE": "JSONARRAY",
             "LISTCONTENT": {
-                "enchantment": "$text|Ò»¸öÄ§ÖäID",
-                "levels": "$number|µÈ¼¶"
+                "enchantment": "$text|ä¸€ä¸ªé­”å’’ID",
+                "levels": "$number|ç­‰çº§"
             }
         },
         "items": {
-            "DES": "ÎïÆ·IDÁĞ±í",
+            "DES": "ç‰©å“IDåˆ—è¡¨",
             "TYPE": "ARRAY"
         },
-        "nbt": "$text|ÎïÆ·µÄNBT",
-        "potion": "$text|ÄğÔìÒ©Ë®µÄID",
-        "tag": "$text|ÎïÆ·±êÇ©"
+        "nbt": "$text|ç‰©å“çš„NBT",
+        "potion": "$text|é…¿é€ è¯æ°´çš„ID",
+        "tag": "$text|ç‰©å“æ ‡ç­¾"
     },
     "damageType": {
-        "bypasses_armor": "$text|¼ì²éÉËº¦ÊÇ·ñºöÊÓÍæ¼Ò×°¼×£¨ÒÔÖÏÏ¢ÉËº¦ÎªÖ÷£©¡£",
-        "bypasses_invulnerability": "$text|¼ì²éÉËº¦ÊÇ·ñºöÊÓÍæ¼ÒÎŞµĞÄ£Ê½£¨Ğé¿ÕÉËº¦»ò /kill ÉËº¦£©",
-        "bypasses_magic": "$text|¼ì²éÉËº¦ÊÇ·ñÓÉ¼¢¶öÒıÆğ¡£",
-        "direct_entity": "$entity|Ö±½ÓÔì³ÉÉËº¦µÄÊµÌå",
-        "is_explosion": "$text|¼ì²éÉËº¦ÊÇ·ñÓÉ±¬Õ¨ÒıÆğ¡£",
-        "is_fire": "$text|¼ì²éÉËº¦ÊÇ·ñÓÉ»ğÒıÆğ¡£",
-        "is_magic": "$text|¼ì²éÉËº¦ÊÇ·ñÓÉÄ§·¨ÒıÆğ¡£",
-        "is_projectile": "$text|¼ì²éÉËº¦ÊÇ·ñÓÉµ¯ÉäÎïÒıÆğ¡£",
-        "is_lightning": "$text|¼ì²éÉËº¦ÊÇ·ñÓÉÉÁµçÒıÆğ¡£",
-        "source_entity": "$entity|ÉËº¦µÄÖ±½ÓÀ´Ô´ÊµÌå¡£"
+        "bypasses_armor": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦å¿½è§†ç©å®¶è£…ç”²ï¼ˆä»¥çª’æ¯ä¼¤å®³ä¸ºä¸»ï¼‰ã€‚",
+        "bypasses_invulnerability": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦å¿½è§†ç©å®¶æ— æ•Œæ¨¡å¼ï¼ˆè™šç©ºä¼¤å®³æˆ– /kill ä¼¤å®³ï¼‰",
+        "bypasses_magic": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦ç”±é¥¥é¥¿å¼•èµ·ã€‚",
+        "direct_entity": "$entity|ç›´æ¥é€ æˆä¼¤å®³çš„å®ä½“",
+        "is_explosion": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦ç”±çˆ†ç‚¸å¼•èµ·ã€‚",
+        "is_fire": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦ç”±ç«å¼•èµ·ã€‚",
+        "is_magic": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦ç”±é­”æ³•å¼•èµ·ã€‚",
+        "is_projectile": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦ç”±å¼¹å°„ç‰©å¼•èµ·ã€‚",
+        "is_lightning": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦ç”±é—ªç”µå¼•èµ·ã€‚",
+        "source_entity": "$entity|ä¼¤å®³çš„ç›´æ¥æ¥æºå®ä½“ã€‚"
     },
     "damage": {
-        "blocked": "$text|¼ì²éÉËº¦ÊÇ·ñ±»³É¹¦×èµ²",
-        "dealt": "$number|ÔÚ¼õÉÙÉËº¦Ç°¼ì²éÊµÌå¼´½«ÊÜµ½µÄÉËº¦×ÜÁ¿¡£",
-        "direct_entity": "$entity|ÉËº¦µÄÖ±½ÓÀ´Ô´ÊµÌå¡£",
-        "source_entity": "$entity|¼ì²éÉËº¦µÄÖ±½ÓÀ´Ô´ÊµÌå",
-        "taken": "$number|ÔÚ¼õÉÙÉËº¦ºó¼ì²éÊµÌå¼´½«ÊÜµ½µÄÉËº¦×ÜÁ¿¡£",
-        "type": "$damageType|¼ì²éÉËº¦µÄÀàĞÍ¡£"
+        "blocked": "$text|æ£€æŸ¥ä¼¤å®³æ˜¯å¦è¢«æˆåŠŸé˜»æŒ¡",
+        "dealt": "$number|åœ¨å‡å°‘ä¼¤å®³å‰æ£€æŸ¥å®ä½“å³å°†å—åˆ°çš„ä¼¤å®³æ€»é‡ã€‚",
+        "direct_entity": "$entity|ä¼¤å®³çš„ç›´æ¥æ¥æºå®ä½“ã€‚",
+        "source_entity": "$entity|æ£€æŸ¥ä¼¤å®³çš„ç›´æ¥æ¥æºå®ä½“",
+        "taken": "$number|åœ¨å‡å°‘ä¼¤å®³åæ£€æŸ¥å®ä½“å³å°†å—åˆ°çš„ä¼¤å®³æ€»é‡ã€‚",
+        "type": "$damageType|æ£€æŸ¥ä¼¤å®³çš„ç±»å‹ã€‚"
     },
     "ALL": {},
     "allay_drop_item_on_block":{
-        "DES":"µ±ÔÃÁé½«ÎïÆ·Í¶ÖÀÖÁ·½¿éÊ±´¥·¢",
-        "location":"$tlocation|ÎïÆ·Í¶ÖÀÖÁµÄ·½¿éÖĞĞÄÎ»ÖÃ",
-        "item":"$item|ÎïÆ·Í¶ÖÀÖÁµÄ·½¿é",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"å½“æ‚¦çµå°†ç‰©å“æŠ•æ·è‡³æ–¹å—æ—¶è§¦å‘",
+        "location":"$tlocation|ç‰©å“æŠ•æ·è‡³çš„æ–¹å—ä¸­å¿ƒä½ç½®",
+        "item":"$item|ç‰©å“æŠ•æ·è‡³çš„æ–¹å—",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "avoid_vibration":{
-        "DES":"µ±Õñ¶¯ÒòÆäÀ´Ô´Íæ¼Ò´¦ÓÚÇ±ĞĞ×´Ì¬¶ø±»ºöÂÔÊ±´¥·¢",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"å½“æŒ¯åŠ¨å› å…¶æ¥æºç©å®¶å¤„äºæ½œè¡ŒçŠ¶æ€è€Œè¢«å¿½ç•¥æ—¶è§¦å‘",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "kill_mob_near_sculk_catalyst":{
-        "DES":"µ±Íæ¼ÒÊÇÔÚÓÄÄä´ß·¢Ìå¸½½üµÄÒ»¸öÉúÎï»òÍæ¼Ò±»É±ËÀµÄÉËº¦À´Ô´Ê±´¥·¢",
-        "entity":"$entity|É±ËÀµÄÊµÌå¶ÔÏó",
-        "killing_blow":"$damageType|É±ËÀÊµÌåµÄÉËº¦ÀàĞÍ",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"å½“ç©å®¶æ˜¯åœ¨å¹½åŒ¿å‚¬å‘ä½“é™„è¿‘çš„ä¸€ä¸ªç”Ÿç‰©æˆ–ç©å®¶è¢«æ€æ­»çš„ä¼¤å®³æ¥æºæ—¶è§¦å‘",
+        "entity":"$entity|æ€æ­»çš„å®ä½“å¯¹è±¡",
+        "killing_blow":"$damageType|æ€æ­»å®ä½“çš„ä¼¤å®³ç±»å‹",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "thrown_item_picked_up_by_player":{
-        "DES":"ÔÚÍæ¼ÒÊ°ÆğÊµÌåÖÀ³öµÄÎïÆ·Ê±´¥·¢",
-        "item":"$item|»¥¶¯µÄÎïÆ·",
-        "entity":"$entity|Í¶ÖÀÎïÆ·µÄÊµÌåµÄÎ½´Ê",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"åœ¨ç©å®¶æ‹¾èµ·å®ä½“æ·å‡ºçš„ç‰©å“æ—¶è§¦å‘",
+        "item":"$item|äº’åŠ¨çš„ç‰©å“",
+        "entity":"$entity|æŠ•æ·ç‰©å“çš„å®ä½“çš„è°“è¯",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "bee_nest_destroyed": {
-        "block": "$text|±»´İ»ÙµÄ·½¿é£¨minecraft:beehive »ò minecraft:bee_nest£©",
-        "item": "$item|ÆÆ»µ¸Ã·½¿éµÄÎïÆ·",
-        "num_bees_inside": "$text|ÔÚÆÆ»µÇ°ÆäÖĞº¬ÓĞµÄÃÛ·äÊı",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò",
-        "DES": "Íæ¼ÒÆÆ»µ·äÏä¡¢·ä³²"
+        "block": "$text|è¢«æ‘§æ¯çš„æ–¹å—ï¼ˆminecraft:beehive æˆ– minecraft:bee_nestï¼‰",
+        "item": "$item|ç ´åè¯¥æ–¹å—çš„ç‰©å“",
+        "num_bees_inside": "$text|åœ¨ç ´åå‰å…¶ä¸­å«æœ‰çš„èœœèœ‚æ•°",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶",
+        "DES": "ç©å®¶ç ´åèœ‚ç®±ã€èœ‚å·¢"
     },
     "entityArr": {
         "T": "true",
         "TYPE": "JSONARRAY"
     },
     "bred_animals": {
-        "child": "$entity|·±Ö³³öµÄº¢×Ó",
-        "parent": "$entity|¸¸»òÄ¸",
-        "partner": "$entity|ÅäÅ¼",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò",
-        "DES": "¶¯Îï·±Ö³"
+        "child": "$entity|ç¹æ®–å‡ºçš„å­©å­",
+        "parent": "$entity|çˆ¶æˆ–æ¯",
+        "partner": "$entity|é…å¶",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶",
+        "DES": "åŠ¨ç‰©ç¹æ®–"
     },
     "brewed_potion": {
-        "DES": "Íæ¼Ò´ÓÄğÔìÌ¨ÖĞÄÃ³öÒ»Æ¿Ò©Ë®Ê±´¥·¢",
-        "potion": "$text|ÄğÔìÒ©Ë®µÄID",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶ä»é…¿é€ å°ä¸­æ‹¿å‡ºä¸€ç“¶è¯æ°´æ—¶è§¦å‘",
+        "potion": "$text|é…¿é€ è¯æ°´çš„ID",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "changed_dimension": {
-        "DES":"Íæ¼ÒÔÚÁ½¸öÎ¬¶È¼äÂÃĞĞÊ±´¥·¢",
-        "from": "$text|ÊµÌå³ö·¢µÄÎ¬¶È¡£Ä¬ÈÏÓĞminecraft:overworld£¨Ö÷ÊÀ½ç£©¡¢minecraft:the_nether£¨ÏÂ½ç£©»òminecraft:the_end£¨Ä©µØ£©",
-        "to": "$text|ÊµÌåµ½´ïµÄÎ¬¶È¡£Ä¬ÈÏÓĞminecraft:overworld£¨Ö÷ÊÀ½ç£©¡¢minecraft:the_nether£¨ÏÂ½ç£©»òminecraft:the_end£¨Ä©µØ£©",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶åœ¨ä¸¤ä¸ªç»´åº¦é—´æ—…è¡Œæ—¶è§¦å‘",
+        "from": "$text|å®ä½“å‡ºå‘çš„ç»´åº¦ã€‚é»˜è®¤æœ‰minecraft:overworldï¼ˆä¸»ä¸–ç•Œï¼‰ã€minecraft:the_netherï¼ˆä¸‹ç•Œï¼‰æˆ–minecraft:the_endï¼ˆæœ«åœ°ï¼‰",
+        "to": "$text|å®ä½“åˆ°è¾¾çš„ç»´åº¦ã€‚é»˜è®¤æœ‰minecraft:overworldï¼ˆä¸»ä¸–ç•Œï¼‰ã€minecraft:the_netherï¼ˆä¸‹ç•Œï¼‰æˆ–minecraft:the_endï¼ˆæœ«åœ°ï¼‰",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "channeled_lightning": {
-        "DES": "Íæ¼Ò³É¹¦Ê¹ÓÃÒıÀ×¸½Ä§»÷É±ÊµÌåÊ±´¥·¢",
+        "DES": "ç©å®¶æˆåŠŸä½¿ç”¨å¼•é›·é™„é­”å‡»æ€å®ä½“æ—¶è§¦å‘",
         "victims": {
-            "DES": "±»ÒıÀ×¸½Ä§ÕÙ»½µÄÉÁµç»÷ÖĞµÄÊµÌå¡£ÁĞ±íÖĞµÄËùÓĞÊµÌå¶¼±ØĞë±»»÷ÖĞ",
+            "DES": "è¢«å¼•é›·é™„é­”å¬å”¤çš„é—ªç”µå‡»ä¸­çš„å®ä½“ã€‚åˆ—è¡¨ä¸­çš„æ‰€æœ‰å®ä½“éƒ½å¿…é¡»è¢«å‡»ä¸­",
             "TYPE": "JSONARRAY",
-            "LISTCONTENT": "$entity|Ò»¸ö±»¸ÃÉÁµç»÷ÖĞµÄÊµÌå"
+            "LISTCONTENT": "$entity|ä¸€ä¸ªè¢«è¯¥é—ªç”µå‡»ä¸­çš„å®ä½“"
         }
     },
     "construct_beacon": {
-        "DES": "Íæ¼Ò¸ü¸ÄĞÅ±ê½á¹¹Ê±´¥·¢",
-        "level": "$number|ĞÅ±êµÈ¼¶£¨²ãÊı£©",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶æ›´æ”¹ä¿¡æ ‡ç»“æ„æ—¶è§¦å‘",
+        "level": "$number|ä¿¡æ ‡ç­‰çº§ï¼ˆå±‚æ•°ï¼‰",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "consume_item": {
-        "DES": "Íæ¼ÒËğºÄÁËÎïÆ·Ê±´¥·¢",
-        "item": "$item|±»ËğºÄµÄÎïÆ·",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶æŸè€—äº†ç‰©å“æ—¶è§¦å‘",
+        "item": "$item|è¢«æŸè€—çš„ç‰©å“",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "cured_zombie_villager": {
-        "DES": "Íæ¼ÒÖÎÓúÁË½©Ê¬´åÃñÊ±´¥·¢",
-        "villager": "$entity|±»ÖÎÓúºóµÄ´åÃñ",
-        "zombie": "$entity|±»ÖÎÓúÇ°µÄ½©Ê¬",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶æ²»æ„ˆäº†åƒµå°¸æ‘æ°‘æ—¶è§¦å‘",
+        "villager": "$entity|è¢«æ²»æ„ˆåçš„æ‘æ°‘",
+        "zombie": "$entity|è¢«æ²»æ„ˆå‰çš„åƒµå°¸",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "effects_changed": {
-        "DES": "Íæ¼Ò»ñµÃ/Ïû³ı×´Ì¬Ğ§¹ûÊ±´¥·¢",
+        "DES": "ç©å®¶è·å¾—/æ¶ˆé™¤çŠ¶æ€æ•ˆæœæ—¶è§¦å‘",
         "effects": {
-            "DES": "×´Ì¬Ğ§¹ûÁĞ±í",
+            "DES": "çŠ¶æ€æ•ˆæœåˆ—è¡¨",
             "TYPE": "JSON",
             "LISTCONTENT": {
                 "key": {
-                    "amplifier": "$number|Ğ§¹ûµÈ¼¶",
-                    "duration": "$number|Ğ§¹û³ÖĞøÊ±¼ä£¬ÒÔ¿ÌÎªµ¥Î»"
+                    "amplifier": "$number|æ•ˆæœç­‰çº§",
+                    "duration": "$number|æ•ˆæœæŒç»­æ—¶é—´ï¼Œä»¥åˆ»ä¸ºå•ä½"
                 }
             }
         },
-        "source": "$entity|×´Ì¬À´Ô´ÊµÌå",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "source": "$entity|çŠ¶æ€æ¥æºå®ä½“",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "enchanted_item": {
-        "DES": "Íæ¼ÒÍ¨¹ı¸½Ä§Ì¨¸½Ä§ÎïÆ·Ê±´¥·¢",
-        "item": "$item|¸½Ä§µÄÎïÆ·",
-        "levels": "$number|¸½Ä§»¨·ÑµÄ¾­ÑéµÈ¼¶",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶é€šè¿‡é™„é­”å°é™„é­”ç‰©å“æ—¶è§¦å‘",
+        "item": "$item|é™„é­”çš„ç‰©å“",
+        "levels": "$number|é™„é­”èŠ±è´¹çš„ç»éªŒç­‰çº§",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "enter_block": {
-        "DES": "Íæ¼Ò½øÈë·½¿éÊ±´¥·¢",
-        "block": "$text|·½¿é ID",
+        "DES": "ç©å®¶è¿›å…¥æ–¹å—æ—¶è§¦å‘",
+        "block": "$text|æ–¹å— ID",
         "state": {
-            "DES": "·½¿é×´Ì¬",
+            "DES": "æ–¹å—çŠ¶æ€",
             "TYPE": "JSON",
             "LISTCONTENT": {
                 "T": "true",
-                "key": "$number|·½¿éÊôĞÔµÄ¼üÖµ"
+                "key": "$number|æ–¹å—å±æ€§çš„é”®å€¼"
             }
         },
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "entity_hurt_player": {
-        "DES": "ÊµÌåÉËº¦Íæ¼ÒÊ±´¥·¢ [Ò²ÔÚÍæ¼ÒÊÜÉËµ«Ã»ÓĞÊµÌåÊ±´¥·¢]",
-        "damage": "$damage|¼ì²é¶ÔÍæ¼ÒÔì³ÉÉËº¦",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "å®ä½“ä¼¤å®³ç©å®¶æ—¶è§¦å‘ [ä¹Ÿåœ¨ç©å®¶å—ä¼¤ä½†æ²¡æœ‰å®ä½“æ—¶è§¦å‘]",
+        "damage": "$damage|æ£€æŸ¥å¯¹ç©å®¶é€ æˆä¼¤å®³",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "entity_killed_player": {
-        "DES": "ÊµÌåÉ±ËÀÍæ¼ÒÊ±´¥·¢",
-        "entity": "$entity|ÉËº¦µÄÖ±½ÓÀ´Ô´ÊµÌå",
+        "DES": "å®ä½“æ€æ­»ç©å®¶æ—¶è§¦å‘",
+        "entity": "$entity|ä¼¤å®³çš„ç›´æ¥æ¥æºå®ä½“",
         "killing_blow": "$damageType",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "filled_bucket": {
-        "DES": "Íæ¼ÒÌî³äÍ°Ê±´¥·¢",
-        "item": "$item|ÌîÂúºóµÄÎïÆ·",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶å¡«å……æ¡¶æ—¶è§¦å‘",
+        "item": "$item|å¡«æ»¡åçš„ç‰©å“",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "fishing_rod_hooked": {
-        "DES": "Íæ¼Ò³É¹¦Í¨¹ıµöÓã¸ÍÈ¡µÃÎïÆ·»òÕßÊ¹ÓÃµöÓã¸ÍÀ­ÊµÌåÊ±´¥·¢",
-        "entity": "$entity|±»À­µÄÊµÌå",
-        "item": "$item|±»È¡µÃµÄÎïÆ·",
-        "rod": "$item|Ê¹ÓÃµÄÓã¸Í",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶æˆåŠŸé€šè¿‡é’“é±¼ç«¿å–å¾—ç‰©å“æˆ–è€…ä½¿ç”¨é’“é±¼ç«¿æ‹‰å®ä½“æ—¶è§¦å‘",
+        "entity": "$entity|è¢«æ‹‰çš„å®ä½“",
+        "item": "$item|è¢«å–å¾—çš„ç‰©å“",
+        "rod": "$item|ä½¿ç”¨çš„é±¼ç«¿",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "hero_of_the_village": {
-        "DES": "Íæ¼Ò»÷°ÜÏ®»÷Ê±´¥·¢",
-        "location": "$tlocation|Íæ¼ÒÎ»ÖÃ",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶å‡»è´¥è¢­å‡»æ—¶è§¦å‘",
+        "location": "$tlocation|ç©å®¶ä½ç½®",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "inventory_changed": {
-        "DES": "ÎïÆ·À¸¸Ä±ä",
+        "DES": "ç‰©å“æ æ”¹å˜",
         "items": {
-            "DES": "ÎïÆ·ÁĞ±í",
+            "DES": "ç‰©å“åˆ—è¡¨",
             "TYPE": "JSONARRAY",
-            "LISTCONTENT": "$item|Ò»¸öÎïÆ·"
+            "LISTCONTENT": "$item|ä¸€ä¸ªç‰©å“"
         },
         "slots": {
-            "DES": "Íæ¼ÒÎïÆ·À¸",
-            "empty": "$number|ÎïÆ·À¸ÖĞ¿Õ²ÛÎ»ÊıÁ¿¡£",
-            "full": "$number|ÎïÆ·À¸ÖĞÒÑ±»ÍêÈ«Ê¹ÓÃ£¨Ìî³äÁËÒ»×éÎïÆ·£©²ÛÎ»ÊıÁ¿¡£",
-            "occupied": "$number|ÎïÆ·À¸ÖĞÒÑÊ¹ÓÃ²ÛÎ»ÊıÁ¿¡£"
+            "DES": "ç©å®¶ç‰©å“æ ",
+            "empty": "$number|ç‰©å“æ ä¸­ç©ºæ§½ä½æ•°é‡ã€‚",
+            "full": "$number|ç‰©å“æ ä¸­å·²è¢«å®Œå…¨ä½¿ç”¨ï¼ˆå¡«å……äº†ä¸€ç»„ç‰©å“ï¼‰æ§½ä½æ•°é‡ã€‚",
+            "occupied": "$number|ç‰©å“æ ä¸­å·²ä½¿ç”¨æ§½ä½æ•°é‡ã€‚"
         },
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "impossible": {
-        "DES": "²»¿ÉÄÜ´¥·¢£¨³ı·ÇÖ¸Áî£©",
+        "DES": "ä¸å¯èƒ½è§¦å‘ï¼ˆé™¤éæŒ‡ä»¤ï¼‰",
         "disable": true
     },
     "item_durability_changed": {
-        "DES": "ÎïÆ·À¸ÖĞÈÎºÎÎïÆ·ÒÔÈÎºÎĞÎÊ½Ëğº¦Ê±´¥·¢",
-        "delta": "$number|ÄÍ¾Ã¶È²îÖµ£¨´Ë´ÎÏûºÄµÄÄÍ¾Ã¶È£©",
-        "durability": "$number|ÄÍ¾Ã¶È",
-        "item": "$item|ËğºÄµÄÎïÆ·",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç‰©å“æ ä¸­ä»»ä½•ç‰©å“ä»¥ä»»ä½•å½¢å¼æŸå®³æ—¶è§¦å‘",
+        "delta": "$number|è€ä¹…åº¦å·®å€¼ï¼ˆæ­¤æ¬¡æ¶ˆè€—çš„è€ä¹…åº¦ï¼‰",
+        "durability": "$number|è€ä¹…åº¦",
+        "item": "$item|æŸè€—çš„ç‰©å“",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "item_used_on_block": {
-        "DES": "Íæ¼Ò¶Ô·½¿é¿ÕÊÖ»òÊÖ³ÖÎïÆ·Ê±½øĞĞÊ¹ÓÃ²Ù×÷Ê±´¥·¢",
-        "location": "$tlocation|·½¿éÎ»ÖÃ",
-        "item": "$item|Íæ¼ÒÊ¹ÓÃµÄÎïÆ·",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶å¯¹æ–¹å—ç©ºæ‰‹æˆ–æ‰‹æŒç‰©å“æ—¶è¿›è¡Œä½¿ç”¨æ“ä½œæ—¶è§¦å‘",
+        "location": "$tlocation|æ–¹å—ä½ç½®",
+        "item": "$item|ç©å®¶ä½¿ç”¨çš„ç‰©å“",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "killed_by_crossbow": {
-        "DES": "Íæ¼ÒÊ¹ÓÃåóÔ¶³ÌÉ±ËÀÉúÎï»òÍæ¼ÒÊ±´¥·¢",
-        "unique_entity_types": "$number|É±ËÀµÄÊµÌåÖÖÀàµÄ×¼È·ÊıÁ¿¡£",
+        "DES": "ç©å®¶ä½¿ç”¨å¼©è¿œç¨‹æ€æ­»ç”Ÿç‰©æˆ–ç©å®¶æ—¶è§¦å‘",
+        "unique_entity_types": "$number|æ€æ­»çš„å®ä½“ç§ç±»çš„å‡†ç¡®æ•°é‡ã€‚",
         "victims": {
-            "DES": "±»É±ËÀµÄÈÎÒâÊµÌå",
-            "LISTCONTENT": "$entity|¶Ô±»É±ËÀµÄÈÎÒâÊµÌåµÄÎ½´Ê"
+            "DES": "è¢«æ€æ­»çš„ä»»æ„å®ä½“",
+            "LISTCONTENT": "$entity|å¯¹è¢«æ€æ­»çš„ä»»æ„å®ä½“çš„è°“è¯"
         },
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "levitation": {
-        "DES": "Íæ¼Ò»ñµÃÆ¯¸¡×´Ì¬Ğ§¹ûÊ±´¥·¢",
+        "DES": "ç©å®¶è·å¾—æ¼‚æµ®çŠ¶æ€æ•ˆæœæ—¶è§¦å‘",
         "distance": {
-            "DES": "¾àÀëÓë×ø±ê",
-            "absolute": "$number|¾ø¶Ô¾àÀë",
-            "horizontal": "$number|Ë®Æ½¾àÀë",
-            "x": "$number|x ×ø±ê",
-            "y": "$number|y ×ø±ê",
-            "z": "$number|z ×ø±ê"
+            "DES": "è·ç¦»ä¸åæ ‡",
+            "absolute": "$number|ç»å¯¹è·ç¦»",
+            "horizontal": "$number|æ°´å¹³è·ç¦»",
+            "x": "$number|x åæ ‡",
+            "y": "$number|y åæ ‡",
+            "z": "$number|z åæ ‡"
         },
-        "duration": "$number|Æ¯¸¡Ê±¼ä",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "duration": "$number|æ¼‚æµ®æ—¶é—´",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "lightning_strike": {
-        "DES": "µ±Ò»ÊøÉÁµçÏûÊ§£¬Íæ¼ÒÔÚÒÔ¸ÃÉÁµçÎªÖĞĞÄµÄ256¸ñ·¶Î§ÄÚÊ±´¥·¢",
-        "lightning": "$entity|ÏûÊ§µÄÉÁµç",
-        "bystander": "$entity|Ò»¸ö±»¸ÃÉÁµç»÷ÖĞ£¬µ«ÊÇÃ»ÓĞ±»ÆäÉËº¦µÄÊµÌå",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "å½“ä¸€æŸé—ªç”µæ¶ˆå¤±ï¼Œç©å®¶åœ¨ä»¥è¯¥é—ªç”µä¸ºä¸­å¿ƒçš„256æ ¼èŒƒå›´å†…æ—¶è§¦å‘",
+        "lightning": "$entity|æ¶ˆå¤±çš„é—ªç”µ",
+        "bystander": "$entity|ä¸€ä¸ªè¢«è¯¥é—ªç”µå‡»ä¸­ï¼Œä½†æ˜¯æ²¡æœ‰è¢«å…¶ä¼¤å®³çš„å®ä½“",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "location": {
-        "DES": "Ã¿20ÓÎÏ·¿Ì£¨ÀíÏëÇé¿öÏÂÎª1Ãë£©¼ì²éÍæ¼ÒµÄÎ»ÖÃ",
-        "location": "$tlocation|Íæ¼ÒÎ»ÖÃ",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "æ¯20æ¸¸æˆåˆ»ï¼ˆç†æƒ³æƒ…å†µä¸‹ä¸º1ç§’ï¼‰æ£€æŸ¥ç©å®¶çš„ä½ç½®",
+        "location": "$tlocation|ç©å®¶ä½ç½®",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "nether_travel": {
-        "DES": "Íæ¼Ò½øÈëÏÂ½ç£¬È»ºó·µ»ØÖ÷ÊÀ½çÊ±´¥·¢",
-        "entered": "$tlocation|Íæ¼ÒÀë¿ªÏÂ½çÇ°µÄÎ»ÖÃ",
-        "exited": "$tlocation|Íæ¼ÒÀë¿ªÏÂ½çºó£¬ÔÚÖ÷ÊÀ½çµÄÎ»ÖÃ",
+        "DES": "ç©å®¶è¿›å…¥ä¸‹ç•Œï¼Œç„¶åè¿”å›ä¸»ä¸–ç•Œæ—¶è§¦å‘",
+        "entered": "$tlocation|ç©å®¶ç¦»å¼€ä¸‹ç•Œå‰çš„ä½ç½®",
+        "exited": "$tlocation|ç©å®¶ç¦»å¼€ä¸‹ç•Œåï¼Œåœ¨ä¸»ä¸–ç•Œçš„ä½ç½®",
         "distance": {
-            "DES": "¾àÀëÓë×ø±ê",
-            "absolute": "$number|¾ø¶Ô¾àÀë",
-            "horizontal": "$number|Ë®Æ½¾àÀë",
-            "x": "$number|x ×ø±ê",
-            "y": "$number|y ×ø±ê",
-            "z": "$number|z ×ø±ê"
+            "DES": "è·ç¦»ä¸åæ ‡",
+            "absolute": "$number|ç»å¯¹è·ç¦»",
+            "horizontal": "$number|æ°´å¹³è·ç¦»",
+            "x": "$number|x åæ ‡",
+            "y": "$number|y åæ ‡",
+            "z": "$number|z åæ ‡"
         },
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "placed_block": {
-        "DES": "Íæ¼Ò·ÅÖÃ·½¿éÊ±´¥·¢",
-        "block": "$text|·ÅÖÃµÄ·½¿é ID",
-        "item": "$item|·ÅÖÃµÄÎïÆ·",
-        "location": "$tlocation|·½¿éÎ»ÖÃ",
+        "DES": "ç©å®¶æ”¾ç½®æ–¹å—æ—¶è§¦å‘",
+        "block": "$text|æ”¾ç½®çš„æ–¹å— ID",
+        "item": "$item|æ”¾ç½®çš„ç‰©å“",
+        "location": "$tlocation|æ–¹å—ä½ç½®",
         "state": {
-            "DES": "·½¿é×´Ì¬",
+            "DES": "æ–¹å—çŠ¶æ€",
             "TYPE": "JSON",
             "LISTCONTENT": {
                 "T": "true",
-                "key": "$number|·½¿éÊôĞÔµÄ¼üÖµ"
+                "key": "$number|æ–¹å—å±æ€§çš„é”®å€¼"
             }
         },
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "player_generates_container_loot": {
-        "DES": "µ±Íæ¼Ò´ò¿ªÈİÆ÷£¬²¢ÇÒ´¥·¢Õ½ÀûÆ·±í",
-        "loot_table": "$text|±»ÓÃÀ´Éú³ÉÎïÆ·µÄÕ½ÀûÆ·±í",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "å½“ç©å®¶æ‰“å¼€å®¹å™¨ï¼Œå¹¶ä¸”è§¦å‘æˆ˜åˆ©å“è¡¨",
+        "loot_table": "$text|è¢«ç”¨æ¥ç”Ÿæˆç‰©å“çš„æˆ˜åˆ©å“è¡¨",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "player_hurt_entity": {
-        "DES": "Íæ¼ÒÉËº¦ÊµÌå£¨°üÀ¨×Ô¼º£©Ê±´¥·¢",
-        "damage": "$damage|Ôì³ÉµÄÉËº¦",
-        "entity": "$entity|±»ÉËº¦µÄÊµÌå",
-        "player": "$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES": "ç©å®¶ä¼¤å®³å®ä½“ï¼ˆåŒ…æ‹¬è‡ªå·±ï¼‰æ—¶è§¦å‘",
+        "damage": "$damage|é€ æˆçš„ä¼¤å®³",
+        "entity": "$entity|è¢«ä¼¤å®³çš„å®ä½“",
+        "player": "$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "player_interacted_with_entity":{
-        "DES":"Íæ¼ÒÓÃÊÖÖĞÎïÆ·ÓëÊµÌå»¥¶¯Ê±´¥·¢",
-        "item":"$item|»¥¶¯µÄÎïÆ·",
-        "entity":"$entity|»¥¶¯µÄÊµÌå¶ÔÏó",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶ç”¨æ‰‹ä¸­ç‰©å“ä¸å®ä½“äº’åŠ¨æ—¶è§¦å‘",
+        "item":"$item|äº’åŠ¨çš„ç‰©å“",
+        "entity":"$entity|äº’åŠ¨çš„å®ä½“å¯¹è±¡",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "player_killed_entity":{
-        "DES":"Íæ¼ÒÉ±ËÀÊµÌåÊ±´¥·¢£¨¾­²âÊÔ²»°üº¬¿ó³µµÈÊµÌå£©",
-        "entity":"$entity|±»É±ËÀµÄÊµÌå",
-        "killing_blow":"$damageType|É±ËÀÊµÌåµÄÉËº¦ÀàĞÍ",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶æ€æ­»å®ä½“æ—¶è§¦å‘ï¼ˆç»æµ‹è¯•ä¸åŒ…å«çŸ¿è½¦ç­‰å®ä½“ï¼‰",
+        "entity":"$entity|è¢«æ€æ­»çš„å®ä½“",
+        "killing_blow":"$damageType|æ€æ­»å®ä½“çš„ä¼¤å®³ç±»å‹",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "recipe_unlocked":{
-        "DES":"Íæ¼Ò½âËøÅä·½Ê±´¥·¢£¨°üÀ¨ÖªÊ¶Ö®Êé£©£¨ÓÃÅä·½ºÏ³ÉÎïÆ·ºó½«×Ô¶¯½âËø¸ÃÅä·½£¬¿ÉÓÃ´ËÔ­Àí×Ô¶¨ÒåºÏ³É£©",
-        "recipe":"$text|±»½âËøµÄÅä·½",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶è§£é”é…æ–¹æ—¶è§¦å‘ï¼ˆåŒ…æ‹¬çŸ¥è¯†ä¹‹ä¹¦ï¼‰ï¼ˆç”¨é…æ–¹åˆæˆç‰©å“åå°†è‡ªåŠ¨è§£é”è¯¥é…æ–¹ï¼Œå¯ç”¨æ­¤åŸç†è‡ªå®šä¹‰åˆæˆï¼‰",
+        "recipe":"$text|è¢«è§£é”çš„é…æ–¹",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "shot_crossbow":{
-        "DES":"Íæ¼ÒÊ¹ÓÃåóÊ±´¥·¢",
-        "item":"$item|±»Ê¹ÓÃµÄÎïÆ·",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶ä½¿ç”¨å¼©æ—¶è§¦å‘",
+        "item":"$item|è¢«ä½¿ç”¨çš„ç‰©å“",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "slept_in_bed":{
-        "DES":"Íæ¼ÒÉÏ´²Ë¯¾õÊ±´¥·¢",
-        "location":"$tlocation|Íæ¼ÒÎ»ÖÃ",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶ä¸ŠåºŠç¡è§‰æ—¶è§¦å‘",
+        "location":"$tlocation|ç©å®¶ä½ç½®",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "slide_down_block":{
-        "DES":"Íæ¼Ò»¬ÏÂ·½¿éÊ±´¥·¢",
-        "block":"$text|Íæ¼Ò»¬ÏÂµÄ·½¿é",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶æ»‘ä¸‹æ–¹å—æ—¶è§¦å‘",
+        "block":"$text|ç©å®¶æ»‘ä¸‹çš„æ–¹å—",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "started_riding":{
-        "DES":"ÔÚÍæ¼Ò¿ªÊ¼Æï³ËÔØ¾ß¡¢»òÊµÌå¿ªÊ¼Æï³ËÍæ¼ÒÕıÔÚÆï³ËµÄÔØ¾ßÊ±±»´¥·¢",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"åœ¨ç©å®¶å¼€å§‹éª‘ä¹˜è½½å…·ã€æˆ–å®ä½“å¼€å§‹éª‘ä¹˜ç©å®¶æ­£åœ¨éª‘ä¹˜çš„è½½å…·æ—¶è¢«è§¦å‘",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "summoned_entity":{
-        "DES":"Íæ¼ÒÕÙ»½ÁËÊµÌåÊ±´¥·¢¡£Ê¹ÓÃ·¢ÉäÆ÷À´·ÅÖÃµòÁé÷¼÷ÃÍ·Â­»òÄÏ¹ÏÒ²ÄÜ¼¤»î´Ë´¥·¢Æ÷¡£Ë¢¹Öµ°¡¢ÃüÁîºÍË¢¹ÖÁı²»»á¼¤»î´Ë´¥·¢Æ÷¡£",
-        "entity":"$entity|±»ÕÙ»½µÄÊµÌå",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶å¬å”¤äº†å®ä½“æ—¶è§¦å‘ã€‚ä½¿ç”¨å‘å°„å™¨æ¥æ”¾ç½®å‡‹çµéª·é«…å¤´é¢…æˆ–å—ç“œä¹Ÿèƒ½æ¿€æ´»æ­¤è§¦å‘å™¨ã€‚åˆ·æ€ªè›‹ã€å‘½ä»¤å’Œåˆ·æ€ªç¬¼ä¸ä¼šæ¿€æ´»æ­¤è§¦å‘å™¨ã€‚",
+        "entity":"$entity|è¢«å¬å”¤çš„å®ä½“",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "tame_animal":{
-        "DES":"Íæ¼ÒÑ±·ş¶¯ÎïÊ±´¥·¢",
-        "entity":"$entity|±»Ñ±·şµÄÊµÌå",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶é©¯æœåŠ¨ç‰©æ—¶è§¦å‘",
+        "entity":"$entity|è¢«é©¯æœçš„å®ä½“",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "target_hit":{
-        "DES":"Íæ¼ÒÉäÖĞ±ê°ĞÊ±´¥·¢",
-        "signal_strength":"$text|±ê°Ğ½«²úÉúµÄºìÊ¯ĞÅºÅ",
-        "projectile":"$text|±»ÓÃÀ´Éä»÷±ê°ĞµÄµ¯ÉäÎï£¨ÎïÆ·ID£©",
-        "shooter":"$entity|×÷ÎªÉä»÷ÕßµÄÍæ¼Ò",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶å°„ä¸­æ ‡é¶æ—¶è§¦å‘",
+        "signal_strength":"$text|æ ‡é¶å°†äº§ç”Ÿçš„çº¢çŸ³ä¿¡å·",
+        "projectile":"$text|è¢«ç”¨æ¥å°„å‡»æ ‡é¶çš„å¼¹å°„ç‰©ï¼ˆç‰©å“IDï¼‰",
+        "shooter":"$entity|ä½œä¸ºå°„å‡»è€…çš„ç©å®¶",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "thrown_item_picked_up_by_entity":{
-        "DES":"ÔÚÊµÌå¼ñÆğÍæ¼ÒÈÓ³öµÄÎïÆ·Ê±´¥·¢",
-        "item":"$item|±»¼ñÆğµÄµÄÎïÆ·",
-        "entity":"$entity|¼ñÆğÎïÆ·µÄµÄÊµÌå",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"åœ¨å®ä½“æ¡èµ·ç©å®¶æ‰”å‡ºçš„ç‰©å“æ—¶è§¦å‘",
+        "item":"$item|è¢«æ¡èµ·çš„çš„ç‰©å“",
+        "entity":"$entity|æ¡èµ·ç‰©å“çš„çš„å®ä½“",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "tick":{
-        "DES":"Ã¿ÓÎÏ·¿Ì£¨ÀíÏëÇé¿öÏÂ1ÃëÄÚÓĞ20ÓÎÏ·¿Ì£©´¥·¢Ò»´Î",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"æ¯æ¸¸æˆåˆ»ï¼ˆç†æƒ³æƒ…å†µä¸‹1ç§’å†…æœ‰20æ¸¸æˆåˆ»ï¼‰è§¦å‘ä¸€æ¬¡",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "used_ender_eye":{
-        "DES":"Íæ¼ÒÊ¹ÓÃÄ©Ó°Ö®ÑÛ£¨ÔÚÓĞÒªÈûÉú³ÉµÄÊÀ½ç£©Ê±´¥·¢",
-        "distance":"$number|Íæ¼ÒÓëÒªÈûµÄË®Æ½¾àÀë",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶ä½¿ç”¨æœ«å½±ä¹‹çœ¼ï¼ˆåœ¨æœ‰è¦å¡ç”Ÿæˆçš„ä¸–ç•Œï¼‰æ—¶è§¦å‘",
+        "distance":"$number|ç©å®¶ä¸è¦å¡çš„æ°´å¹³è·ç¦»",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "used_totem":{
-        "DES":"Íæ¼ÒÊ¹ÓÃÍ¼ÌÚÊ±´¥·¢",
-        "item":"$item|ÎïÆ·£¨½öÍ¼ÌÚÓĞĞ§£©",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶ä½¿ç”¨å›¾è…¾æ—¶è§¦å‘",
+        "item":"$item|ç‰©å“ï¼ˆä»…å›¾è…¾æœ‰æ•ˆï¼‰",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "using_item":{
-        "DES":"Ã¿¸öÓÎÏ·¿ÌÍæ¼ÒÊ¹ÓÃ³ÖĞøÊ¹ÓÃµÄÎïÆ·Ê±´¥·¢",
-        "item":"$item|±»Ê¹ÓÃµÄÎïÆ·",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"æ¯ä¸ªæ¸¸æˆåˆ»ç©å®¶ä½¿ç”¨æŒç»­ä½¿ç”¨çš„ç‰©å“æ—¶è§¦å‘",
+        "item":"$item|è¢«ä½¿ç”¨çš„ç‰©å“",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "villager_trade":{
-        "DES":"Íæ¼ÒÓë´åÃñ½»Ò×Ê±´¥·¢",
-        "item":"$item|¹ºÂòµÄÎïÆ·",
-        "villager":"$entity|²ÎÓë½»Ò×µÄ´åÃñ",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶ä¸æ‘æ°‘äº¤æ˜“æ—¶è§¦å‘",
+        "item":"$item|è´­ä¹°çš„ç‰©å“",
+        "villager":"$entity|å‚ä¸äº¤æ˜“çš„æ‘æ°‘",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     },
     "voluntary_exile":{
-        "DES":"Íæ¼Ò´¥·¢Ï®»÷Ê±´¥·¢",
-        "location":"$tlocation|Íæ¼ÒÎ»ÖÃ",
-        "player":"$entity|»ñµÃ½ø¶ÈµÄÍæ¼Ò"
+        "DES":"ç©å®¶è§¦å‘è¢­å‡»æ—¶è§¦å‘",
+        "location":"$tlocation|ç©å®¶ä½ç½®",
+        "player":"$entity|è·å¾—è¿›åº¦çš„ç©å®¶"
     }
 }

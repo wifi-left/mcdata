@@ -1,0 +1,129 @@
+{
+    "blockstate": {
+        "Name": "$text|要使用的方块的命名空间ID。",
+        "Properties": {
+            "DES": "方块属性（方块属性的键值对）",
+            "TYPE": "ARRAY"
+        }
+    },
+    "TYPE": "JSON",
+    "CONTENT": {
+        "precipitation": "$text|生物群系的降雨类型，可以是 none（不下雨）、rain（下雨）或snow（下雪）。",
+        "category": "$text|生物群系的种类。可以是none、taiga、extreme_hills、jungle、mesa、plains、savanna、icy、the_end、beach、forest、ocean、desert、river、swamp、mushroom、nether。如果为ocean，则使用海洋的温度系统。如果玩家在ocean和river类型生物群系的水下，则会听到水下音乐而非常规的音乐。僵尸围城和灾厄巡逻队不会生成在mushroom类的生物群系中。如果为desert且precipitation不为雪，那么该生物群系生成的兔子是金色的；water_ambient；海底遗迹可能只会生成在ocean和river中。[需要测试]",
+        "temperature": "$double|[需要测试]用于草和树叶等地物的颜色，以及雪傀儡是否受到伤害。",
+        "temperature_modifier": "$text|[需要测试]可为none或frozen。",
+        "downfall": "$double|[需要测试]控制草和树叶的颜色，大于0.85的值还可以使火焰更快地燃烧。",
+        "creature_spawn_probability": "$double|只要随机数小于该值，则生成被动型生物。必须在0到1之间。",
+        "effects": {
+            "DES": "该生物群系的环境效果。",
+            "fog_color": "$long|用于迷雾的十六进制转十进制RGB颜色值。",
+            "foliage_color": "$long|用于树叶和藤蔓的十六进制转十进制RGB颜色值。若不写，颜色将由湿度（humidity）和温度（temperature）决定。",
+            "grass_color": "$long|用于草方块、草、高草丛、蕨、大型蕨和甘蔗的十六进制转十进制RGB颜色值。若不写，颜色将由湿度（humidity）和温度（temperature）决定。",
+            "sky_color": "$long|此生物群系中用于天空的十六进制转十进制RGB颜色值。",
+            "water_color": "$long|用于水的十六进制转十进制RGB颜色值。",
+            "water_fog_color": "$long|用于水下迷雾的十六进制转十进制RGB颜色值。",
+            "grass_color_modifier": "$text|[需要测试]可以是none、dark_forest或者swamp。",
+            "particle": {
+                "DES": "在整个生物群系中使用的粒子。",
+                "probability": "$double|[需要测试]控制粒子产生的频率。",
+                "options": {
+                    "DES": "控制要使用的粒子。",
+                    "type": {
+                        "DES": "粒子类型的命名空间ID。",
+                        "LIST": [
+                            "block",
+                            "falling_dust",
+                            "dust",
+                            "item"
+                        ],
+                        "CONTENT": {
+                            "block": {
+                                "value": "$blockstate|包含需要使用粒子的方块状态。"
+                            },
+                            "falling_dust": {
+                                "value": "$blockstate|包含需要使用粒子的方块状态。"
+                            },
+                            "dust": {
+                                "color": {
+                                    "DES": "代表颜色的红色、绿色和蓝色部分的三个值，每个都是0到1",
+                                    "TYPE": "ARRAY"
+                                },
+                                "scale": "$double|控制dust粒子的大小。"
+                            },
+                            "item": {
+                                "id": "$text|所要使用的物品的命名空间ID。",
+                                "Count": "$long|物品的数量。",
+                                "tag": "$json|物品的NBT数据。"
+                            }
+                        }
+                    }
+                }
+            },
+            "ambient_sound": "$text|[需要测试] 用于环境音效的声音事件。",
+            "mood_sound": {
+                "DES": "氛围音效所使用的设置。",
+                "sound": "$text|要使用的声音事件。",
+                "tick_delay": "$long|[需要测试]",
+                "block_search_extent": "$long|[需要测试]决定了氛围音效播放位置的正方体范围的大小。此正方体范围以玩家为中心，棱长为2 * block_search_extent + 1。",
+                "offset": "$double|偏移量[需要测试]"
+            },
+            "additions_sound": {
+                "DES": "附加音效所使用的设置。",
+                "sound": "$text|要使用的声音事件。",
+                "tick_delay": "$long|[需要测试]"
+            },
+            "music": {
+                "DES": "应在生物群系中播放的特定音乐。",
+                "sound": "$text|要使用的声音事件。",
+                "min_delay": "$long|[需要测试]",
+                "max_delay": "$long|[需要测试]",
+                "replace_current_music": "$bool|[需要测试]是否替换已经播放的音乐。"
+            }
+        },
+        "carvers": {
+            "DES": "要使用的地形雕刻器。",
+            "air": {
+                "DES": "列表内的地形雕刻器将填充空气。",
+                "TYPE": "ARRAY"
+            },
+            "liquid": {
+                "DES": "列表内的地形雕刻器将填充液体。",
+                "TYPE": "ARRAY"
+            }
+        },
+        "features": {
+            "DES": "由11个地物列表组成的列表。这11项各自对应一个不同种类的地物，列举出的地物依次应用于每个区块。地物所在的列表的下标也被用来生成地物种子的一部分，所以将地物移动到另一个列表中无疑将对生成产生影响。每个列表中的每个元素都是一个配置好的地物的命名空间ID。可以是一个空列表。列表支持的内容：内部地物类型RAW_GENERATION（原始生成）。默认不用于任何地物。\\n：内部地物类型LAKES（湖）。默认用于普通的湖和熔岩湖。\\n：内部地物类型LOCAL_MODIFICATIONS（局部修改）。默认用于针叶林生成的苔石和冰山。\\n：内部地物类型UNDERGROUND_STRUCTURES（地下结构）。默认用于主世界的地牢和化石。\\n：内部地物类型SURFACE_STRUCTURES（地表结构）。默认用于沙漠的水井和蓝冰堆。\\n：内部地物类型STRONGHOLDS（要塞）。默认不用于任何地物。\\n：内部地物类型UNDERGROUND_ORES（地下矿石）。默认用于主世界的矿脉、主世界的泥土/沙砾/石头变种的堆（Patch），以及湖中生成的沙子/沙砾/黏土的圆盘状结构（Disk）。\\n：内部地物类型UNDERGROUND_DECORATION（地下装饰）。默认用于被虫蚀的方块的矿脉、下界的沙砾矿脉、下界的黑石矿脉，以及其他所有的下界矿脉。\\n：内部地物类型FLUID_SPRINGS（流体喷泉）：用于水和熔岩的喷泉。\\n：内部地物类型VEGETAL_DECORATION（植被装饰）。默认用于树、竹子、仙人掌、海带，以及其他的地表/海底植被和熔岩/水的喷泉。\\n：内部地物类型TOP_LAYER_MODIFICATION（顶层修改）。默认用于地表的冰冻现象。"
+        },
+        "spawners":{
+            "DES":"实体生成设置。",
+            "TYPE":"JSON",
+            "LISTCONTENT":{
+                "DES":"生物种类。可以是monster、creature、ambient、water_creature、water_ambient、misc或axolotls。",
+                "key":{
+                    "DES":" 一个刷怪数据的复合标签的列表，列表的每一项都对应一种应该在该生物群系生成的生物。",
+                    "TYPE":"JSONARRAY",
+                    "LISTCONTENT":{
+                        "DES":"单个生物的刷怪数据。",
+                        "type":"$text|该生物的命名空间ID。",
+                        "weight":"$long|[需要测试] 该生物的生成权重，更高的值使该生物更多地取代其他生物的生成。",
+                        "minCount":"$long|生物在生成时的最低数量。",
+                        "maxCount":"$long|生物在生成时的最高数量。"
+                    }
+                }
+            }
+        },
+        "player_spawn_friendly":"$bool|定义该生物群系是否对新玩家友好。对于平原、森林等常规环境为true，在海洋、沙漠及雪山等恶劣环境下被设置为false。该值被用于防止世界重生点被放置到一个过于困难而使新玩家无法起步的环境中。",
+        "parent":"$text|该生物群系的父生物群系的命名空间ID。",
+        "spawn_costs":{
+            "DES":"生成代价，实体ID列表。以一套类似于模拟真空中的点电荷系统的机制控制该生物群系内生成生物的数量与密度。",
+            "TYPE":"JSON",
+            "LISTCONTENT":{
+                "DES":"实体ID。生成的实体。",
+                "key":{
+                    "energy_budget":"$double|电势预算。生成此实体时能损失得起的最大电势差。在宏观意义上看，此值越小生成的越少。[需要测试]",
+                    "charge":"此次生成放置的点电荷的电荷量。每次生成都在之前放置的点电荷的基础上试图将一个点电荷从无穷远处移动到目标点，计算电势差并比较以决定是否生成。在宏观意义上看，此值越大生成的越少。"
+                }
+            }
+        }
+    }
+}

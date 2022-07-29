@@ -1,0 +1,113 @@
+{
+    "height": {
+        "T": true,
+        "type": {
+            "DES": "高度提供器的类型",
+            "LIST": [
+                "constant",
+                "uniform",
+                "biased_to_bottom",
+                "very_biased_to_bottom",
+                "trapezoid",
+                "weighted_list"
+            ],
+            "CONTENT": {
+                "constant": {
+                    "value": "$long|垂直锚点使用的恒定高度。"
+                },
+                "uniform": {
+                    "min_inclusive": "$long|垂直锚点使用的最小高度。",
+                    "max_inclusive": "$long|垂直锚点使用的最大高度。"
+                },
+                "biased_to_bottom": {
+                    "min_inclusive": "$long|垂直锚点使用的最小高度。",
+                    "max_inclusive": "$long|垂直锚点使用的最大高度。",
+                    "inner": "$long|（可选）内部值。默认为1，必须至少为1。"
+                },
+                "very_biased_to_bottom": {
+                    "min_inclusive": "$long|垂直锚点使用的最小高度。",
+                    "max_inclusive": "$long|垂直锚点使用的最大高度。",
+                    "inner": "$long|（可选）内部值。默认为1，必须至少为1。"
+                },
+                "trapezoid": {
+                    "min_inclusive": "$long|垂直锚点使用的最小高度。",
+                    "max_inclusive": "$long|垂直锚点使用的最大高度。",
+                    "plateau": "$long|（可选）: 用作均匀分布的梯形分布中间范围的垂直锚点。默认为0。"
+                },
+                "weighted_list": {
+                    "distribution": {
+                        "DES": "高度提供器的随机池",
+                        "TYPE": "JSONARRAY",
+                        "LISTCONTENT": {
+                            "data": "$height|高度提供器。",
+                            "weight": "$long|该项的权重。"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "TYPE": "JSON",
+    "CONTENT": {
+        "type": "$text|使用的洞穴类型，必须是以下中的一种：cave（洞穴）、nether_cave（下界洞穴）、canyon（峡谷）、underwater_canyon（水下峡谷）或underwater_cave（水下洞穴）。",
+        "config": {
+            "DES": "雕刻器的配置值",
+            "LIST": [
+                "cave",
+                "nether_cave",
+                "underwater_cave",
+                "canyon",
+                "underwater_canyon"
+            ],
+            "CONTENT": {
+                "cave": {
+                    "probability": "$double|每个区块尝试生成此雕刻器的概率，必须是0到1之间。",
+                    "y": "$height|雕刻器尝试生成在此高度。",
+                    "yScale": "$double|浮点提供器。垂直缩放被雕刻的区域。",
+                    "lava_level": "$long|熔岩开始生成在此垂直锚点。",
+                    "aquifers_enabled": "$bool|如果为true，则会生成含水层。",
+                    "horizontal_radius_multiplier": "$double|[需要测试]",
+                    "vertical_radius_multiplier": "$double|[需要测试]",
+                    "floor_level": "$double|[需要测试]"
+                },
+                "nether_cave": {
+                    "probability": "$double|每个区块尝试生成此雕刻器的概率，必须是0到1之间。",
+                    "y": "$height|雕刻器尝试生成在此高度。",
+                    "yScale": "$double|浮点提供器。垂直缩放被雕刻的区域。",
+                    "lava_level": "$long|熔岩开始生成在此垂直锚点。",
+                    "aquifers_enabled": "$bool|如果为true，则会生成含水层。",
+                    "horizontal_radius_multiplier": "$double|[需要测试]",
+                    "vertical_radius_multiplier": "$double|[需要测试]",
+                    "floor_level": "$double|[需要测试]"
+                },
+                "underwater_cave": {
+                    "probability": "$double|每个区块尝试生成此雕刻器的概率，必须是0到1之间。",
+                    "y": "$height|雕刻器尝试生成在此高度。",
+                    "yScale": "$double|浮点提供器。垂直缩放被雕刻的区域。",
+                    "lava_level": "$long|熔岩开始生成在此垂直锚点。",
+                    "aquifers_enabled": "$bool|如果为true，则会生成含水层。",
+                    "horizontal_radius_multiplier": "$double|[需要测试]",
+                    "vertical_radius_multiplier": "$double|[需要测试]",
+                    "floor_level": "$double|[需要测试]"
+                },
+                "canyon": {
+                    "probability": "$double|每个区块尝试生成此雕刻器的概率，必须是0到1之间。",
+                    "y": "$height|雕刻器尝试生成在此高度。",
+                    "yScale": "$double|浮点提供器。垂直缩放被雕刻的区域。",
+                    "lava_level": "$long|熔岩开始生成在此垂直锚点。",
+                    "aquifers_enabled": "$bool|如果为true，则会生成含水层。",
+                    "vertical_rotation": "$double|继续在峡谷中创建曲线。",
+                    "shape": {
+                        "DES": "峡谷使用的形状",
+                        "thickness": "$double|峡谷的宽度",
+                        "width_smoothness": "$long|值越高，峡谷的墙壁在垂直方向上越平滑。必须是正的。",
+                        "distance_factor": "$double|[需要测试]",
+                        "horizontal_radius_factor": "$double|[需要测试]",
+                        "vertical_radius_default_factor": "$double|[需要测试]",
+                        "vertical_radius_center_factor": "$double|[需要测试]"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,7 @@
 {
     "blockstate": {
         "Name": "$text|要使用的方块的命名空间ID。",
-        "Properties": {
-            "DES": "方块属性（方块属性的键值对）",
-            "TYPE": "ARRAY"
-        }
+        "Properties": "$json|方块属性的键值对"
     },
     "TYPE": "JSON",
     "CONTENT": {

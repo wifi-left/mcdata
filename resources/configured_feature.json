@@ -1,0 +1,689 @@
+{
+    "blockstate": {
+        "Name": "$text|要使用的方块的命名空间ID。",
+        "Properties": "$json|方块属性的键值对"
+    },
+    "decorator": {
+        "type": {
+            "DES": "已配置的装饰器的类型",
+            "LIST": [
+                "nope",
+                "square",
+                "heightmap",
+                "heightmap_spread_double",
+                "top_solid_heightmap",
+                "heightmap_world_surface",
+                "spread_32_above",
+                "magma",
+                "emerald_ore",
+                "end_gateway",
+                "dark_oak_tree",
+                "iceberg",
+                "end_island",
+                "chance",
+                "lava_lake",
+                "water_lake",
+                "count",
+                "fire",
+                "glowstone",
+                "count_multilayer",
+                "count_noise",
+                "count_noise_biased",
+                "count_extra",
+                "range",
+                "range_biased",
+                "range_very_biased",
+                "depth_average",
+                "carving_mask",
+                "decorated"
+            ],
+            "CONTENT": {
+                "chance": {
+                    "config": {
+                        "chance": "$long|生成概率"
+                    }
+                },
+                "lava_lake": {
+                    "config": {
+                        "chance": "$long|生成概率"
+                    }
+                },
+                "water_lake": {
+                    "config": {
+                        "chance": "$long|生成概率"
+                    }
+                },
+                "count": {
+                    "config": {
+                        "count": "$UniformInt|minBase为-10，maxBase为128，maxSpread为128。"
+                    }
+                },
+                "fire": {
+                    "config": {
+                        "count": "$UniformInt|minBase为-10，maxBase为128，maxSpread为128。"
+                    }
+                },
+                "glowstone": {
+                    "config": {
+                        "count": "$UniformInt|minBase为-10，maxBase为128，maxSpread为128。"
+                    }
+                },
+                "count_multilayer": {
+                    "config": {
+                        "count": "$UniformInt|minBase为-10，maxBase为128，maxSpread为128。"
+                    }
+                },
+                "count_noise": {
+                    "config": {
+                        "noise_level": "$double|",
+                        "below_noise": "$long|",
+                        "above_noise": "$long|"
+                    }
+                },
+                "count_noise_biased": {
+                    "config": {
+                        "noise_to_count_ratio": "$long|",
+                        "noise_factor": "$double|",
+                        "noise_offset": "$double|若不写，默认为0。"
+                    }
+                },
+                "count_extra":{
+                    "config": {
+                        "count": "$long|",
+                        "extra_chance": "$double|",
+                        "extra_count": "$long|"
+                    }
+                },
+                "range":{
+                    "config":{
+                        "bottom_offset":"$long|默认值0",
+                        "top_offset":"$long|默认值0",
+                        "maximum":"$long|默认值0"
+                    }
+                    
+                    
+                },"range_biased":{
+                    "config":{
+                        "bottom_offset":"$long|默认值0",
+                        "top_offset":"$long|默认值0",
+                        "maximum":"$long|默认值0"
+                    }
+                    
+                    
+                },"range_very_biased":{
+                    "config":{
+                        "bottom_offset":"$long|默认值0",
+                        "top_offset":"$long|默认值0",
+                        "maximum":"$long|默认值0"
+                    }
+                    
+                    
+                },
+                "depth_average":{
+                    "config":{"baseline":"$long|",
+                    "spread":"$long"}
+                    
+                },
+                "carving_mask":{
+                    "config":{
+                        "step":"$text|雕刻器生成阶段；应为 air 或 liquid。",
+                        "probability":"$double|"
+                    }
+                },
+                "decorated":{
+                    "outer":"$json|外部已配置的装饰器。",
+                    "inner":"$json|内部已配置的装饰器。"
+                }
+            }
+        }
+    },
+    "BlockstateProvider": {
+        "type": {
+            "DES": "所使用的声明的类型",
+            "LIST": [
+                "simple_state_provider",
+                "weighted_state_provider",
+                "plain_flower_provider",
+                "forest_flower_provider",
+                "rotated_block_provider"
+            ],
+            "CONTENT": {
+                "simple_state_provider": {
+                    "state": {
+                        "DES": "一个方块状态",
+                        "Name": "$text|所使用的方块的命名空间ID。",
+                        "Properties": {
+                            "state": "$text|一个方块状态的键值对。"
+                        }
+                    }
+                },
+                "rotated_block_provider": {
+                    "state": {
+                        "DES": "一个方块状态",
+                        "Name": "$text|所使用的方块的命名空间ID。",
+                        "Properties": {
+                            "state": "$text|一个方块状态的键值对。"
+                        }
+                    }
+                },
+                "weighted_state_provider": {
+                    "entries": {
+                        "DES": "可供选择的方块状态的列表。",
+                        "TYPE": "JSONARRAY",
+                        "LISTCONTENT": {
+                            "weight": "$long|该方块状态被选取的权重；更高的值增加被选取的频率。",
+                            "data": {
+                                "DES": "一个方块状态",
+                                "Name": "$text|所使用的方块的命名空间ID。",
+                                "Properties": {
+                                    "state": "$text|一个方块状态的键值对。"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "UniformInt": {
+        "base": "$long|可生成的最小数字",
+        "spread": "$long|生成随机数字的闭区间的大小"
+    },
+    "TYPE": "JSON",
+    "CONTENT": {
+        "type": {
+            "DES": "已配置的地物的类型",
+            "LIST": [
+                "no_op",
+                "chorus_plant",
+                "void_start_platform",
+                "desert_well",
+                "fossil",
+                "ice_spike",
+                "glowstone_blob",
+                "freeze_top_layer",
+                "vines",
+                "monster_room",
+                "blue_ice",
+                "end_island",
+                "kelp",
+                "coral_tree",
+                "coral_mushroom",
+                "coral_claw",
+                "weeping_vines",
+                "twisting_vines",
+                "bonus_chest",
+                "basalt_pillar",
+                "tree",
+                "flower",
+                "random_patch",
+                "block_pile",
+                "nether_forest_vegetation",
+                "spring_feature",
+                "emerald_ore",
+                "huge_red_mushroom",
+                "huge_brown_mushroom",
+                "iceberg",
+                "forest_rock",
+                "lake",
+                "disk",
+                "ice_patch",
+                "ore",
+                "no_surface_ore",
+                "end_spike",
+                "end_gateway",
+                "seagrass",
+                "bamboo",
+                "sea_pickle",
+                "simple_block",
+                "huge_fungus",
+                "basalt_columns",
+                "delta_feature",
+                "netherrack_replace_blobs",
+                "fill_layer",
+                "random_selector",
+                "simple_random_selector",
+                "random_boolean_selector",
+                "decorated",
+                "decorated_flower"
+            ],
+            "CONTENT": {
+                "tree": {
+                    "config": {
+                        "DES": "装饰器设置",
+                        "trunk_provider": "$BlockstateProvider|作为树干的方块。注意当树干放置器为fancy_trunk_placer 时，须使用含xyz标签的方块，如原木。",
+                        "leaves_provider": "$BlockstateProvider|作为树叶的方块",
+                        "foliage_placer": {
+                            "DES": "控制树叶的生成方式。",
+                            "radius": "$UniformInt|minBase为0，maxBase为8，maxSpread为8。",
+                            "offset": "$UniformInt|minBase为0，maxBase为8，maxSpread为8。",
+                            "type": {
+                                "DES": "树叶放置器的类型",
+                                "LIST": [
+                                    "blob_foliage_placer",
+                                    "spruce_foliage_placer",
+                                    "pine_foliage_placer",
+                                    "acacia_foliage_placer",
+                                    "bush_foliage_placer",
+                                    "fancy_foliage_placer",
+                                    "jungle_foliage_placer",
+                                    "mega_pine_foliage_placer",
+                                    "dark_oak_foliage_placer"
+                                ],
+                                "CONTENT": {
+                                    "blob_foliage_placer": {
+                                        "height": "$long|影响树叶的高度与宽度，单位是方块。 取值必须为0到16（含0和16）。"
+                                    },
+                                    "bush_foliage_placer": {
+                                        "height": "$long|影响树叶的高度与宽度，单位是方块。 取值必须为0到16（含0和16）。"
+                                    },
+                                    "fancy_foliage_placer": {
+                                        "height": "$long|影响树叶的高度与宽度，单位是方块。 取值必须为0到16（含0和16）。"
+                                    },
+                                    "jungle_foliage_placer": {
+                                        "height": "$long|影响树叶的高度与宽度，单位是方块。 取值必须为0到16（含0和16）。"
+                                    },
+                                    "spruce_foliage_placer": {
+                                        "trunk_height": "$UniformInt|minBase为0，maxBase为16，maxSpread为8。"
+                                    },
+                                    "pine_foliage_placer": {
+                                        "height": "$UniformInt|minBase为0，maxBase为16，maxSpread为8。"
+                                    },
+                                    "mega_pine_foliage_placer": {
+                                        "crown_height": "$UniformInt|minBase为0，maxBase为16，maxSpread为8。"
+                                    }
+                                }
+                            }
+                        },
+                        "trunk_placer": {
+                            "DES": "控制树干的生成方式。",
+                            "type": {
+                                "DES": "[需要测试] 树干放置器的类型",
+                                "LIST": [
+                                    "straight_trunk_placer",
+                                    "forking_trunk_placer",
+                                    "giant_trunk_placer",
+                                    "mega_jungle_trunk_placer",
+                                    "dark_oak_trunk_placer",
+                                    "fancy_trunk_placer"
+                                ]
+                            },
+                            "base_height": "$long|[需要测试] 取值必须为0到32（含0和32）。",
+                            "height_rand_a": "$long|[需要测试] 取值必须为0到24（含0和24）。",
+                            "height_rand_b": "$long|[需要测试] 取值必须为0到24（含0和24）。"
+                        },
+                        "minimum_size": {
+                            "min_clipped_height": "$long|(可选):[需要测试] 取值必须为0到80（含0和80）。",
+                            "type": {
+                                "DES": "",
+                                "LIST": [
+                                    "two_layers_feature_size",
+                                    "three_layers_feature_size"
+                                ],
+                                "CONTENT": {
+                                    "two_layers_feature_size": {
+                                        "limit": "$long|[需要测试] 取值必须为0到81（含0和81）。若不填写，默认值为1。",
+                                        "lower_size": "$long|[需要测试] 取值必须为0到16（含0和16）。若不填写，默认值为0。",
+                                        "upper_size": "$long|[需要测试] 取值必须为0到16（含0和16）。若不填写，默认值为1。"
+                                    },
+                                    "three_layers_feature_size": {
+                                        "limit": "$long|[需要测试] 取值必须为0到80（含0和80）。若不填写，默认值为1。",
+                                        "lower_size": "$long|[需要测试] 取值必须为0到16（含0和16）。若不填写，默认值为0。",
+                                        "middle_size": "$long|[需要测试] 取值必须为0到16（含0和16）。若不填写，默认值为1。",
+                                        "upper_size": "$long|[需要测试] 取值必须为0到16（含0和16）。若不填写，默认值为1。",
+                                        "upper_limit": "$long|[需要测试] 取值必须为0到80（含0和80）。若不填写，默认值为1。"
+                                    }
+                                }
+                            }
+                        },
+                        "max_water_depth": "$long|要生成该树所允许的最大水深。 若不填写，默认值为0。",
+                        "ignore_vines": "$bool|若不填写，默认值为 false。",
+                        "heightmap": "$text|必须是 WORLD_SURFACE_WG （地表面（世界生成））、 WORLD_SURFACE （地表面）、 OCEAN_FLOOR_WG （海床面（世界生成））、 OCEAN_FLOOR （海床面）、 MOTION_BLOCKING （阻挡实体运动面）或 MOTION_BLOCKING_NO_LEAVES （阻挡实体运动面（不含树叶））中的一个。",
+                        "decorators": {
+                            "DES": "树木除枝叶外额外的装饰。",
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": {
+                                "type": {
+                                    "DES": "要使用的装饰器的类型",
+                                    "LIST": [
+                                        "trunk_vine",
+                                        "leave_vine",
+                                        "cocoa",
+                                        "beehive",
+                                        "alter_ground"
+                                    ],
+                                    "CONTENT": {
+                                        "cocoa": {
+                                            "probability": "$double|取值必须为0到1的浮点数（含0和1）。"
+                                        },
+                                        "beehive": {
+                                            "probability": "$double|取值必须为0到1的浮点数（含0和1）。"
+                                        },
+                                        "alter_ground": {
+                                            "provider": "$BlockstateProvider|用于替换地面的方块。"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "flower": {
+                    "config": {
+                        "state_provider": "$BlockstateProvider|要使用的方块。",
+                        "block_placer": {
+                            "type": {
+                                "DES": "要使用的方块放置器的类型",
+                                "LIST": [
+                                    "simple_block_placer",
+                                    "double_plant_placer",
+                                    "column_placer"
+                                ],
+                                "CONTENT": {
+                                    "column_placer": {
+                                        "min_size": "$long|[需要测试]",
+                                        "max_size": "$long|[需要测试]"
+                                    }
+                                }
+                            }
+                        },
+                        "whitelist": {
+                            "DES": "[需要测试]",
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": "$blockstate|一个方块状态"
+                        },
+                        "blacklist": {
+                            "DES": "[需要测试]",
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": "$blockstate|一个方块状态"
+                        },
+                        "tries": "$long|若不填写，默认值为128。",
+                        "xspread": "$long|若不填写，默认值为7。",
+                        "yspread": "$long|若不填写，默认值为3。",
+                        "zspread": "$long|若不填写，默认值为7。",
+                        "can_replace": "$bool|若不填写，默认值为假。",
+                        "project": "$bool|若不填写，默认值为真。",
+                        "need_water": "$bool|若不填写，默认值为假。"
+                    }
+                },
+                "random_patch": {
+                    "config": {
+                        "state_provider": "$BlockstateProvider|要使用的方块。",
+                        "block_placer": {
+                            "type": {
+                                "DES": "要使用的方块放置器的类型",
+                                "LIST": [
+                                    "simple_block_placer",
+                                    "double_plant_placer",
+                                    "column_placer"
+                                ],
+                                "CONTENT": {
+                                    "column_placer": {
+                                        "min_size": "$long|[需要测试]",
+                                        "max_size": "$long|[需要测试]"
+                                    }
+                                }
+                            }
+                        },
+                        "whitelist": {
+                            "DES": "[需要测试]",
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": "$blockstate|一个方块状态"
+                        },
+                        "blacklist": {
+                            "DES": "[需要测试]",
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": "$blockstate|一个方块状态"
+                        },
+                        "tries": "$long|若不填写，默认值为128。",
+                        "xspread": "$long|若不填写，默认值为7。",
+                        "yspread": "$long|若不填写，默认值为3。",
+                        "zspread": "$long|若不填写，默认值为7。",
+                        "can_replace": "$bool|若不填写，默认值为假。",
+                        "project": "$bool|若不填写，默认值为真。",
+                        "need_water": "$bool|若不填写，默认值为假。"
+                    }
+                },
+                "block_pile": {
+                    "config": {
+                        "state_provider": "$BlockstateProvider|要使用的方块。"
+                    }
+                },
+                "nether_forest_vegetation": {
+                    "config": {
+                        "state_provider": "$BlockstateProvider|要使用的方块。"
+                    }
+                },
+                "spring_feature": {
+                    "config": {
+                        "state": "$blockstate|生成泉水所使用的液体。",
+                        "requires_block_below": "$bool|若不填写，默认值为真。",
+                        "rock_count": "$long|若不填写，默认值为4。",
+                        "hole_count": "$long|若不填写，默认值为1。",
+                        "valid_blocks": {
+                            "DES": "有效方块的列表。",
+                            "TYPE": "ARRAY"
+                        }
+                    }
+                },
+                "emerald_ore": {
+                    "config": {
+                        "target": "$blockstate|",
+                        "state": "$blockstate|"
+                    }
+                },
+                "huge_red_mushroom": {
+                    "config": {
+                        "cap_provider": "$BlockstateProvider|组成蘑菇伞盖的方块。",
+                        "stem_provider": "$BlockstateProvider|组成蘑菇伞柄的方块。",
+                        "foliage_radius": "$long|菌盖的大小，若不填写，默认值为2。"
+                    }
+                },
+                "huge_brown_mushroom": {
+                    "config": {
+                        "cap_provider": "$BlockstateProvider|组成蘑菇伞盖的方块。",
+                        "stem_provider": "$BlockstateProvider|组成蘑菇伞柄的方块。",
+                        "foliage_radius": "$long|菌盖的大小，若不填写，默认值为2。"
+                    }
+                },
+                "iceberg": {
+                    "config": {
+                        "state": "$blockstate|"
+                    }
+                },
+                "forest_rock": {
+                    "config": {
+                        "state": "$blockstate|"
+                    }
+                },
+                "lake": {
+                    "config": {
+                        "state": "$blockstate|"
+                    }
+                },
+                "disk": {
+                    "config": {
+                        "state": "$blockstate|",
+                        "radius": "$UniformInt|minBase为0，maxBase为4，maxSpread为4。",
+                        "half_height": "$long|取值: 0~4",
+                        "targets": {
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": "$blockstate|一个方块状态"
+                        }
+                    }
+                },
+                "ice_patch": {
+                    "config": {
+                        "state": "$blockstate|",
+                        "radius": "$UniformInt|minBase为0，maxBase为4，maxSpread为4。",
+                        "half_height": "$long|取值: 0~4",
+                        "targets": {
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": "$blockstate|一个方块状态"
+                        }
+                    }
+                },
+                "ore": {
+                    "config": {
+                        "target": {
+                            "DES": "测试该方块是否能被替换。",
+                            "predicate_type": {
+                                "DES": "测试类型",
+                                "LIST": [
+                                    "always_true",
+                                    "block_match",
+                                    "blockstate_match",
+                                    "tag_match",
+                                    "random_block_match",
+                                    "random_blockstate_match"
+                                ],
+                                "CONTENT": {
+                                    "block_match": {
+                                        "block": "$text|方块ID"
+                                    },
+                                    "blockstate_match": {
+                                        "block_state": "$blockstate|方块状态"
+                                    },
+                                    "tag_match": {
+                                        "tag": "$text|要匹配的方块的命名空间ID"
+                                    },
+                                    "random_block_match": {
+                                        "block": "$text|要匹配的方块的命名空间ID。",
+                                        "probability": "$double|[需要测试]"
+                                    },
+                                    "random_blockstate_match": {
+                                        "block_state": "$blockstate|方块状态",
+                                        "probability": "$double|[需要测试]"
+                                    }
+                                }
+                            }
+                        },
+                        "state": "$blockstate|作为矿石生成的方块状态。",
+                        "size": "$long|矿脉的大小。取值必须为0到64（含0和64）"
+                    }
+                },
+                "end_spike": {
+                    "config": {
+                        "crystal_invulnerable": "$bool|若不填写，默认值为 False",
+                        "spikes": {
+                            "DES": "每一处黑曜石柱单独的设置。",
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": {
+                                "centerX": "$long|若不填写，默认值为0。",
+                                "centerZ": "$long|若不填写，默认值为0。",
+                                "radius": "$long|黑曜石柱的半径。若不填写，默认值为0。",
+                                "height": "$long|黑曜石柱的高度。若不填写，默认值为0。",
+                                "guarded": "$bool|是否在末地水晶周围生成铁笼。若不填写，默认值为假。"
+                            }
+                        },
+                        "crystal_beam_target": {
+                            "DES": "该水晶光柱指向的方块位置。分别为 x y z",
+                            "TYPE": "ARRAY"
+                        }
+                    }
+                },
+                "end_gateway": {
+                    "config": {
+                        "exit": {
+                            "DES": "该末地折跃门要把实体传送到的位置。x y z",
+                            "TYPE": "ARRAY"
+                        },
+                        "exact": "$bool|"
+                    }
+                },
+                "seagrass": {
+                    "config": {
+                        "probability": "$double|取值必须为0到1的浮点数（含0和1）。"
+                    }
+                },
+                "bamboo": {
+                    "config": {
+                        "probability": "$double|取值必须为0到1的浮点数（含0和1）。"
+                    }
+                },
+                "sea_pickle": {
+                    "config": {
+                        "count": "$UniformInt|minBase为-10，maxBase为128，maxSpread为128。"
+                    }
+                },
+                "simple_block": {
+                    "config": {
+                        "to_place": "$blockstate|要放置的方块",
+                        "place_on": "$blockstate|被覆盖的方块",
+                        "place_in": "$blockstate|要替换的方块",
+                        "place_under": "$blockstate|其上方的方块"
+                    }
+                },
+                "huge_fungus": {
+                    "config": {
+                        "valid_base_block": "$blockstate|被覆盖的方块",
+                        "stem_state": "$blockstate|组成菌柄的方块。",
+                        "hat_state": "$blockstate|组成菌盖的方块。",
+                        "decor_state": "$blockstate|用于点缀的方块。",
+                        "planted": "$bool|默认为 False"
+                    }
+                },
+                "basalt_columns": {
+                    "config": {
+                        "reach": "$UniformInt|minBase为0，maxBase为2，maxSpread为1。",
+                        "height": "$UniformInt|minBase为1，maxBase为5，maxSpread为5。"
+                    }
+                },
+                "delta_feature": {
+                    "config": {
+                        "contents": "$blockstate| 组成三角洲的方块。",
+                        "rim": "$blockstate|三角洲边缘的方块。",
+                        "size": "$UniformInt|三角洲的大小。minBase为0，maxBase为8，maxSpread为8。",
+                        "rim_size": "$UniformInt|三角洲边缘的大小。minBase为0，maxBase为8，maxSpread为8。"
+                    }
+                },
+                "netherrack_replace_blobs": {
+                    "config": {
+                        "target": "$blockstate|",
+                        "state": "$blockstate|",
+                        "radius": "$UniformInt|"
+                    }
+                },
+                "fill_layer": {
+                    "config": {
+                        "height": "$long|要填充的层。",
+                        "state": "$blockstate|用于填充的方块。"
+                    }
+                },
+                "random_selector": {
+                    "config": {
+                        "features": {
+                            "DES": "一个可供从中随机选择的其他地物的列表。",
+                            "TYPE": "JSONARRAY",
+                            "LISTCONTENT": {
+                                "feature": "$json|设置的地物",
+                                "chance": "$double|生成概率"
+                            }
+                        },
+                        "default": "$json|若未在上述列表中选择，则使用的设置过的地物。"
+                    }
+                },
+                "simple_random_selector": {
+                    "config": {
+                        "features": {
+                            "DES": "一个可供从中等概率随机选择的其他地物的列表。",
+                            "TYPE": "ARRAY"
+                        }
+                    }
+                },
+                "random_boolean_selector": {
+                    "config": {
+                        "feature_true": "$json|[需要测试] 若随机生成的布尔值为真，则使用的设置过的地物。",
+                        "feature_false": "$json|[需要测试] 若随机生成的布尔值为假，则使用的设置过的地物。"
+                    }
+                },
+                "decorated_feature_configuration": {
+                    "config": {
+                        "feature": "$json|设置的地物",
+                        "decorator": "$decorator|用以修改该设置过的地物的装饰器。"
+                    }
+                }
+            }
+        }
+    }
+}

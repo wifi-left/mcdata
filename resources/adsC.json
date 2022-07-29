@@ -178,8 +178,8 @@
     },
     "number": {
         "T": "true",
-        "min": "$text|最小值",
-        "max": "$text|最大值"
+        "min": "$text|$double|最小值",
+        "max": "$text|$double|最大值"
     },
     "item": {
         "count": "$number|物品数量",

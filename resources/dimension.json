@@ -1,0 +1,296 @@
+{
+    "position": {
+        "x": "$number|x 坐标",
+        "y": "$number|y 坐标",
+        "z": "$number|z 坐标"
+    },
+    "tlocation": {
+        "biome": "$text|生物群系。支持：badlands、badlands_plateau、beach、birch_forest、birch_forest_hills、cold_ocean、dark_forest、dark_forest_hills、deep_cold_ocean、deep_frozen_ocean、deep_lukewarm_ocean、deep_ocean、deep_warm_ocean、desert、desert_hills、desert_lakes、end_barrens、end_highlands、end_midlands、eroded_badlands、flower_forest、forest、frozen_ocean、frozen_river、giant_spruce_taiga、giant_spruce_taiga_hills、giant_tree_taiga、giant_tree_taiga_hills、gravelly_mountains、ice_spikes、jungle、jungle_edge、jungle_hills、lukewarm_ocean、modified_badlands_plateau、modified_gravelly_mountains、modified_jungle、modified_jungle_edge、modified_wooded_badlands_plateau、mountain_edge、mountains、mushroom_field_shore、mushroom_fields、nether、ocean、plains、river、savanna、savanna_plateau、shattered_savanna、shattered_savanna_plateau、small_end_islands、snowy_beach、snowy_mountains、snowy_taiga、snowy_taiga_hills、snowy_taiga_mountains、snowy_tundra、stone_shore、sunflower_plains、swamp、swamp_hills、taiga、taiga_hills、taiga_mountains、tall_birch_forest、tall_birch_hills、the_end、the_void、warm_ocean、wooded_badlands_plateau、wooded_hills和wooded_mountains",
+        "block": {
+            "DES": "此位置处的方块",
+            "blocks": {
+                "DES": "方块 ID 列表",
+                "TYPE": "ARRAY"
+            },
+            "tag": "$text|方块标签",
+            "nbt": "$text|方块的NBT",
+            "state": {
+                "DES": "方块状态",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "T": "true",
+                    "key": "$number|方块属性的键值"
+                }
+            }
+        },
+        "dimension": "$text|实体所在维度。支持：overworld、the_nether和the_end",
+        "feature": "$text|结构名称",
+        "fluid": {
+            "DES": "此处的液体",
+            "fluid": "$text|液体 ID",
+            "tag": "$text|液体标签",
+            "state": {
+                "DES": "液体方块状态",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "T": "true",
+                    "key": "$number|液体方块属性的键值"
+                }
+            }
+        },
+        "light": "$number|此位置处的亮度。使用max(sky-darkening, block)计算",
+        "position": "$position|坐标",
+        "smokey": "$text|如果该方块位于一个营火或灵魂营火的上方则为真"
+    },
+    "entity": {
+        "T": "true",
+        "distance": {
+            "DES": "距离与坐标",
+            "absolute": "$number|绝对距离",
+            "horizontal": "$number|水平距离",
+            "x": "$number|x 坐标",
+            "y": "$number|y 坐标",
+            "z": "$number|z 坐标"
+        },
+        "effects": {
+            "DES": "状态效果列表",
+            "TYPE": "JSON",
+            "LISTCONTENT": {
+                "key": {
+                    "DES": "状态效果名称",
+                    "amplifier": "$number|效果等级",
+                    "duration": "$number|效果持续时间，以刻为单位"
+                }
+            }
+        },
+        "equipment": {
+            "DES": "实体装备",
+            "mainhand": "$item|主手",
+            "offhand": "$item|副手",
+            "head": "$item|头部",
+            "chest": "$item|胸部",
+            "legs": "$item|腿部",
+            "feet": "$item脚部手"
+        },
+        "flags": {
+            "DES": "实体特质（Predicate Flags）",
+            "is_on_fire": "$text|测试该实体是否正在着火。",
+            "is_sneaking": "$text|测试该实体是否正在潜行",
+            "is_sprinting": "$text|测试该实体是否正在疾跑",
+            "is_swimming": "$text|测试该实体是否正在游泳",
+            "is_baby": "$text|测试该实体是否是幼体"
+        },
+        "fishing_hook": {
+            "DES": "对鱼钩实体的判定条件",
+            "in_open_water": "$text|测试该鱼钩是否位于开阔水域。开阔水域默认最小为以鱼钩为中心向外延伸5格的矩形水域。"
+        },
+        "lightning_bolt": {
+            "DES": "对闪电实体的判定条件。若目标不是闪电则判定失败。",
+            "blocks_set_on_fire": "$text|被该闪电点燃的方块数",
+            "entity_struck": "$entity|被闪电击中的实体属性"
+        },
+        "location": "$tlocation|实体位置",
+        "nbt": "$text|实体的NBT",
+        "player": {
+            "DES": "检查玩家属性。如果实体不是玩家则失败。",
+            "advancements": {
+                "DES": "要检查的进度的映射。",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "key": "$text|进度ID。使用 “|” 分割进度名以及是否有进度。是否有进度：支持true, false。例如：minecraft:root|true"
+                }
+            },
+            "gamemode": "$text|玩家的游戏模式。必须是survival、adventure、creative或spectator。",
+            "level": "$number|玩家的经验等级",
+            "looking_at": "$entity|玩家正在观察的实体，需要其可见且在100个方块内。可见是通过玩家眼睛到该实体眼睛的线来定义的，而不是玩家正在看的方向。",
+            "recipes": {
+                "DES": "配方",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "key": "$text|玩家是否有这个配方。true或false。使用 “|” 分割配方名称和是否拥有配方。minecraft:root|true"
+                }
+            },
+            "stats": {
+                "DES": "列举要匹配的统计。需要注意的是，与添加记分项不同，统计的类型与实际的统计ID不使用.连接格式（也就是类似于minecraft.custom:minecraft.sneak_time的格式），而是要分开在下面的type指定类型（比如minecraft:custom）和下面的stat指定统计ID（比如minecraft:sneak_time），并且都要正确写出命名空间ID",
+                "TYPE": "JSONARRAY",
+                "LISTCONTENT": {
+                    "type": "$text|类型。接受的值有minecraft:broken、minecraft:crafted、minecraft:custom、minecraft:dropped、minecraft:killed、minecraft:killed_by、minecraft:mined、minecraft:picked_up和minecraft:used",
+                    "stat": "$text|统计ID。和定义记分项的准则差不多",
+                    "value": "$number|统计的值"
+                }
+            }
+        },
+        "team": "$text|实体属于的队伍",
+        "type": "$text|实体ID",
+        "targeted_entity": "$entity|实体要瞄准攻击的实体",
+        "vehicle": "$entity|实体正在骑乘的实体"
+    },
+    "number": {
+        "T": "true",
+        "min": "$text|最小值",
+        "max": "$text|最大值"
+    },
+    "item": {
+        "count": "$number|物品数量",
+        "durability": "$number|耐久度",
+        "enchantments": {
+            "DES": "魔咒列表",
+            "TYPE": "JSONARRAY",
+            "LISTCONTENT": {
+                "enchantment": "$text|一个魔咒ID",
+                "levels": "$number|等级"
+            }
+        },
+        "stored_enchantments": {
+            "DES": "附魔书中储存的魔咒的列表",
+            "TYPE": "JSONARRAY",
+            "LISTCONTENT": {
+                "enchantment": "$text|一个魔咒ID",
+                "levels": "$number|等级"
+            }
+        },
+        "items": {
+            "DES": "物品ID列表",
+            "TYPE": "ARRAY"
+        },
+        "nbt": "$text|物品的NBT",
+        "potion": "$text|酿造药水的ID",
+        "tag": "$text|物品标签"
+    },
+    "damageType": {
+        "bypasses_armor": "$text|检查伤害是否忽视玩家装甲（以窒息伤害为主）。",
+        "bypasses_invulnerability": "$text|检查伤害是否忽视玩家无敌模式（虚空伤害或 /kill 伤害）",
+        "bypasses_magic": "$text|检查伤害是否由饥饿引起。",
+        "direct_entity": "$entity|直接造成伤害的实体",
+        "is_explosion": "$text|检查伤害是否由爆炸引起。",
+        "is_fire": "$text|检查伤害是否由火引起。",
+        "is_magic": "$text|检查伤害是否由魔法引起。",
+        "is_projectile": "$text|检查伤害是否由弹射物引起。",
+        "is_lightning": "$text|检查伤害是否由闪电引起。",
+        "source_entity": "$entity|伤害的直接来源实体。"
+    },
+    "damage": {
+        "blocked": "$text|检查伤害是否被成功阻挡",
+        "dealt": "$number|在减少伤害前检查实体即将受到的伤害总量。",
+        "direct_entity": "$entity|伤害的直接来源实体。",
+        "source_entity": "$entity|检查伤害的直接来源实体",
+        "taken": "$number|在减少伤害后检查实体即将受到的伤害总量。",
+        "type": "$damageType|检查伤害的类型。"
+    },
+    "TYPE": "JSON",
+    "CONTENT": {
+        "type": "$text|维度类型的命名空间ID。可以是预设的minecraft:overworld、minecraft:overworld_caves、minecraft:the_nether或minecraft:the_end，也可以是自定义的维度类型",
+        "generator": {
+            "DES": "维度的生成设置",
+            "type": {
+                "TYPE": "text",
+                "DES": "生成器的ID。前缀是minecraft:，之后是flat、noise或debug",
+                "LIST": [
+                    "minecraft:flat",
+                    "minecraft:noise",
+                    "minecraft:debug"
+                ],
+                "CONTENT": {
+                    "minecraft:noise": {
+                        "seed": "$long|用于生成该维度的种子。通常情况下，这个值理应与世界种子一致，但也可以与之不同，不同时该维度就会使用这个值作为种子生成，而不会使用世界种子",
+                        "settings": "$text|地形生成器中使用的噪声设置。使用worldgen/noise_settings中的预设",
+                        "biome_source": {
+                            "DES": "设置要生成的生物群系及其形态",
+                            "seed": "$long|用来生成生物群系的种子。通常情况下，它应当与维度种子（甚至世界种子）完全相同，但也可以与之不同，并且该维度中的该生物群系只会基于此种子生成，不会参照维度种子和世界种子 [需要测试]",
+                            "type": {
+                                "DES": "$text|生物群系生成类型",
+                                "LIST": [
+                                    "minecraft:vanilla_layered",
+                                    "minecraft:fixed",
+                                    "minecraft:checkerboard",
+                                    "minecraft:multi_noise",
+                                    "minecraft:the_end"
+                                ],
+                                "CONTENT": {
+                                    "minecraft:checkerboard":{
+                                        "biomes":{
+                                            "DES":"沿着对角线重复的生物群系列表（可以超过3个）",
+                                            "TYPE":"ARRAY"
+                                        },
+                                        "scale":"$long|在指数尺度上确定正方形的大小。范围：0到62。"
+                                    },
+                                    "minecraft:the_end":{
+                                        "DES":"原版中末地的生物群系生成方式。以生物群系minecraft:the_end（末地）为中心，周围环绕着其他生物群系"
+                                    },
+                                    "minecraft:fixed":{
+                                        "DES":"单一的生物群系。",
+                                        "biome":"$text|生物群系"
+                                    },
+                                    "minecraft:multi_noise": {
+                                        "DES":"用于下界和21w37a之后版本的主世界。",
+                                        "preset": "$text|要使用的一组生物群系预设，与 biomes 互斥。可以是 nether 或 overworld",
+                                        "biomes": {
+                                            "DES": "生物群系列表，与 preset 互斥",
+                                            "TYPE": "JSONARRAY",
+                                            "LISTCONTENT": {
+                                                "DES": "一个生物群系",
+                                                "biome": "$text|生物群系",
+                                                "large_biomes":"$bool|决定生物群系是否为“巨型”",
+                                                "legacy_biome_init_layer":"$bool|决定世界是否为 default_1_1",
+                                                "parameters": {
+                                                    "DES": "代表生物群系应该被放置的最佳条件。这些值不会影响生物群系内的地形生成，而是影响游戏在何处选择安放这些生物群系。在每个特定点，都会选择一个参数与那一点在每个噪声图上的各参数最接近的生物群系。例如，如果某一点的温度为-1，湿度为0.2，海拔为0.2，怪异度为0，那么则会选择桦木森林丘陵（温度-0.1、湿度0.2、海拔0.25、怪异度0）而不是沙漠（温度0.5、湿度-0.5、海拔0、怪异度0）。参数组合在生物群系列表中必须独一无二，否则只生成其中第一项的生物群系。",
+                                                    "temperature": "$double|温度。用于使类似地生物群系彼此接近。不会影响雨雪或者树叶、草的颜色",
+                                                    "humidity": "$double|湿度。用于使类似生物群系彼此接近",
+                                                    "continentalness": "$double|大陆性。低大陆性对应于海洋地形，高大陆性对应于内陆地形",
+                                                    "erosion": "$double|侵蚀度。在主世界，高侵蚀度对应平坦地形",
+                                                    "weirdness": "$double|怪异度。用于生物群系。",
+                                                    "depth": "$double|深度。用于生成洞穴生物群系。只有此参数会随垂直位置改变。深度为0表示地表，深度为1表示地表以下128个方块",
+                                                    "offset": "$double|偏移。类似于其他参数，但是offset在任何地方都是0，因此将这个参数设为靠近0的值会使这个生物群系占更多优势，而其他的生物群系平等。增加此值会使生物群系更加稀有，而不会影响生物群系安放"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "minecraft:flat":{
+                        "DES":"超平坦",
+                        "settings":{
+                            "DES":"超平坦设置",
+                            "layers":{
+                                "DES":"层设置",
+                                "TYPE":"JSONARRAY",
+                                "LISTCONTENT":{
+                                    "block":"$text|该层使用的方块",
+                                    "height":"$long|该层方块所占的层数"
+                                }
+                            },
+                            "biome":"$text|该维度使用的唯一的生物群系",
+                            "lakes":"$bool|是否生成湖。如果设为 true，则水湖和熔岩湖常会生成，即使在生物群系中湖通常不生成。熔岩湖生成时会被主世界不同种类的石头和矿物包围。默认：false",
+                            "features":"$bool|是否生成生物群系特有的装饰，比如主世界的树木、花、草、仙人掌，下界的火/灵魂火、菌类、菌索等等。默认：false",
+                            "structures":{
+                                "DES":"结构生成设置",
+                                "stronghold":{
+                                    "DES":"设置要塞如何生成。在structures标签下的值似乎是占位符；这些值才是真正控制要塞生成的值",
+                                    "distance":"$long|控制要塞距离多远",
+                                    "count":"$long|生成多少要塞",
+                                    "spread":"$long|要塞传播范围"
+                                },
+                                "structures":{
+                                    "DES":"此维度中要使用的结构列表",
+                                    "TYPE":"JSON",
+                                    "LISTCONTENT":{
+                                        "key":{
+                                            "spacing":"$long|区块中两次这种结构的放置尝试的平均距离",
+                                            "separation":"$long|区块中两次这种结构的放置尝试的最小距离，必须低于 spacing",
+                                            "salt":"帮助进行随机化的数字"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "minecraft:debug":{
+                        "DES":"生成调试模式的世界"
+                    }
+                }
+            }
+        }
+    }
+}

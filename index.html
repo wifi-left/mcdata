@@ -15,14 +15,14 @@
             left: 0;
             top: 0;
         }
-        
+
         * {
             transition: 0.5s;
             overflow-y: none;
             overflow-x: none;
             user-select: none;
         }
-        
+
         .center-title {
             /* color: white; */
             font-family: "console";
@@ -31,7 +31,7 @@
             left: 50%;
             transform: translateY(-50%) translateX(-50%);
         }
-        
+
         #topicon {
             position: absolute;
             left: 16px;
@@ -41,7 +41,7 @@
             background-image: url("img/icon.png");
             background-size: 100%;
         }
-        
+
         #topbar {
             padding-left: 2em;
             background-color: rgb(220, 252, 241);
@@ -51,6 +51,7 @@
             left: 0;
             top: 0;
         }
+
         /* #centerlog {
             width: 200px;
             height: 200px;
@@ -58,7 +59,7 @@
             background-size: 100%;
             text-align: center;
         } */
-        
+
         #index {
             padding: 2em 2em 2em 2em;
             background-image: linear-gradient(135deg, rgb(220, 252, 241), aquamarine);
@@ -68,33 +69,36 @@
             left: 0;
             top: 0;
         }
-        
+
         #cltext {
             color: #333;
         }
-        
+
         #cltext:hover {
             color: rgb(104, 104, 104);
         }
-        .info{
-            width:calc(100% - 48px);
-            height:auto;
+
+        .info {
+            width: calc(100% - 48px);
+            height: auto;
             border-radius: 8px;
             border: 4px dashed rgb(12, 130, 226);
             background-color: rgb(81, 235, 222);
-            padding:16px 16px 16px 16px;
-            margin:4px 4px 4px 4px;
-            font-size:18px;
+            padding: 16px 16px 16px 16px;
+            margin: 4px 4px 4px 4px;
+            font-size: 18px;
         }
-        .warn{
-            width:calc(100% - 48px);
-            height:auto;
+
+        .warn {
+            width: calc(100% - 48px);
+            height: auto;
             border-radius: 8px;
             border: 4px dashed rgb(226, 134, 12);
             background-color: rgb(235, 232, 81);
-            padding:16px 16px 16px 16px;
-            margin:4px 4px 4px 4px;
+            padding: 16px 16px 16px 16px;
+            margin: 4px 4px 4px 4px;
         }
+
         #textarea {
             position: absolute;
             top: 100%;
@@ -103,11 +107,11 @@
             width: calc(100% - 8em);
             height: auto;
         }
-        
-         ::-webkit-scrollbar {
+
+        ::-webkit-scrollbar {
             width: 0;
         }
-        
+
         .button-o {
             color: #333;
             font-weight: bold;
@@ -124,18 +128,21 @@
             display: inline-block;
             line-height: 60px;
         }
-        
+
         .button-o:hover,
         .button-o:active {
             color: #b6b6b6;
             border-bottom: 4px solid #b6b6b6;
         }
+
         .warn {
-            font-size:18px;
+            font-size: 18px;
         }
-        .warn b{
-            font-size:18px;
+
+        .warn b {
+            font-size: 18px;
         }
+
         .windows {
             background: rgba(10, 10, 10, 0.8);
             position: absolute;
@@ -150,7 +157,7 @@
 <body bgcolor="azure">
     <div id="index">
         <div class="center-title" style="text-align:center;">
-            <span class="title" id="cltext"><b>Minecraft 数据收集</b></span><br/>
+            <span class="title" id="cltext"><b>Minecraft 数据收集</b></span><br />
             <span class="subtitle">Gamom's Website</span>
         </div>
 
@@ -158,37 +165,148 @@
     <div id="textarea">
         <div class="warn">
             <h1 class="title">转载声明</h1>
-            <span>所有作者自行编辑的文本采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh"><b>CC BY-SA 4.0</b></a> 协议！<br/>
-                <b>您可以自由地：</b><br/>
-                1. 在任何媒介以任何形式复制、发行本作品<br/>
-                2. <b>修改、转换</b>或以本作品为基础进行创作在任何用途下，甚至<b>商业目的</b>。<br/>
-                <b>惟须遵守下列条件：</b><br/>
-                1. 您必须给出适当的署名（包括原文链接），同时标明是否（对原始作品）作了修改。<br/>您可以用任何<b>合理的方式</b>来署名，<br/>
-                2. 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议来分发您贡献的作品。<br/>
+            <span>所有作者自行编辑的文本采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh"><b>CC BY-SA 4.0</b></a>
+                协议！<br />
+                <b>您可以自由地：</b><br />
+                1. 在任何媒介以任何形式复制、发行本作品<br />
+                2. <b>修改、转换</b>或以本作品为基础进行创作在任何用途下，甚至<b>商业目的</b>。<br />
+                <b>惟须遵守下列条件：</b><br />
+                1. 您必须给出适当的署名（包括原文链接），同时标明是否（对原始作品）作了修改。<br />您可以用任何<b>合理的方式</b>来署名，<br />
+                2. 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议来分发您贡献的作品。<br />
                 3. 您不得适用法律术语或者技术措施<b>从而限制其他人做许可协议允许的事情</b>。
                 4. 您可以将其用在你你的产品当中。
             </span>
         </div>
-        <h1 class="title">进度</h1>
+        <h1 class="title">生成器使用（非单纯清单）</h1>
         <h2>收集版本：1.19</h2>
         <div class="info">本文为作者自行整理</div>
         <ul>
             <li><a href="./resources/adsC.json">进度（json 格式）</a></li>
+            <li><a href="./resources/dimension.json">维度（json 格式）</a></li>
 
         </ul>
-        <h1 class="title">物品</h1>
-        <h2>收集版本：1.19</h2><div class="info">本文为作者自行整理</div>
+        <h2>解释</h2>
+        <p>上述文本部分内容需要硬编码支持：</p>
         <ul>
-            
+            <li>
+                1.首次解析，若存在 <code>lists</code>，则表示清单（比如所有进度的列表）<br />
+                若存在 <code>CONTENT</code>，表示其为需要的内容。
+                若存在 <code>TYPE</code>，表示其为内容的类型（应该默认识别为 JSON）。目前有以下几种：
+                <ul>
+                    <li>
+                        [1]<code>ARRAY</code>
+                        表示生成后应该为JSON 数组，例如：<code>
+                            [{"a":"b"},{"a":"d"}]
+                        </code>
+                    </li>
+                    <li>
+                        [2]<code>JSON</code>
+                        表示生成后为普通的 JSON，例如：<code>
+                            {"a":"b","c":"d"}
+                        </code>
+                    </li>
+                        
+                    
+                </ul>
+            </li>
+            <li>2.
+                <code>$类型名称|描述</code> 表示该项目的类型以及描述（中间用“|”分割，描述中可能存在“|”）
+            </li>
+            <li>3. $text 类型为文本：String</li>
+            <li>4. $double 类型为双精度小数（或者单精度小数）：double / float</li>
+            <li>5. $long 类型为长整数（或者整数）：long long int / long int / int</li>
+            <li>6. <code>"T": "true"</code> 此处意思为该类型（自定义类型）可以被单纯的文本替换</li>
+            <li>7. <code>{"DES": "描述",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "key": {
+                        "amplifier": "$number|效果等级",
+                        "duration": "$number|效果持续时间，以刻为单位"
+                    }
+                }</code>这里定义了一个 JSON 控件。生成后的代码效果类似于（也就是说这个项目的名称需要被定义），类似于数组，但其项目可以增/删：
+                <code>
+                {"minecraft:empty":{"amplifier":"1","duration":"2"}}
+            </code>
+            </li>
+            <li>8. 注意：如果一个项目的子项目包含“TYPE”应该优先处理“TYPE”标签，否则应该遍历子项目。可能为数组（未出现与内容中）
+            </li>
+            <li>9. <code>
+                    "items": {
+                        "DES": "物品列表",
+                        "TYPE": "JSONARRAY",
+                        "LISTCONTENT": "$item|一个物品"
+                    }
+                </code>类型为 JSONARRAY时候，应该读取 LISTCONTENT。此项目为 JSON 数组（生成后类似于：<code>
+                    [{"a":"b"},{"a":"d"}]
+                </code>）
+                一般而言此内容格式为：“$类型|描述”。但该项目也可以是一个 JSON，例如：
+                <code>
+                    "items": {
+                        "DES": "物品列表",
+                        "TYPE": "JSONARRAY",
+                        "LISTCONTENT": {
+                            "a":"$text|a",
+                            "b":"$text|b"
+                        }
+                    }
+                </code>
+
+            </li>
+            <li>10. <code>
+                    "blocks": {
+                        "DES": "方块 ID 列表",
+                        "TYPE": "ARRAY"
+                    }
+                </code>
+                类型为 ARRAY 时，此项目为数组（每一项几乎都是文本）。
+            </li>
+            <li>11. 若存在 DES 项目，表示根项目的描述</li>
+            <li>12. 若 CONTENT 中的子项目存在 LIST ，应该读取他，表示分类显示。例如：<code>
+                "generator": {
+                    "DES": "维度的生成设置",
+                    "type": {
+                        "TYPE":"text",
+                        "DES":"生成器的ID。前缀是minecraft:，之后是flat、noise或debug",
+                        "LIST":[
+                            "minecraft:flat",
+                            "minecraft:noise",
+                            "minecraft:debug"
+                        ],
+                        "CONTENT":{
+                            "minecraft:flat":{
+                                ...(具体内容)
+                            }
+                        }
+                    }
+                }
+            </code>
+        表示 generator下 type标签类型为 text，描述为 “生成器的ID。前缀是minecraft:，之后是flat、noise或debug”，支持的项目为 <code>"minecraft:flat","minecraft:noise","minecraft:debug"</code> （LIST中），每个项目对应的具体内容需要在 “CONTENT” 中对应的名称中。生成后的效果：
+        <code>
+            {..."generator":{"type":"minecraft:flat",...(具体内容)}}
+        </code>
+        </li>
+        <li>
+            13. $bool 逻辑型 bool
+        </li>
+        </ul>
+        <h1 class="title">物品</h1>
+        <h2>收集版本：1.19</h2>
+        <div class="info">本文为作者自行整理</div>
+        <ul>
+
             <li><a href="./resources/items.json">物品（不包含方块） & 方块（对应的物品ID）（json 格式）</a></li>
         </ul>
         <h1 class="title">附魔</h1>
-        <h2>收集版本：1.19</h2><div class="info">本文来自Ganxiaozhe <a href="https://mc.metamo.cn/gmct/lib/enchantments.json">GMCT 生成器资源</a>，已添加新内容</div>
+        <h2>收集版本：1.19</h2>
+        <div class="info">本文来自Ganxiaozhe <a href="https://mc.metamo.cn/gmct/lib/enchantments.json">GMCT 生成器资源</a>，已添加新内容
+        </div>
         <ul>
             <li><a href="./resources/enchantments.json">附魔（json 格式）</a></li>
         </ul>
         <h1 class="title">效果</h1>
-        <h2>收集版本：1.19</h2><div class="info">本文来自Ganxiaozhe <a href="https://mc.metamo.cn/gmct/lib/effects.json">GMCT 生成器资源</a>，已添加新内容</div>
+        <h2>收集版本：1.19</h2>
+        <div class="info">本文来自Ganxiaozhe <a href="https://mc.metamo.cn/gmct/lib/effects.json">GMCT 生成器资源</a>，已添加新内容
+        </div>
         <ul>
             <li><a href="./resources/effects.json">效果（json 格式）</a></li>
 

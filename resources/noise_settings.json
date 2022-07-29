@@ -1,0 +1,170 @@
+{
+    "blockstate": {
+        "Name": "$text|要使用的方块的命名空间ID。",
+        "Properties": {
+            "DES": "方块属性（方块属性的键值对）",
+            "TYPE": "ARRAY"
+        }
+    },
+    "surface_rule": {
+        "type": {
+            "DES": "表面规则的类型",
+            "LIST": [
+                "minecraft:condition",
+                "minecraft:block",
+                "minecraft:vertical_gradient",
+                "minecraft:above_preliminary_surface",
+                "minecraft:sequence",
+                "minecraft:stone_depth",
+                "minecraft:water",
+                "minecraft:biome",
+                "minecraft:y_above",
+                "minecraft:not",
+                "minecraft:noise_threshold",
+                "minecraft:steep",
+                "minecraft:hole",
+                "minecraft:bandlands",
+                "minecraft:temperature"
+            ],
+            "CONTENT": {
+                "minecraft:condition": {
+                    "if_true": "$surface_rule|输出true或false的表面规则",
+                    "then_run": "$surface_rule|进行特定操作的表面规则"
+                },
+                "minecraft:block": {
+                    "DES": "将符合该表面规则的方块设定为指定的方块",
+                    "result_state": "$blockstate|使用的方块"
+                },
+                "minecraft:vertical_gradient": {
+                    "DES": "条件表面规则，在渐变中选择方块，用于深板岩和基岩（渐变自身位于指定的y坐标之间）",
+                    "random_name": "$text|任何随机的名字",
+                    "true_at_and_below": {
+                        "DES": "条件为true时的低y坐标。",
+                        "above_bottom": "$double|从世界底部往上数的y坐标，与absolute和below_top互斥。",
+                        "absolute": "$double|准确y坐标，与above_bottom和below_top互斥。",
+                        "below_top": "$double|从世界顶部往下数的y坐标，与above_bottom和absolute互斥。"
+                    },
+                    "false_at_and_below": {
+                        "DES": "条件为true时的低y坐标。",
+                        "above_bottom": "$double|从世界底部往上数的y坐标，与absolute和below_top互斥。",
+                        "absolute": "$double|准确y坐标，与above_bottom和below_top互斥。",
+                        "below_top": "$double|从世界顶部往下数的y坐标，与above_bottom和absolute互斥。"
+                    }
+                },
+                "minecraft:above_preliminary_surface": {
+                    "DES": "条件表面规则，没有额外属性"
+                },
+                "minecraft:sequence": {
+                    "DES": "依次应用表面规则（似乎只应用第一个成功的规则）",
+                    "sequence": {
+                        "TYPE":"JSONARRAY",
+                        "LISTCONTENT":"$surface_rule|表面规则"
+                    }
+                },
+                "minecraft:stone_depth": {
+                    "offset":"$long|偏移量 [需要测试]",
+                    "add_surface_depth":"$bool|[需要测试]",
+                    "secondary_depth_range":"$long|[需要测试]",
+                    "surface_type":"$text|[需要测试]可以是floor或ceiling"
+                },
+                "minecraft:water": {
+                    "offset":"$long|偏移量[需要测试]",
+                    "surface_depth_multiplier":"$long|[需要测试]",
+                    "add_stone_depth":"$bool|[需要测试]"
+                },
+                "minecraft:biome": {
+                    "DES":"测试生物群系",
+                    "biome_is":{
+                        "DES":"结果为true的生物群系列表。",
+                        "TYPE":"ARRAY"
+                    }
+                },
+                "minecraft:y_above": {
+                    "DES":"检查是否位于指定的y坐标上方",
+                    "anchor":{
+                        "DES":"使此条件为true的最小y坐标。",
+                        "above_bottom": "$double|从世界底部往上数的y坐标，与absolute和below_top互斥。",
+                        "absolute": "$double|准确y坐标，与above_bottom和below_top互斥。",
+                        "below_top": "$double|从世界顶部往下数的y坐标，与above_bottom和absolute互斥。"
+                    },
+                    "surface_depth_multiplier":"$long|[需要测试]",
+                    "add_stone_depth":"$bool|[需要测试]"
+                },
+                "minecraft:not": {
+                    "invert":"$surface_rule|需要翻转的表面规则"
+                },
+                "minecraft:noise_threshold": {
+                    "noise":"$text|指向数据包的data/命名空间/worldgen/noise的噪声文件",
+                    "min_threshold":"$double|最小值",
+                    "max_threshold":"$double|最大值"
+                },
+                "minecraft:steep": {},
+                "minecraft:hole": {"DES":"(猜测：用于洞穴)"},
+                "minecraft:bandlands": {"DES":"用于恶地"},
+                "minecraft:temperature": {"DES":"用于在封冻海域生成冰"}
+            }
+        }
+    },
+    "TYPE": "JSON",
+    "CONTENT": {
+        "sea_level": "$long|此维度的海平面高度。",
+        "disable_mob_generation": "$bool|是否禁止被动型生物随地形一起生成。",
+        "ore_veins_enabled": "$bool|是否生成矿脉。",
+        "aquifers_enabled": "$bool|是否生成含水层和含熔岩层。",
+        "legacy_random_source": "$bool|是否使用1.18之前的旧的随机数生成器来生成世界。",
+        "default_block": "$blockstate|该维度的近地表方块的命名空间ID",
+        "default_fluid": "$blockstate|用于生成海洋和湖的流体的命名空间ID",
+        "noise_router": {
+            "DES": "将密度函数应用于用于世界生成的噪声参数。以下每个标签可以填入一个常数或一个density_function",
+            "final_density": "$DF|决定了一个坐标是空气还是世界的默认方块（default_block）。",
+            "vein_toggle": "$DF|以下三个参数控制矿脉生成。",
+            "vein_ridged": "$DF|vein_ridged",
+            "vein_gap": "$DF|vein_gap",
+            "erosion": "$DF|地形生成和生物群系放置的侵蚀值。",
+            "depth": "$DF|地形生成和生物群系放置的深度值。",
+            "ridges": "$DF|地形生成和生物群系放置的奇异值。",
+            "initial_density_without_jaggedness": "$DF|可能与地表高度有关。",
+            "lava": "$DF|用于含熔岩层。",
+            "temperature": "$DF|生物群系放置的温度值。",
+            "vegetation": "$DF|生物群系放置的湿度值。",
+            "continents": "$DF|地形生成和生物群系放置的大陆性值。",
+            "barrier": "$DF|用于分隔含水层和洞穴开放区域。",
+            "fluid_level_floodedness": "$DF|用于含水层生成。",
+            "fluid_level_spread": "$DF|含水层扩散"
+        },
+        "noise": {
+            "min_y": "$long|地形开始生成的最低高度。数值从-2032到2031之间可用，且必须是16的整数倍。注意如果使用了-2048，底部的基岩地板可能会有光照异常。",
+            "height": "$long|地形生成的总高度。必须是16的整数倍。1.17之前，会挤压整个世界，比如如果height=128，则地面设为Y=32。min_y + height不能超过2032，所以最大值为4064或4080。",
+            "size_horizontal": "$long|改变陆块（landmass）在X和Z轴上的比例。生物群系不会因此改变。例如，增加山地地形之间的距离。此参数的最高值在4到8之间。",
+            "size_vertical": "$long|改变陆块在Y轴上的比例。1至1.5之间的值可以逐渐增加山丘高度，大于2.0的值将会使得所有陆地高于通常的海平面63，比3.2更高的值会使得通常的陆地高度到达100+。",
+            "island_noise_override": "$bool|使世界像末地一样在世界中心生成一个大型岛屿，在周围生成小型岛屿。",
+            "amplified": "$bool|在放大化和正常地形生成之间切换。",
+            "large_biomes": "$bool|在巨型生物群系和正常生物群系生成之间切换。",
+            "sampling": {
+                "DES": "噪声采样方式",
+                "xz_scale": "$double|缩放噪声的X轴和Z轴。值越大，水平形状会更加复杂。作用类似于旧版自定义中的“平面比例”（coordinate scale）选项。",
+                "xz_factor": "$double|平滑水平方向上的噪声。作用类似于旧版自定义世界中的main noise scale。",
+                "y_scale": "$double|缩放噪声的Y轴。值越大，垂直形状会更加复杂。作用类似于旧版自定义中的“高度比例”（height scale）选项。",
+                "y_factor": "$double|平滑垂直方向上的噪声。值在0.001到1000.0之间，作用类似于旧版自定义世界中的main noise scale Y。"
+            },
+            "top_slide": {
+                "DES": "世界顶部曲线设置",
+                "target": "$long|曲线的值。负值会使受影响区域内的山丘更加圆润，正值会使其更加陡峭（类似于屋顶）。绝对值越大效果越明显。",
+                "size": "$long|定义以世界顶部为中心的影响区域大小。计算公式为size = <方块高> * 0.25 / size_vertical。",
+                "offset": "$long|从世界顶部移动受影响区域。offset使用和size相同的公式，也就是offset = <方块高> * 0.25 / size_vertical。对于top_slide，正值会使区域向下移动，负值使之向上移动。"
+            },
+            "bottom_slide": {
+                "DES": "世界底部曲线设置",
+                "target": "$long|曲线的值。负值会移除基岩地板并使浮岛的底部更加圆润，正值会生成一个基岩地板。绝对值越大效果越明显。",
+                "size": "$long|定义以世界底部为中心的影响区域大小。和top_slide中使用的公式相同。",
+                "offset": "$long|从世界底部移动受影响区域。和在top_slide中使用的公式相同。对于bottom_slide，正值使区域向上移动，负值使之向下移动。"
+            },
+            "terrain_shaper": {
+                "offset": "$double|确定地形偏移的地形样条。对应旧的 density_offset字段，但是现在可以根据维度噪声进行配置。",
+                "factor": "$double|确定地形因子的地形样条。对应旧的 density_factor字段，但是现在可以根据维度噪声进行配置。",
+                "jaggedness": "$double|确定地形“锯齿状”程度的地形样条。"
+            }
+        },
+        "surface_rule": "$surface_rule|地形的表面规则配置。取代了旧的表面构建器系统。"
+    }
+}

@@ -87,52 +87,49 @@
                         "noise_offset": "$double|若不写，默认为0。"
                     }
                 },
-                "count_extra":{
+                "count_extra": {
                     "config": {
                         "count": "$long|",
                         "extra_chance": "$double|",
                         "extra_count": "$long|"
                     }
                 },
-                "range":{
-                    "config":{
-                        "bottom_offset":"$long|默认值0",
-                        "top_offset":"$long|默认值0",
-                        "maximum":"$long|默认值0"
-                    }
-                    
-                    
-                },"range_biased":{
-                    "config":{
-                        "bottom_offset":"$long|默认值0",
-                        "top_offset":"$long|默认值0",
-                        "maximum":"$long|默认值0"
-                    }
-                    
-                    
-                },"range_very_biased":{
-                    "config":{
-                        "bottom_offset":"$long|默认值0",
-                        "top_offset":"$long|默认值0",
-                        "maximum":"$long|默认值0"
-                    }
-                    
-                    
-                },
-                "depth_average":{
-                    "config":{"baseline":"$long|",
-                    "spread":"$long"}
-                    
-                },
-                "carving_mask":{
-                    "config":{
-                        "step":"$text|雕刻器生成阶段；应为 air 或 liquid。",
-                        "probability":"$double|"
+                "range": {
+                    "config": {
+                        "bottom_offset": "$long|默认值0",
+                        "top_offset": "$long|默认值0",
+                        "maximum": "$long|默认值0"
                     }
                 },
-                "decorated":{
-                    "outer":"$json|外部已配置的装饰器。",
-                    "inner":"$json|内部已配置的装饰器。"
+                "range_biased": {
+                    "config": {
+                        "bottom_offset": "$long|默认值0",
+                        "top_offset": "$long|默认值0",
+                        "maximum": "$long|默认值0"
+                    }
+                },
+                "range_very_biased": {
+                    "config": {
+                        "bottom_offset": "$long|默认值0",
+                        "top_offset": "$long|默认值0",
+                        "maximum": "$long|默认值0"
+                    }
+                },
+                "depth_average": {
+                    "config": {
+                        "baseline": "$long|",
+                        "spread": "$long"
+                    }
+                },
+                "carving_mask": {
+                    "config": {
+                        "step": "$text|雕刻器生成阶段；应为 air 或 liquid。",
+                        "probability": "$double|"
+                    }
+                },
+                "decorated": {
+                    "outer": "$json|外部已配置的装饰器。",
+                    "inner": "$json|内部已配置的装饰器。"
                 }
             }
         }

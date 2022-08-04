@@ -1,0 +1,5277 @@
+[
+    {
+        "id": "ambient.basalt_deltas.additions",
+        "name": "ambient.basalt_deltas.additions"
+    },
+    {
+        "id": "ambient.basalt_deltas.loop",
+        "name": "ambient.basalt_deltas.loop"
+    },
+    {
+        "id": "ambient.basalt_deltas.mood",
+        "name": "ambient.basalt_deltas.mood"
+    },
+    {
+        "id": "ambient.cave",
+        "name": "怪异的噪声"
+    },
+    {
+        "id": "ambient.crimson_forest.additions",
+        "name": "ambient.crimson_forest.additions"
+    },
+    {
+        "id": "ambient.crimson_forest.loop",
+        "name": "ambient.crimson_forest.loop"
+    },
+    {
+        "id": "ambient.crimson_forest.mood",
+        "name": "ambient.crimson_forest.mood"
+    },
+    {
+        "id": "ambient.nether_wastes.additions",
+        "name": "ambient.nether_wastes.additions"
+    },
+    {
+        "id": "ambient.nether_wastes.loop",
+        "name": "ambient.nether_wastes.loop"
+    },
+    {
+        "id": "ambient.nether_wastes.mood",
+        "name": "ambient.nether_wastes.mood"
+    },
+    {
+        "id": "ambient.soul_sand_valley.additions",
+        "name": "ambient.soul_sand_valley.additions"
+    },
+    {
+        "id": "ambient.soul_sand_valley.loop",
+        "name": "ambient.soul_sand_valley.loop"
+    },
+    {
+        "id": "ambient.soul_sand_valley.mood",
+        "name": "ambient.soul_sand_valley.mood"
+    },
+    {
+        "id": "ambient.underwater.enter",
+        "name": "ambient.underwater.enter"
+    },
+    {
+        "id": "ambient.underwater.exit",
+        "name": "ambient.underwater.exit"
+    },
+    {
+        "id": "ambient.underwater.loop",
+        "name": "ambient.underwater.loop"
+    },
+    {
+        "id": "ambient.underwater.loop.additions",
+        "name": "ambient.underwater.loop.additions"
+    },
+    {
+        "id": "ambient.underwater.loop.additions.rare",
+        "name": "ambient.underwater.loop.additions.rare"
+    },
+    {
+        "id": "ambient.underwater.loop.additions.ultra_rare",
+        "name": "ambient.underwater.loop.additions.ultra_rare"
+    },
+    {
+        "id": "ambient.warped_forest.additions",
+        "name": "ambient.warped_forest.additions"
+    },
+    {
+        "id": "ambient.warped_forest.loop",
+        "name": "ambient.warped_forest.loop"
+    },
+    {
+        "id": "ambient.warped_forest.mood",
+        "name": "ambient.warped_forest.mood"
+    },
+    {
+        "id": "block.amethyst_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.amethyst_block.chime",
+        "name": "紫水晶：叮铃"
+    },
+    {
+        "id": "block.amethyst_block.fall",
+        "name": "block.amethyst_block.fall"
+    },
+    {
+        "id": "block.amethyst_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.amethyst_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.amethyst_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.amethyst_cluster.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.amethyst_cluster.fall",
+        "name": "block.amethyst_cluster.fall"
+    },
+    {
+        "id": "block.amethyst_cluster.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.amethyst_cluster.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.amethyst_cluster.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.ancient_debris.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.ancient_debris.fall",
+        "name": "block.ancient_debris.fall"
+    },
+    {
+        "id": "block.ancient_debris.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.ancient_debris.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.ancient_debris.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.anvil.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.anvil.destroy",
+        "name": "铁砧：被毁"
+    },
+    {
+        "id": "block.anvil.fall",
+        "name": "block.anvil.fall"
+    },
+    {
+        "id": "block.anvil.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.anvil.land",
+        "name": "铁砧：着地"
+    },
+    {
+        "id": "block.anvil.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.anvil.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.anvil.use",
+        "name": "铁砧：使用"
+    },
+    {
+        "id": "block.azalea.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.azalea.fall",
+        "name": "block.azalea.fall"
+    },
+    {
+        "id": "block.azalea.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.azalea.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.azalea.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.azalea_leaves.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.azalea_leaves.fall",
+        "name": "block.azalea_leaves.fall"
+    },
+    {
+        "id": "block.azalea_leaves.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.azalea_leaves.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.azalea_leaves.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.bamboo.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.bamboo.fall",
+        "name": "block.bamboo.fall"
+    },
+    {
+        "id": "block.bamboo.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.bamboo.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.bamboo.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.bamboo_sapling.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.bamboo_sapling.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.bamboo_sapling.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.barrel.close",
+        "name": "木桶：关闭"
+    },
+    {
+        "id": "block.barrel.open",
+        "name": "木桶：打开"
+    },
+    {
+        "id": "block.basalt.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.basalt.fall",
+        "name": "block.basalt.fall"
+    },
+    {
+        "id": "block.basalt.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.basalt.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.basalt.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.beacon.activate",
+        "name": "信标：激活"
+    },
+    {
+        "id": "block.beacon.ambient",
+        "name": "信标：嗡嗡作响"
+    },
+    {
+        "id": "block.beacon.deactivate",
+        "name": "信标：失效"
+    },
+    {
+        "id": "block.beacon.power_select",
+        "name": "信标：选择效果"
+    },
+    {
+        "id": "block.beehive.drip",
+        "name": "蜂蜜：滴落"
+    },
+    {
+        "id": "block.beehive.enter",
+        "name": "蜜蜂：入巢"
+    },
+    {
+        "id": "block.beehive.exit",
+        "name": "蜜蜂：离巢"
+    },
+    {
+        "id": "block.beehive.shear",
+        "name": "剪刀：刮削"
+    },
+    {
+        "id": "block.beehive.work",
+        "name": "蜜蜂：工作"
+    },
+    {
+        "id": "block.bell.resonate",
+        "name": "钟：回响"
+    },
+    {
+        "id": "block.bell.use",
+        "name": "钟：响起"
+    },
+    {
+        "id": "block.big_dripleaf.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.big_dripleaf.fall",
+        "name": "block.big_dripleaf.fall"
+    },
+    {
+        "id": "block.big_dripleaf.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.big_dripleaf.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.big_dripleaf.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.big_dripleaf.tilt_down",
+        "name": "垂滴叶：折下"
+    },
+    {
+        "id": "block.big_dripleaf.tilt_up",
+        "name": "垂滴叶：升起"
+    },
+    {
+        "id": "block.blastfurnace.fire_crackle",
+        "name": "高炉：噼啪作响"
+    },
+    {
+        "id": "block.bone_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.bone_block.fall",
+        "name": "block.bone_block.fall"
+    },
+    {
+        "id": "block.bone_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.bone_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.bone_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.brewing_stand.brew",
+        "name": "酿造台：冒泡"
+    },
+    {
+        "id": "block.bubble_column.bubble_pop",
+        "name": "气泡：破裂"
+    },
+    {
+        "id": "block.bubble_column.upwards_ambient",
+        "name": "气泡：上浮"
+    },
+    {
+        "id": "block.bubble_column.upwards_inside",
+        "name": "气泡：飞升"
+    },
+    {
+        "id": "block.bubble_column.whirlpool_ambient",
+        "name": "气泡：旋转"
+    },
+    {
+        "id": "block.bubble_column.whirlpool_inside",
+        "name": "气泡：骤降"
+    },
+    {
+        "id": "block.cake.add_candle",
+        "name": "蛋糕：吧唧"
+    },
+    {
+        "id": "block.calcite.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.calcite.fall",
+        "name": "block.calcite.fall"
+    },
+    {
+        "id": "block.calcite.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.calcite.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.calcite.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.campfire.crackle",
+        "name": "营火：噼啪作响"
+    },
+    {
+        "id": "block.candle.ambient",
+        "name": "蜡烛：噼啪作响"
+    },
+    {
+        "id": "block.candle.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.candle.extinguish",
+        "name": "火：熄灭"
+    },
+    {
+        "id": "block.candle.fall",
+        "name": "block.candle.fall"
+    },
+    {
+        "id": "block.candle.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.candle.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.candle.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.cave_vines.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.cave_vines.fall",
+        "name": "block.cave_vines.fall"
+    },
+    {
+        "id": "block.cave_vines.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.cave_vines.pick_berries",
+        "name": "浆果：弹出"
+    },
+    {
+        "id": "block.cave_vines.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.cave_vines.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.chain.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.chain.fall",
+        "name": "block.chain.fall"
+    },
+    {
+        "id": "block.chain.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.chain.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.chain.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.chest.close",
+        "name": "箱子：关闭"
+    },
+    {
+        "id": "block.chest.locked",
+        "name": "箱子：锁上"
+    },
+    {
+        "id": "block.chest.open",
+        "name": "箱子：开启"
+    },
+    {
+        "id": "block.chorus_flower.death",
+        "name": "紫颂花：凋零"
+    },
+    {
+        "id": "block.chorus_flower.grow",
+        "name": "紫颂花：生长"
+    },
+    {
+        "id": "block.comparator.click",
+        "name": "比较器：模式变更"
+    },
+    {
+        "id": "block.composter.empty",
+        "name": "堆肥桶：清空"
+    },
+    {
+        "id": "block.composter.fill",
+        "name": "堆肥桶：填充"
+    },
+    {
+        "id": "block.composter.fill_success",
+        "name": "堆肥桶：填充"
+    },
+    {
+        "id": "block.composter.ready",
+        "name": "堆肥桶：堆肥"
+    },
+    {
+        "id": "block.conduit.activate",
+        "name": "潮涌核心：激活"
+    },
+    {
+        "id": "block.conduit.ambient",
+        "name": "潮涌核心：涌动"
+    },
+    {
+        "id": "block.conduit.ambient.short",
+        "name": "block.conduit.ambient.short"
+    },
+    {
+        "id": "block.conduit.attack.target",
+        "name": "潮涌核心：攻击"
+    },
+    {
+        "id": "block.conduit.deactivate",
+        "name": "潮涌核心：失效"
+    },
+    {
+        "id": "block.copper.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.copper.fall",
+        "name": "block.copper.fall"
+    },
+    {
+        "id": "block.copper.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.copper.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.copper.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.coral_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.coral_block.fall",
+        "name": "block.coral_block.fall"
+    },
+    {
+        "id": "block.coral_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.coral_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.coral_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.crop.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.deepslate.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.deepslate.fall",
+        "name": "block.deepslate.fall"
+    },
+    {
+        "id": "block.deepslate.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.deepslate.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.deepslate.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.deepslate_bricks.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.deepslate_bricks.fall",
+        "name": "block.deepslate_bricks.fall"
+    },
+    {
+        "id": "block.deepslate_bricks.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.deepslate_bricks.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.deepslate_bricks.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.deepslate_tiles.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.deepslate_tiles.fall",
+        "name": "block.deepslate_tiles.fall"
+    },
+    {
+        "id": "block.deepslate_tiles.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.deepslate_tiles.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.deepslate_tiles.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.dispenser.dispense",
+        "name": "发射器：发射物品"
+    },
+    {
+        "id": "block.dispenser.fail",
+        "name": "发射器：发射失败"
+    },
+    {
+        "id": "block.dispenser.launch",
+        "name": "发射器：发射物品"
+    },
+    {
+        "id": "block.dripstone_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.dripstone_block.fall",
+        "name": "block.dripstone_block.fall"
+    },
+    {
+        "id": "block.dripstone_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.dripstone_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.dripstone_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.enchantment_table.use",
+        "name": "附魔台：使用"
+    },
+    {
+        "id": "block.end_gateway.spawn",
+        "name": "爆炸"
+    },
+    {
+        "id": "block.end_portal.spawn",
+        "name": "末地传送门：开启"
+    },
+    {
+        "id": "block.end_portal_frame.fill",
+        "name": "末影之眼：嵌入"
+    },
+    {
+        "id": "block.ender_chest.close",
+        "name": "箱子：关闭"
+    },
+    {
+        "id": "block.ender_chest.open",
+        "name": "箱子：开启"
+    },
+    {
+        "id": "block.fence_gate.close",
+        "name": "栅栏门：嘎吱作响"
+    },
+    {
+        "id": "block.fence_gate.open",
+        "name": "栅栏门：嘎吱作响"
+    },
+    {
+        "id": "block.fire.ambient",
+        "name": "火：噼啪作响"
+    },
+    {
+        "id": "block.fire.extinguish",
+        "name": "火：熄灭"
+    },
+    {
+        "id": "block.flowering_azalea.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.flowering_azalea.fall",
+        "name": "block.flowering_azalea.fall"
+    },
+    {
+        "id": "block.flowering_azalea.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.flowering_azalea.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.flowering_azalea.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.froglight.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.froglight.fall",
+        "name": "block.froglight.fall"
+    },
+    {
+        "id": "block.froglight.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.froglight.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.froglight.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.frogspawn.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.frogspawn.fall",
+        "name": "block.frogspawn.fall"
+    },
+    {
+        "id": "block.frogspawn.hatch",
+        "name": "蝌蚪：孵化"
+    },
+    {
+        "id": "block.frogspawn.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.frogspawn.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.frogspawn.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.fungus.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.fungus.fall",
+        "name": "block.fungus.fall"
+    },
+    {
+        "id": "block.fungus.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.fungus.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.fungus.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.furnace.fire_crackle",
+        "name": "熔炉：噼啪作响"
+    },
+    {
+        "id": "block.gilded_blackstone.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.gilded_blackstone.fall",
+        "name": "block.gilded_blackstone.fall"
+    },
+    {
+        "id": "block.gilded_blackstone.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.gilded_blackstone.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.gilded_blackstone.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.glass.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.glass.fall",
+        "name": "block.glass.fall"
+    },
+    {
+        "id": "block.glass.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.glass.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.glass.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.grass.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.grass.fall",
+        "name": "block.grass.fall"
+    },
+    {
+        "id": "block.grass.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.grass.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.grass.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.gravel.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.gravel.fall",
+        "name": "block.gravel.fall"
+    },
+    {
+        "id": "block.gravel.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.gravel.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.gravel.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.grindstone.use",
+        "name": "砂轮：使用"
+    },
+    {
+        "id": "block.growing_plant.crop",
+        "name": "植物：被修剪"
+    },
+    {
+        "id": "block.hanging_roots.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.hanging_roots.fall",
+        "name": "block.hanging_roots.fall"
+    },
+    {
+        "id": "block.hanging_roots.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.hanging_roots.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.hanging_roots.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.honey_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.honey_block.fall",
+        "name": "block.honey_block.fall"
+    },
+    {
+        "id": "block.honey_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.honey_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.honey_block.slide",
+        "name": "从蜂蜜块滑下"
+    },
+    {
+        "id": "block.honey_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.iron_door.close",
+        "name": "门：嘎吱作响"
+    },
+    {
+        "id": "block.iron_door.open",
+        "name": "门：嘎吱作响"
+    },
+    {
+        "id": "block.iron_trapdoor.close",
+        "name": "活板门：关闭"
+    },
+    {
+        "id": "block.iron_trapdoor.open",
+        "name": "活板门：打开"
+    },
+    {
+        "id": "block.ladder.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.ladder.fall",
+        "name": "block.ladder.fall"
+    },
+    {
+        "id": "block.ladder.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.ladder.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.ladder.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.lantern.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.lantern.fall",
+        "name": "block.lantern.fall"
+    },
+    {
+        "id": "block.lantern.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.lantern.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.lantern.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.large_amethyst_bud.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.large_amethyst_bud.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.lava.ambient",
+        "name": "熔岩：迸裂"
+    },
+    {
+        "id": "block.lava.extinguish",
+        "name": "熔岩：嘶嘶声"
+    },
+    {
+        "id": "block.lava.pop",
+        "name": "熔岩：迸裂"
+    },
+    {
+        "id": "block.lever.click",
+        "name": "拉杆：拉动"
+    },
+    {
+        "id": "block.lily_pad.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.lodestone.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.lodestone.fall",
+        "name": "block.lodestone.fall"
+    },
+    {
+        "id": "block.lodestone.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.lodestone.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.lodestone.step",
+        "name": "block.lodestone.step"
+    },
+    {
+        "id": "block.mangrove_roots.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.mangrove_roots.fall",
+        "name": "block.mangrove_roots.fall"
+    },
+    {
+        "id": "block.mangrove_roots.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.mangrove_roots.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.mangrove_roots.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.medium_amethyst_bud.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.medium_amethyst_bud.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.metal.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.metal.fall",
+        "name": "block.metal.fall"
+    },
+    {
+        "id": "block.metal.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.metal.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.metal.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.metal_pressure_plate.click_off",
+        "name": "压力板：咔哒"
+    },
+    {
+        "id": "block.metal_pressure_plate.click_on",
+        "name": "压力板：咔哒"
+    },
+    {
+        "id": "block.moss.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.moss.fall",
+        "name": "block.moss.fall"
+    },
+    {
+        "id": "block.moss.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.moss.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.moss.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.moss_carpet.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.moss_carpet.fall",
+        "name": "block.moss_carpet.fall"
+    },
+    {
+        "id": "block.moss_carpet.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.moss_carpet.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.moss_carpet.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.mud.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.mud.fall",
+        "name": "block.mud.fall"
+    },
+    {
+        "id": "block.mud.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.mud.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.mud.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.mud_bricks.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.mud_bricks.fall",
+        "name": "block.mud_bricks.fall"
+    },
+    {
+        "id": "block.mud_bricks.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.mud_bricks.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.mud_bricks.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.muddy_mangrove_roots.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.muddy_mangrove_roots.fall",
+        "name": "block.muddy_mangrove_roots.fall"
+    },
+    {
+        "id": "block.muddy_mangrove_roots.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.muddy_mangrove_roots.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.muddy_mangrove_roots.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.nether_bricks.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.nether_bricks.fall",
+        "name": "block.nether_bricks.fall"
+    },
+    {
+        "id": "block.nether_bricks.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.nether_bricks.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.nether_bricks.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.nether_gold_ore.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.nether_gold_ore.fall",
+        "name": "block.nether_gold_ore.fall"
+    },
+    {
+        "id": "block.nether_gold_ore.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.nether_gold_ore.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.nether_gold_ore.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.nether_ore.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.nether_ore.fall",
+        "name": "block.nether_ore.fall"
+    },
+    {
+        "id": "block.nether_ore.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.nether_ore.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.nether_ore.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.nether_sprouts.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.nether_sprouts.fall",
+        "name": "block.nether_sprouts.fall"
+    },
+    {
+        "id": "block.nether_sprouts.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.nether_sprouts.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.nether_sprouts.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.nether_wart.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.netherite_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.netherite_block.fall",
+        "name": "block.netherite_block.fall"
+    },
+    {
+        "id": "block.netherite_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.netherite_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.netherite_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.netherrack.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.netherrack.fall",
+        "name": "block.netherrack.fall"
+    },
+    {
+        "id": "block.netherrack.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.netherrack.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.netherrack.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.note_block.banjo",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.basedrum",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.bass",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.bell",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.bit",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.chime",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.cow_bell",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.didgeridoo",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.flute",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.guitar",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.harp",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.hat",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.iron_xylophone",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.pling",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.snare",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.note_block.xylophone",
+        "name": "音符盒：播放"
+    },
+    {
+        "id": "block.nylium.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.nylium.fall",
+        "name": "block.nylium.fall"
+    },
+    {
+        "id": "block.nylium.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.nylium.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.nylium.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.packed_mud.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.packed_mud.fall",
+        "name": "block.packed_mud.fall"
+    },
+    {
+        "id": "block.packed_mud.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.packed_mud.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.packed_mud.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.piston.contract",
+        "name": "活塞：移动"
+    },
+    {
+        "id": "block.piston.extend",
+        "name": "活塞：移动"
+    },
+    {
+        "id": "block.pointed_dripstone.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.pointed_dripstone.drip_lava",
+        "name": "熔岩：滴落"
+    },
+    {
+        "id": "block.pointed_dripstone.drip_lava_into_cauldron",
+        "name": "熔岩：滴入炼药锅"
+    },
+    {
+        "id": "block.pointed_dripstone.drip_water",
+        "name": "水：滴落"
+    },
+    {
+        "id": "block.pointed_dripstone.drip_water_into_cauldron",
+        "name": "水：滴入炼药锅"
+    },
+    {
+        "id": "block.pointed_dripstone.fall",
+        "name": "block.pointed_dripstone.fall"
+    },
+    {
+        "id": "block.pointed_dripstone.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.pointed_dripstone.land",
+        "name": "block.pointed_dripstone.land"
+    },
+    {
+        "id": "block.pointed_dripstone.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.pointed_dripstone.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.polished_deepslate.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.polished_deepslate.fall",
+        "name": "block.polished_deepslate.fall"
+    },
+    {
+        "id": "block.polished_deepslate.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.polished_deepslate.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.polished_deepslate.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.portal.ambient",
+        "name": "传送门：呼啸"
+    },
+    {
+        "id": "block.portal.travel",
+        "name": "block.portal.travel"
+    },
+    {
+        "id": "block.portal.trigger",
+        "name": "传送门：噪声渐响"
+    },
+    {
+        "id": "block.powder_snow.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.powder_snow.fall",
+        "name": "block.powder_snow.fall"
+    },
+    {
+        "id": "block.powder_snow.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.powder_snow.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.powder_snow.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.pumpkin.carve",
+        "name": "剪刀：雕刻"
+    },
+    {
+        "id": "block.redstone_torch.burnout",
+        "name": "红石火把：熄灭"
+    },
+    {
+        "id": "block.respawn_anchor.ambient",
+        "name": "传送门：呼啸"
+    },
+    {
+        "id": "block.respawn_anchor.charge",
+        "name": "重生锚：充能"
+    },
+    {
+        "id": "block.respawn_anchor.deplete",
+        "name": "重生锚：耗能"
+    },
+    {
+        "id": "block.respawn_anchor.set_spawn",
+        "name": "重生锚：设置出生点"
+    },
+    {
+        "id": "block.rooted_dirt.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.rooted_dirt.fall",
+        "name": "block.rooted_dirt.fall"
+    },
+    {
+        "id": "block.rooted_dirt.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.rooted_dirt.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.rooted_dirt.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.roots.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.roots.fall",
+        "name": "block.roots.fall"
+    },
+    {
+        "id": "block.roots.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.roots.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.roots.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.sand.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.sand.fall",
+        "name": "block.sand.fall"
+    },
+    {
+        "id": "block.sand.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.sand.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.sand.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.scaffolding.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.scaffolding.fall",
+        "name": "block.scaffolding.fall"
+    },
+    {
+        "id": "block.scaffolding.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.scaffolding.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.scaffolding.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.sculk.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.sculk.charge",
+        "name": "幽匿块：冒泡"
+    },
+    {
+        "id": "block.sculk.fall",
+        "name": "block.sculk.fall"
+    },
+    {
+        "id": "block.sculk.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.sculk.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.sculk.spread",
+        "name": "幽匿块：蔓延"
+    },
+    {
+        "id": "block.sculk.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.sculk_catalyst.bloom",
+        "name": "幽匿催发体：催发"
+    },
+    {
+        "id": "block.sculk_catalyst.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.sculk_catalyst.fall",
+        "name": "block.sculk_catalyst.fall"
+    },
+    {
+        "id": "block.sculk_catalyst.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.sculk_catalyst.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.sculk_catalyst.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.sculk_sensor.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.sculk_sensor.clicking",
+        "name": "幽匿感测体：惊动"
+    },
+    {
+        "id": "block.sculk_sensor.clicking_stop",
+        "name": "幽匿感测体：停息"
+    },
+    {
+        "id": "block.sculk_sensor.fall",
+        "name": "block.sculk_sensor.fall"
+    },
+    {
+        "id": "block.sculk_sensor.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.sculk_sensor.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.sculk_sensor.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.sculk_shrieker.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.sculk_shrieker.fall",
+        "name": "block.sculk_shrieker.fall"
+    },
+    {
+        "id": "block.sculk_shrieker.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.sculk_shrieker.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.sculk_shrieker.shriek",
+        "name": "幽匿尖啸体：尖啸"
+    },
+    {
+        "id": "block.sculk_shrieker.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.sculk_vein.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.sculk_vein.fall",
+        "name": "block.sculk_vein.fall"
+    },
+    {
+        "id": "block.sculk_vein.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.sculk_vein.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.sculk_vein.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.shroomlight.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.shroomlight.fall",
+        "name": "block.shroomlight.fall"
+    },
+    {
+        "id": "block.shroomlight.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.shroomlight.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.shroomlight.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.shulker_box.close",
+        "name": "潜影盒：关闭"
+    },
+    {
+        "id": "block.shulker_box.open",
+        "name": "潜影盒：开启"
+    },
+    {
+        "id": "block.slime_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.slime_block.fall",
+        "name": "block.slime_block.fall"
+    },
+    {
+        "id": "block.slime_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.slime_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.slime_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.small_amethyst_bud.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.small_amethyst_bud.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.small_dripleaf.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.small_dripleaf.fall",
+        "name": "block.small_dripleaf.fall"
+    },
+    {
+        "id": "block.small_dripleaf.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.small_dripleaf.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.small_dripleaf.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.smithing_table.use",
+        "name": "锻造台：使用"
+    },
+    {
+        "id": "block.smoker.smoke",
+        "name": "烟熏炉：烟熏"
+    },
+    {
+        "id": "block.snow.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.snow.fall",
+        "name": "block.snow.fall"
+    },
+    {
+        "id": "block.snow.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.snow.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.snow.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.soul_sand.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.soul_sand.fall",
+        "name": "block.soul_sand.fall"
+    },
+    {
+        "id": "block.soul_sand.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.soul_sand.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.soul_sand.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.soul_soil.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.soul_soil.fall",
+        "name": "block.soul_soil.fall"
+    },
+    {
+        "id": "block.soul_soil.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.soul_soil.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.soul_soil.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.spore_blossom.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.spore_blossom.fall",
+        "name": "block.spore_blossom.fall"
+    },
+    {
+        "id": "block.spore_blossom.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.spore_blossom.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.spore_blossom.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.stem.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.stem.fall",
+        "name": "block.stem.fall"
+    },
+    {
+        "id": "block.stem.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.stem.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.stem.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.stone.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.stone.fall",
+        "name": "block.stone.fall"
+    },
+    {
+        "id": "block.stone.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.stone.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.stone.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.stone_button.click_off",
+        "name": "按钮：咔哒"
+    },
+    {
+        "id": "block.stone_button.click_on",
+        "name": "按钮：咔哒"
+    },
+    {
+        "id": "block.stone_pressure_plate.click_off",
+        "name": "压力板：咔哒"
+    },
+    {
+        "id": "block.stone_pressure_plate.click_on",
+        "name": "压力板：咔哒"
+    },
+    {
+        "id": "block.sweet_berry_bush.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.sweet_berry_bush.pick_berries",
+        "name": "浆果：弹出"
+    },
+    {
+        "id": "block.sweet_berry_bush.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.tripwire.attach",
+        "name": "绊线：连接"
+    },
+    {
+        "id": "block.tripwire.click_off",
+        "name": "绊线：咔哒"
+    },
+    {
+        "id": "block.tripwire.click_on",
+        "name": "绊线：咔哒"
+    },
+    {
+        "id": "block.tripwire.detach",
+        "name": "绊线：断开"
+    },
+    {
+        "id": "block.tuff.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.tuff.fall",
+        "name": "block.tuff.fall"
+    },
+    {
+        "id": "block.tuff.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.tuff.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.tuff.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.vine.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.vine.fall",
+        "name": "block.vine.fall"
+    },
+    {
+        "id": "block.vine.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.vine.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.vine.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.wart_block.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.wart_block.fall",
+        "name": "block.wart_block.fall"
+    },
+    {
+        "id": "block.wart_block.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.wart_block.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.wart_block.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.water.ambient",
+        "name": "水：流动"
+    },
+    {
+        "id": "block.weeping_vines.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.weeping_vines.fall",
+        "name": "block.weeping_vines.fall"
+    },
+    {
+        "id": "block.weeping_vines.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.weeping_vines.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.weeping_vines.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.wet_grass.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.wet_grass.fall",
+        "name": "block.wet_grass.fall"
+    },
+    {
+        "id": "block.wet_grass.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.wet_grass.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.wet_grass.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.wood.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.wood.fall",
+        "name": "block.wood.fall"
+    },
+    {
+        "id": "block.wood.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.wood.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.wood.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "block.wooden_button.click_off",
+        "name": "按钮：咔哒"
+    },
+    {
+        "id": "block.wooden_button.click_on",
+        "name": "按钮：咔哒"
+    },
+    {
+        "id": "block.wooden_door.close",
+        "name": "门：嘎吱作响"
+    },
+    {
+        "id": "block.wooden_door.open",
+        "name": "门：嘎吱作响"
+    },
+    {
+        "id": "block.wooden_pressure_plate.click_off",
+        "name": "压力板：咔哒"
+    },
+    {
+        "id": "block.wooden_pressure_plate.click_on",
+        "name": "压力板：咔哒"
+    },
+    {
+        "id": "block.wooden_trapdoor.close",
+        "name": "活板门：嘎吱作响"
+    },
+    {
+        "id": "block.wooden_trapdoor.open",
+        "name": "活板门：嘎吱作响"
+    },
+    {
+        "id": "block.wool.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "block.wool.fall",
+        "name": "block.wool.fall"
+    },
+    {
+        "id": "block.wool.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "block.wool.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "block.wool.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "enchant.thorns.hit",
+        "name": "荆棘：反刺"
+    },
+    {
+        "id": "entity.allay.ambient_with_item",
+        "name": "悦灵：搜寻"
+    },
+    {
+        "id": "entity.allay.ambient_without_item",
+        "name": "悦灵：渴求"
+    },
+    {
+        "id": "entity.allay.death",
+        "name": "悦灵：死亡"
+    },
+    {
+        "id": "entity.allay.hurt",
+        "name": "悦灵：受伤"
+    },
+    {
+        "id": "entity.allay.item_given",
+        "name": "悦灵：嬉笑"
+    },
+    {
+        "id": "entity.allay.item_taken",
+        "name": "悦灵：愉悦"
+    },
+    {
+        "id": "entity.allay.item_thrown",
+        "name": "悦灵：投掷"
+    },
+    {
+        "id": "entity.armor_stand.break",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "entity.armor_stand.fall",
+        "name": "某物：着地"
+    },
+    {
+        "id": "entity.armor_stand.hit",
+        "name": "方块：损坏中"
+    },
+    {
+        "id": "entity.armor_stand.place",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "entity.arrow.hit",
+        "name": "箭：击中"
+    },
+    {
+        "id": "entity.arrow.hit_player",
+        "name": "箭：击中玩家"
+    },
+    {
+        "id": "entity.arrow.shoot",
+        "name": "箭：被射出"
+    },
+    {
+        "id": "entity.axolotl.attack",
+        "name": "美西螈：攻击"
+    },
+    {
+        "id": "entity.axolotl.death",
+        "name": "美西螈：死亡"
+    },
+    {
+        "id": "entity.axolotl.hurt",
+        "name": "美西螈：受伤"
+    },
+    {
+        "id": "entity.axolotl.idle_air",
+        "name": "美西螈：啾啾"
+    },
+    {
+        "id": "entity.axolotl.idle_water",
+        "name": "美西螈：啾啾"
+    },
+    {
+        "id": "entity.axolotl.splash",
+        "name": "美西螈：溅起水花"
+    },
+    {
+        "id": "entity.axolotl.swim",
+        "name": "美西螈：游泳"
+    },
+    {
+        "id": "entity.bat.ambient",
+        "name": "蝙蝠：尖声叫"
+    },
+    {
+        "id": "entity.bat.death",
+        "name": "蝙蝠：死亡"
+    },
+    {
+        "id": "entity.bat.hurt",
+        "name": "蝙蝠：受伤"
+    },
+    {
+        "id": "entity.bat.loop",
+        "name": "entity.bat.loop"
+    },
+    {
+        "id": "entity.bat.takeoff",
+        "name": "蝙蝠：起飞"
+    },
+    {
+        "id": "entity.bee.death",
+        "name": "蜜蜂：死亡"
+    },
+    {
+        "id": "entity.bee.hurt",
+        "name": "蜜蜂：受伤"
+    },
+    {
+        "id": "entity.bee.loop",
+        "name": "蜜蜂：嗡嗡"
+    },
+    {
+        "id": "entity.bee.loop_aggressive",
+        "name": "蜜蜂：愤怒地嗡嗡叫"
+    },
+    {
+        "id": "entity.bee.pollinate",
+        "name": "蜜蜂：高兴地嗡嗡叫"
+    },
+    {
+        "id": "entity.bee.sting",
+        "name": "蜜蜂：蛰"
+    },
+    {
+        "id": "entity.blaze.ambient",
+        "name": "烈焰人：呼吸"
+    },
+    {
+        "id": "entity.blaze.burn",
+        "name": "烈焰人：噼啪作响"
+    },
+    {
+        "id": "entity.blaze.death",
+        "name": "烈焰人：死亡"
+    },
+    {
+        "id": "entity.blaze.hurt",
+        "name": "烈焰人：受伤"
+    },
+    {
+        "id": "entity.blaze.shoot",
+        "name": "烈焰人：射击"
+    },
+    {
+        "id": "entity.boat.paddle_land",
+        "name": "划船"
+    },
+    {
+        "id": "entity.boat.paddle_water",
+        "name": "划船"
+    },
+    {
+        "id": "entity.cat.ambient",
+        "name": "猫：喵~"
+    },
+    {
+        "id": "entity.cat.beg_for_food",
+        "name": "猫：求食"
+    },
+    {
+        "id": "entity.cat.death",
+        "name": "猫：死亡"
+    },
+    {
+        "id": "entity.cat.eat",
+        "name": "猫：进食"
+    },
+    {
+        "id": "entity.cat.hiss",
+        "name": "猫：嘶嘶声"
+    },
+    {
+        "id": "entity.cat.hurt",
+        "name": "猫：受伤"
+    },
+    {
+        "id": "entity.cat.purr",
+        "name": "猫：呼噜声"
+    },
+    {
+        "id": "entity.cat.purreow",
+        "name": "猫：喵~"
+    },
+    {
+        "id": "entity.cat.stray_ambient",
+        "name": "猫：喵~"
+    },
+    {
+        "id": "entity.chicken.ambient",
+        "name": "鸡：咯咯叫"
+    },
+    {
+        "id": "entity.chicken.death",
+        "name": "鸡：死亡"
+    },
+    {
+        "id": "entity.chicken.egg",
+        "name": "鸡：下蛋"
+    },
+    {
+        "id": "entity.chicken.hurt",
+        "name": "鸡：受伤"
+    },
+    {
+        "id": "entity.chicken.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.cod.ambient",
+        "name": "entity.cod.ambient"
+    },
+    {
+        "id": "entity.cod.death",
+        "name": "鳕鱼：死亡"
+    },
+    {
+        "id": "entity.cod.flop",
+        "name": "鳕鱼：扑腾"
+    },
+    {
+        "id": "entity.cod.hurt",
+        "name": "鳕鱼：受伤"
+    },
+    {
+        "id": "entity.cow.ambient",
+        "name": "牛：哞~"
+    },
+    {
+        "id": "entity.cow.death",
+        "name": "牛：死亡"
+    },
+    {
+        "id": "entity.cow.hurt",
+        "name": "牛：受伤"
+    },
+    {
+        "id": "entity.cow.milk",
+        "name": "牛：被挤奶"
+    },
+    {
+        "id": "entity.cow.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.creeper.death",
+        "name": "苦力怕：死亡"
+    },
+    {
+        "id": "entity.creeper.hurt",
+        "name": "苦力怕：受伤"
+    },
+    {
+        "id": "entity.creeper.primed",
+        "name": "苦力怕：嘶~"
+    },
+    {
+        "id": "entity.dolphin.ambient",
+        "name": "海豚：啾啾"
+    },
+    {
+        "id": "entity.dolphin.ambient_water",
+        "name": "海豚：吹口哨"
+    },
+    {
+        "id": "entity.dolphin.attack",
+        "name": "海豚：攻击"
+    },
+    {
+        "id": "entity.dolphin.death",
+        "name": "海豚：死亡"
+    },
+    {
+        "id": "entity.dolphin.eat",
+        "name": "海豚：进食"
+    },
+    {
+        "id": "entity.dolphin.hurt",
+        "name": "海豚：受伤"
+    },
+    {
+        "id": "entity.dolphin.jump",
+        "name": "海豚：跃起"
+    },
+    {
+        "id": "entity.dolphin.play",
+        "name": "海豚：嬉戏"
+    },
+    {
+        "id": "entity.dolphin.splash",
+        "name": "海豚：溅起水花"
+    },
+    {
+        "id": "entity.dolphin.swim",
+        "name": "海豚：游泳"
+    },
+    {
+        "id": "entity.donkey.ambient",
+        "name": "驴：嘶叫"
+    },
+    {
+        "id": "entity.donkey.angry",
+        "name": "驴：嘶鸣"
+    },
+    {
+        "id": "entity.donkey.chest",
+        "name": "驴：装备箱子"
+    },
+    {
+        "id": "entity.donkey.death",
+        "name": "驴：死亡"
+    },
+    {
+        "id": "entity.donkey.eat",
+        "name": "驴：进食"
+    },
+    {
+        "id": "entity.donkey.hurt",
+        "name": "驴：受伤"
+    },
+    {
+        "id": "entity.dragon_fireball.explode",
+        "name": "爆炸"
+    },
+    {
+        "id": "entity.drowned.ambient",
+        "name": "溺尸：呻吟"
+    },
+    {
+        "id": "entity.drowned.ambient_water",
+        "name": "溺尸：呻吟"
+    },
+    {
+        "id": "entity.drowned.death",
+        "name": "溺尸：死亡"
+    },
+    {
+        "id": "entity.drowned.death_water",
+        "name": "溺尸：死亡"
+    },
+    {
+        "id": "entity.drowned.hurt",
+        "name": "溺尸：受伤"
+    },
+    {
+        "id": "entity.drowned.hurt_water",
+        "name": "溺尸：受伤"
+    },
+    {
+        "id": "entity.drowned.shoot",
+        "name": "溺尸：投掷三叉戟"
+    },
+    {
+        "id": "entity.drowned.step",
+        "name": "溺尸：脚步声"
+    },
+    {
+        "id": "entity.drowned.swim",
+        "name": "溺尸：游泳"
+    },
+    {
+        "id": "entity.egg.throw",
+        "name": "鸡蛋：飞出"
+    },
+    {
+        "id": "entity.elder_guardian.ambient",
+        "name": "远古守卫者：低鸣"
+    },
+    {
+        "id": "entity.elder_guardian.ambient_land",
+        "name": "远古守卫者：弹跳"
+    },
+    {
+        "id": "entity.elder_guardian.curse",
+        "name": "远古守卫者：诅咒"
+    },
+    {
+        "id": "entity.elder_guardian.death",
+        "name": "远古守卫者：死亡"
+    },
+    {
+        "id": "entity.elder_guardian.death_land",
+        "name": "远古守卫者：死亡"
+    },
+    {
+        "id": "entity.elder_guardian.flop",
+        "name": "远古守卫者：扑腾"
+    },
+    {
+        "id": "entity.elder_guardian.hurt",
+        "name": "远古守卫者：受伤"
+    },
+    {
+        "id": "entity.elder_guardian.hurt_land",
+        "name": "远古守卫者：受伤"
+    },
+    {
+        "id": "entity.ender_dragon.ambient",
+        "name": "末影龙：咆哮"
+    },
+    {
+        "id": "entity.ender_dragon.death",
+        "name": "末影龙：死亡"
+    },
+    {
+        "id": "entity.ender_dragon.flap",
+        "name": "末影龙：拍打翅膀"
+    },
+    {
+        "id": "entity.ender_dragon.growl",
+        "name": "末影龙：吼叫"
+    },
+    {
+        "id": "entity.ender_dragon.hurt",
+        "name": "末影龙：受伤"
+    },
+    {
+        "id": "entity.ender_dragon.shoot",
+        "name": "末影龙：射击"
+    },
+    {
+        "id": "entity.ender_eye.death",
+        "name": "末影之眼：掉落"
+    },
+    {
+        "id": "entity.ender_eye.launch",
+        "name": "末影之眼：射出"
+    },
+    {
+        "id": "entity.ender_pearl.throw",
+        "name": "末影珍珠：飞出"
+    },
+    {
+        "id": "entity.enderman.ambient",
+        "name": "末影人：低鸣"
+    },
+    {
+        "id": "entity.enderman.death",
+        "name": "末影人：死亡"
+    },
+    {
+        "id": "entity.enderman.hurt",
+        "name": "末影人：受伤"
+    },
+    {
+        "id": "entity.enderman.scream",
+        "name": "末影人：低鸣"
+    },
+    {
+        "id": "entity.enderman.stare",
+        "name": "末影人：喊叫"
+    },
+    {
+        "id": "entity.enderman.teleport",
+        "name": "末影人：传送"
+    },
+    {
+        "id": "entity.endermite.ambient",
+        "name": "末影螨：窜动"
+    },
+    {
+        "id": "entity.endermite.death",
+        "name": "末影螨：死亡"
+    },
+    {
+        "id": "entity.endermite.hurt",
+        "name": "末影螨：受伤"
+    },
+    {
+        "id": "entity.endermite.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.evoker.ambient",
+        "name": "唤魔者：咕哝"
+    },
+    {
+        "id": "entity.evoker.cast_spell",
+        "name": "唤魔者：施法"
+    },
+    {
+        "id": "entity.evoker.celebrate",
+        "name": "唤魔者：欢呼"
+    },
+    {
+        "id": "entity.evoker.death",
+        "name": "唤魔者：死亡"
+    },
+    {
+        "id": "entity.evoker.hurt",
+        "name": "唤魔者：受伤"
+    },
+    {
+        "id": "entity.evoker.prepare_attack",
+        "name": "唤魔者：准备攻击"
+    },
+    {
+        "id": "entity.evoker.prepare_summon",
+        "name": "唤魔者：准备召唤"
+    },
+    {
+        "id": "entity.evoker.prepare_wololo",
+        "name": "唤魔者：准备施咒"
+    },
+    {
+        "id": "entity.evoker_fangs.attack",
+        "name": "尖牙：咬合"
+    },
+    {
+        "id": "entity.experience_bottle.throw",
+        "name": "玻璃瓶：扔出"
+    },
+    {
+        "id": "entity.experience_orb.pickup",
+        "name": "获得经验"
+    },
+    {
+        "id": "entity.firework_rocket.blast",
+        "name": "烟花：爆炸"
+    },
+    {
+        "id": "entity.firework_rocket.blast_far",
+        "name": "烟花：爆炸"
+    },
+    {
+        "id": "entity.firework_rocket.large_blast",
+        "name": "烟花：爆炸"
+    },
+    {
+        "id": "entity.firework_rocket.large_blast_far",
+        "name": "烟花：爆炸"
+    },
+    {
+        "id": "entity.firework_rocket.launch",
+        "name": "烟花：发射"
+    },
+    {
+        "id": "entity.firework_rocket.shoot",
+        "name": "烟花：发射"
+    },
+    {
+        "id": "entity.firework_rocket.twinkle",
+        "name": "烟火：闪烁"
+    },
+    {
+        "id": "entity.firework_rocket.twinkle_far",
+        "name": "烟火：闪烁"
+    },
+    {
+        "id": "entity.fish.swim",
+        "name": "entity.fish.swim"
+    },
+    {
+        "id": "entity.fishing_bobber.retrieve",
+        "name": "浮漂：收回"
+    },
+    {
+        "id": "entity.fishing_bobber.splash",
+        "name": "浮漂：溅起水花"
+    },
+    {
+        "id": "entity.fishing_bobber.throw",
+        "name": "浮漂：甩出"
+    },
+    {
+        "id": "entity.fox.aggro",
+        "name": "狐狸：愤怒"
+    },
+    {
+        "id": "entity.fox.ambient",
+        "name": "狐狸：吱吱叫"
+    },
+    {
+        "id": "entity.fox.bite",
+        "name": "狐狸：撕咬"
+    },
+    {
+        "id": "entity.fox.death",
+        "name": "狐狸：死亡"
+    },
+    {
+        "id": "entity.fox.eat",
+        "name": "狐狸：进食"
+    },
+    {
+        "id": "entity.fox.hurt",
+        "name": "狐狸：受伤"
+    },
+    {
+        "id": "entity.fox.screech",
+        "name": "狐狸：尖声叫"
+    },
+    {
+        "id": "entity.fox.sleep",
+        "name": "狐狸：打鼾"
+    },
+    {
+        "id": "entity.fox.sniff",
+        "name": "狐狸：嗅探"
+    },
+    {
+        "id": "entity.fox.spit",
+        "name": "狐狸：吐出"
+    },
+    {
+        "id": "entity.fox.teleport",
+        "name": "狐狸：传送"
+    },
+    {
+        "id": "entity.frog.ambient",
+        "name": "青蛙：咕呱"
+    },
+    {
+        "id": "entity.frog.death",
+        "name": "青蛙：死亡"
+    },
+    {
+        "id": "entity.frog.eat",
+        "name": "青蛙：进食"
+    },
+    {
+        "id": "entity.frog.hurt",
+        "name": "青蛙：受伤"
+    },
+    {
+        "id": "entity.frog.lay_spawn",
+        "name": "青蛙：产卵"
+    },
+    {
+        "id": "entity.frog.long_jump",
+        "name": "青蛙：跳跃"
+    },
+    {
+        "id": "entity.frog.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.frog.tongue",
+        "name": "entity.frog.tongue"
+    },
+    {
+        "id": "entity.generic.big_fall",
+        "name": "某物：着地"
+    },
+    {
+        "id": "entity.generic.burn",
+        "name": "燃烧"
+    },
+    {
+        "id": "entity.generic.death",
+        "name": "死亡"
+    },
+    {
+        "id": "entity.generic.drink",
+        "name": "啜饮"
+    },
+    {
+        "id": "entity.generic.eat",
+        "name": "进食"
+    },
+    {
+        "id": "entity.generic.explode",
+        "name": "爆炸"
+    },
+    {
+        "id": "entity.generic.extinguish_fire",
+        "name": "火：熄灭"
+    },
+    {
+        "id": "entity.generic.hurt",
+        "name": "某物：受伤"
+    },
+    {
+        "id": "entity.generic.small_fall",
+        "name": "某物：摔倒"
+    },
+    {
+        "id": "entity.generic.splash",
+        "name": "溅起水花"
+    },
+    {
+        "id": "entity.generic.swim",
+        "name": "游泳"
+    },
+    {
+        "id": "entity.ghast.ambient",
+        "name": "恶魂：哭泣"
+    },
+    {
+        "id": "entity.ghast.death",
+        "name": "恶魂：死亡"
+    },
+    {
+        "id": "entity.ghast.hurt",
+        "name": "恶魂：受伤"
+    },
+    {
+        "id": "entity.ghast.scream",
+        "name": "entity.ghast.scream"
+    },
+    {
+        "id": "entity.ghast.shoot",
+        "name": "恶魂：射击"
+    },
+    {
+        "id": "entity.ghast.warn",
+        "name": "恶魂：射击"
+    },
+    {
+        "id": "entity.glow_item_frame.add_item",
+        "name": "荧光物品展示框：填充"
+    },
+    {
+        "id": "entity.glow_item_frame.break",
+        "name": "荧光物品展示框：被破坏"
+    },
+    {
+        "id": "entity.glow_item_frame.place",
+        "name": "荧光物品展示框：被放置"
+    },
+    {
+        "id": "entity.glow_item_frame.remove_item",
+        "name": "荧光物品展示框：清空"
+    },
+    {
+        "id": "entity.glow_item_frame.rotate_item",
+        "name": "荧光物品展示框：转动"
+    },
+    {
+        "id": "entity.glow_squid.ambient",
+        "name": "发光鱿鱼：游泳"
+    },
+    {
+        "id": "entity.glow_squid.death",
+        "name": "发光鱿鱼：死亡"
+    },
+    {
+        "id": "entity.glow_squid.hurt",
+        "name": "发光鱿鱼：受伤"
+    },
+    {
+        "id": "entity.glow_squid.squirt",
+        "name": "发光鱿鱼：喷墨"
+    },
+    {
+        "id": "entity.goat.ambient",
+        "name": "山羊：咩~"
+    },
+    {
+        "id": "entity.goat.death",
+        "name": "山羊：死亡"
+    },
+    {
+        "id": "entity.goat.eat",
+        "name": "山羊：进食"
+    },
+    {
+        "id": "entity.goat.horn_break",
+        "name": "山羊：断角"
+    },
+    {
+        "id": "entity.goat.hurt",
+        "name": "山羊：受伤"
+    },
+    {
+        "id": "entity.goat.long_jump",
+        "name": "山羊：跳跃"
+    },
+    {
+        "id": "entity.goat.milk",
+        "name": "山羊：被挤奶"
+    },
+    {
+        "id": "entity.goat.prepare_ram",
+        "name": "山羊：跺脚"
+    },
+    {
+        "id": "entity.goat.ram_impact",
+        "name": "山羊：冲撞"
+    },
+    {
+        "id": "entity.goat.screaming.ambient",
+        "name": "山羊：喊叫"
+    },
+    {
+        "id": "entity.goat.screaming.death",
+        "name": "山羊：死亡"
+    },
+    {
+        "id": "entity.goat.screaming.eat",
+        "name": "山羊：进食"
+    },
+    {
+        "id": "entity.goat.screaming.hurt",
+        "name": "山羊：受伤"
+    },
+    {
+        "id": "entity.goat.screaming.long_jump",
+        "name": "山羊：跳跃"
+    },
+    {
+        "id": "entity.goat.screaming.milk",
+        "name": "山羊：被挤奶"
+    },
+    {
+        "id": "entity.goat.screaming.prepare_ram",
+        "name": "山羊：跺脚"
+    },
+    {
+        "id": "entity.goat.screaming.ram_impact",
+        "name": "山羊：冲撞"
+    },
+    {
+        "id": "entity.goat.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.guardian.ambient",
+        "name": "守卫者：低鸣"
+    },
+    {
+        "id": "entity.guardian.ambient_land",
+        "name": "守卫者：弹跳"
+    },
+    {
+        "id": "entity.guardian.attack",
+        "name": "守卫者：射击"
+    },
+    {
+        "id": "entity.guardian.death",
+        "name": "守卫者：死亡"
+    },
+    {
+        "id": "entity.guardian.death_land",
+        "name": "守卫者：死亡"
+    },
+    {
+        "id": "entity.guardian.flop",
+        "name": "守卫者：扑腾"
+    },
+    {
+        "id": "entity.guardian.hurt",
+        "name": "守卫者：受伤"
+    },
+    {
+        "id": "entity.guardian.hurt_land",
+        "name": "守卫者：受伤"
+    },
+    {
+        "id": "entity.hoglin.ambient",
+        "name": "疣猪兽：咆哮"
+    },
+    {
+        "id": "entity.hoglin.angry",
+        "name": "疣猪兽：怒吼"
+    },
+    {
+        "id": "entity.hoglin.attack",
+        "name": "疣猪兽：攻击"
+    },
+    {
+        "id": "entity.hoglin.converted_to_zombified",
+        "name": "疣猪兽：转化为僵尸疣猪兽"
+    },
+    {
+        "id": "entity.hoglin.death",
+        "name": "疣猪兽：死亡"
+    },
+    {
+        "id": "entity.hoglin.hurt",
+        "name": "疣猪兽：受伤"
+    },
+    {
+        "id": "entity.hoglin.retreat",
+        "name": "疣猪兽：退缩"
+    },
+    {
+        "id": "entity.hoglin.step",
+        "name": "疣猪兽：脚步声"
+    },
+    {
+        "id": "entity.horse.ambient",
+        "name": "马：嘶鸣"
+    },
+    {
+        "id": "entity.horse.angry",
+        "name": "马：嘶鸣"
+    },
+    {
+        "id": "entity.horse.armor",
+        "name": "马铠：装备"
+    },
+    {
+        "id": "entity.horse.breathe",
+        "name": "马：呼吸"
+    },
+    {
+        "id": "entity.horse.death",
+        "name": "马：死亡"
+    },
+    {
+        "id": "entity.horse.eat",
+        "name": "马：进食"
+    },
+    {
+        "id": "entity.horse.gallop",
+        "name": "马：奔腾"
+    },
+    {
+        "id": "entity.horse.hurt",
+        "name": "马：受伤"
+    },
+    {
+        "id": "entity.horse.jump",
+        "name": "马：跳跃"
+    },
+    {
+        "id": "entity.horse.land",
+        "name": "某物：着地"
+    },
+    {
+        "id": "entity.horse.saddle",
+        "name": "鞍：装备"
+    },
+    {
+        "id": "entity.horse.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.horse.step_wood",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.hostile.big_fall",
+        "name": "某物：着地"
+    },
+    {
+        "id": "entity.hostile.death",
+        "name": "死亡"
+    },
+    {
+        "id": "entity.hostile.hurt",
+        "name": "某物：受伤"
+    },
+    {
+        "id": "entity.hostile.small_fall",
+        "name": "某物：摔倒"
+    },
+    {
+        "id": "entity.hostile.splash",
+        "name": "溅起水花"
+    },
+    {
+        "id": "entity.hostile.swim",
+        "name": "游泳"
+    },
+    {
+        "id": "entity.husk.ambient",
+        "name": "尸壳：低吼"
+    },
+    {
+        "id": "entity.husk.converted_to_zombie",
+        "name": "尸壳：转化为僵尸"
+    },
+    {
+        "id": "entity.husk.death",
+        "name": "尸壳：死亡"
+    },
+    {
+        "id": "entity.husk.hurt",
+        "name": "尸壳：受伤"
+    },
+    {
+        "id": "entity.husk.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.illusioner.ambient",
+        "name": "幻术师：咕哝"
+    },
+    {
+        "id": "entity.illusioner.cast_spell",
+        "name": "幻术师：施法"
+    },
+    {
+        "id": "entity.illusioner.death",
+        "name": "幻术师：死亡"
+    },
+    {
+        "id": "entity.illusioner.hurt",
+        "name": "幻术师：受伤"
+    },
+    {
+        "id": "entity.illusioner.mirror_move",
+        "name": "幻术师：替换"
+    },
+    {
+        "id": "entity.illusioner.prepare_blindness",
+        "name": "幻术师：准备失明法术"
+    },
+    {
+        "id": "entity.illusioner.prepare_mirror",
+        "name": "幻术师：准备镜像法术"
+    },
+    {
+        "id": "entity.iron_golem.attack",
+        "name": "铁傀儡：攻击"
+    },
+    {
+        "id": "entity.iron_golem.damage",
+        "name": "铁傀儡：受损"
+    },
+    {
+        "id": "entity.iron_golem.death",
+        "name": "铁傀儡：死亡"
+    },
+    {
+        "id": "entity.iron_golem.hurt",
+        "name": "铁傀儡：受伤"
+    },
+    {
+        "id": "entity.iron_golem.repair",
+        "name": "铁傀儡：修复"
+    },
+    {
+        "id": "entity.iron_golem.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.item.break",
+        "name": "物品：被破坏"
+    },
+    {
+        "id": "entity.item.pickup",
+        "name": "物品：被拾起"
+    },
+    {
+        "id": "entity.item_frame.add_item",
+        "name": "物品展示框：填充"
+    },
+    {
+        "id": "entity.item_frame.break",
+        "name": "物品展示框：被破坏"
+    },
+    {
+        "id": "entity.item_frame.place",
+        "name": "物品展示框：被放置"
+    },
+    {
+        "id": "entity.item_frame.remove_item",
+        "name": "物品展示框：清空"
+    },
+    {
+        "id": "entity.item_frame.rotate_item",
+        "name": "物品展示框：转动"
+    },
+    {
+        "id": "entity.leash_knot.break",
+        "name": "拴绳结：被破坏"
+    },
+    {
+        "id": "entity.leash_knot.place",
+        "name": "拴绳结：被系上"
+    },
+    {
+        "id": "entity.lightning_bolt.impact",
+        "name": "电闪"
+    },
+    {
+        "id": "entity.lightning_bolt.thunder",
+        "name": "雷鸣"
+    },
+    {
+        "id": "entity.lingering_potion.throw",
+        "name": "玻璃瓶：扔出"
+    },
+    {
+        "id": "entity.llama.ambient",
+        "name": "羊驼：吼叫"
+    },
+    {
+        "id": "entity.llama.angry",
+        "name": "羊驼：怒吼"
+    },
+    {
+        "id": "entity.llama.chest",
+        "name": "羊驼：装备箱子"
+    },
+    {
+        "id": "entity.llama.death",
+        "name": "羊驼：死亡"
+    },
+    {
+        "id": "entity.llama.eat",
+        "name": "羊驼：进食"
+    },
+    {
+        "id": "entity.llama.hurt",
+        "name": "羊驼：受伤"
+    },
+    {
+        "id": "entity.llama.spit",
+        "name": "羊驼：喷射唾沫"
+    },
+    {
+        "id": "entity.llama.step",
+        "name": "羊驼：脚步声"
+    },
+    {
+        "id": "entity.llama.swag",
+        "name": "羊驼：被装饰"
+    },
+    {
+        "id": "entity.magma_cube.death",
+        "name": "岩浆怪：死亡"
+    },
+    {
+        "id": "entity.magma_cube.death_small",
+        "name": "岩浆怪：死亡"
+    },
+    {
+        "id": "entity.magma_cube.hurt",
+        "name": "岩浆怪：受伤"
+    },
+    {
+        "id": "entity.magma_cube.hurt_small",
+        "name": "岩浆怪：受伤"
+    },
+    {
+        "id": "entity.magma_cube.jump",
+        "name": "岩浆怪：挤压"
+    },
+    {
+        "id": "entity.magma_cube.squish",
+        "name": "岩浆怪：挤压"
+    },
+    {
+        "id": "entity.magma_cube.squish_small",
+        "name": "岩浆怪：挤压"
+    },
+    {
+        "id": "entity.minecart.inside",
+        "name": "entity.minecart.inside"
+    },
+    {
+        "id": "entity.minecart.inside.underwater",
+        "name": "entity.minecart.inside.underwater"
+    },
+    {
+        "id": "entity.minecart.riding",
+        "name": "矿车：行进"
+    },
+    {
+        "id": "entity.mooshroom.convert",
+        "name": "哞菇：转化"
+    },
+    {
+        "id": "entity.mooshroom.eat",
+        "name": "哞菇：进食"
+    },
+    {
+        "id": "entity.mooshroom.milk",
+        "name": "哞菇：被挤奶"
+    },
+    {
+        "id": "entity.mooshroom.shear",
+        "name": "剪刀：剪断"
+    },
+    {
+        "id": "entity.mooshroom.suspicious_milk",
+        "name": "哞菇：被可疑地挤奶"
+    },
+    {
+        "id": "entity.mule.ambient",
+        "name": "骡：鸣叫"
+    },
+    {
+        "id": "entity.mule.angry",
+        "name": "骡：嘶鸣"
+    },
+    {
+        "id": "entity.mule.chest",
+        "name": "骡：装备箱子"
+    },
+    {
+        "id": "entity.mule.death",
+        "name": "骡：死亡"
+    },
+    {
+        "id": "entity.mule.eat",
+        "name": "骡：进食"
+    },
+    {
+        "id": "entity.mule.hurt",
+        "name": "骡：受伤"
+    },
+    {
+        "id": "entity.ocelot.ambient",
+        "name": "猫：喵~"
+    },
+    {
+        "id": "entity.ocelot.death",
+        "name": "猫：死亡"
+    },
+    {
+        "id": "entity.ocelot.hurt",
+        "name": "猫：受伤"
+    },
+    {
+        "id": "entity.painting.break",
+        "name": "画：被破坏"
+    },
+    {
+        "id": "entity.painting.place",
+        "name": "画：被放置"
+    },
+    {
+        "id": "entity.panda.aggressive_ambient",
+        "name": "熊猫：发怒"
+    },
+    {
+        "id": "entity.panda.ambient",
+        "name": "熊猫：喘息"
+    },
+    {
+        "id": "entity.panda.bite",
+        "name": "熊猫：撕咬"
+    },
+    {
+        "id": "entity.panda.cant_breed",
+        "name": "熊猫：哀鸣"
+    },
+    {
+        "id": "entity.panda.death",
+        "name": "熊猫：死亡"
+    },
+    {
+        "id": "entity.panda.eat",
+        "name": "熊猫：进食"
+    },
+    {
+        "id": "entity.panda.hurt",
+        "name": "熊猫：受伤"
+    },
+    {
+        "id": "entity.panda.pre_sneeze",
+        "name": "熊猫：鼻痒"
+    },
+    {
+        "id": "entity.panda.sneeze",
+        "name": "熊猫：打喷嚏"
+    },
+    {
+        "id": "entity.panda.step",
+        "name": "熊猫：脚步声"
+    },
+    {
+        "id": "entity.panda.worried_ambient",
+        "name": "熊猫：呜咽"
+    },
+    {
+        "id": "entity.parrot.ambient",
+        "name": "鹦鹉：说话"
+    },
+    {
+        "id": "entity.parrot.death",
+        "name": "鹦鹉：死亡"
+    },
+    {
+        "id": "entity.parrot.eat",
+        "name": "鹦鹉：进食"
+    },
+    {
+        "id": "entity.parrot.fly",
+        "name": "鹦鹉：扑翼"
+    },
+    {
+        "id": "entity.parrot.hurt",
+        "name": "鹦鹉：受伤"
+    },
+    {
+        "id": "entity.parrot.imitate.blaze",
+        "name": "鹦鹉：呼吸"
+    },
+    {
+        "id": "entity.parrot.imitate.creeper",
+        "name": "鹦鹉：嘶~"
+    },
+    {
+        "id": "entity.parrot.imitate.drowned",
+        "name": "鹦鹉：呻吟"
+    },
+    {
+        "id": "entity.parrot.imitate.elder_guardian",
+        "name": "鹦鹉：低鸣"
+    },
+    {
+        "id": "entity.parrot.imitate.ender_dragon",
+        "name": "鹦鹉：咆哮"
+    },
+    {
+        "id": "entity.parrot.imitate.endermite",
+        "name": "鹦鹉：窜动"
+    },
+    {
+        "id": "entity.parrot.imitate.evoker",
+        "name": "鹦鹉：咕哝"
+    },
+    {
+        "id": "entity.parrot.imitate.ghast",
+        "name": "鹦鹉：哭泣"
+    },
+    {
+        "id": "entity.parrot.imitate.guardian",
+        "name": "鹦鹉：低鸣"
+    },
+    {
+        "id": "entity.parrot.imitate.hoglin",
+        "name": "鹦鹉：咆哮"
+    },
+    {
+        "id": "entity.parrot.imitate.husk",
+        "name": "鹦鹉：低吼"
+    },
+    {
+        "id": "entity.parrot.imitate.illusioner",
+        "name": "鹦鹉：咕哝"
+    },
+    {
+        "id": "entity.parrot.imitate.magma_cube",
+        "name": "鹦鹉：挤压"
+    },
+    {
+        "id": "entity.parrot.imitate.phantom",
+        "name": "鹦鹉：尖声叫"
+    },
+    {
+        "id": "entity.parrot.imitate.piglin",
+        "name": "鹦鹉：哼叫"
+    },
+    {
+        "id": "entity.parrot.imitate.piglin_brute",
+        "name": "鹦鹉：哼叫"
+    },
+    {
+        "id": "entity.parrot.imitate.pillager",
+        "name": "鹦鹉：咕哝"
+    },
+    {
+        "id": "entity.parrot.imitate.ravager",
+        "name": "鹦鹉：呼噜"
+    },
+    {
+        "id": "entity.parrot.imitate.shulker",
+        "name": "鹦鹉：窥视"
+    },
+    {
+        "id": "entity.parrot.imitate.silverfish",
+        "name": "鹦鹉：嘶嘶"
+    },
+    {
+        "id": "entity.parrot.imitate.skeleton",
+        "name": "鹦鹉：咯咯声"
+    },
+    {
+        "id": "entity.parrot.imitate.slime",
+        "name": "鹦鹉：挤压"
+    },
+    {
+        "id": "entity.parrot.imitate.spider",
+        "name": "鹦鹉：嘶嘶"
+    },
+    {
+        "id": "entity.parrot.imitate.stray",
+        "name": "鹦鹉：咯咯声"
+    },
+    {
+        "id": "entity.parrot.imitate.vex",
+        "name": "鹦鹉：恼人"
+    },
+    {
+        "id": "entity.parrot.imitate.vindicator",
+        "name": "鹦鹉：低语"
+    },
+    {
+        "id": "entity.parrot.imitate.warden",
+        "name": "鹦鹉：呻吟"
+    },
+    {
+        "id": "entity.parrot.imitate.witch",
+        "name": "鹦鹉：暗笑"
+    },
+    {
+        "id": "entity.parrot.imitate.wither",
+        "name": "鹦鹉：愤怒"
+    },
+    {
+        "id": "entity.parrot.imitate.wither_skeleton",
+        "name": "鹦鹉：咯咯声"
+    },
+    {
+        "id": "entity.parrot.imitate.zoglin",
+        "name": "鹦鹉：咆哮"
+    },
+    {
+        "id": "entity.parrot.imitate.zombie",
+        "name": "鹦鹉：低吼"
+    },
+    {
+        "id": "entity.parrot.imitate.zombie_villager",
+        "name": "鹦鹉：低吼"
+    },
+    {
+        "id": "entity.parrot.step",
+        "name": "entity.parrot.step"
+    },
+    {
+        "id": "entity.phantom.ambient",
+        "name": "幻翼：尖声叫"
+    },
+    {
+        "id": "entity.phantom.bite",
+        "name": "幻翼：撕咬"
+    },
+    {
+        "id": "entity.phantom.death",
+        "name": "幻翼：死亡"
+    },
+    {
+        "id": "entity.phantom.flap",
+        "name": "幻翼：振翅"
+    },
+    {
+        "id": "entity.phantom.hurt",
+        "name": "幻翼：受伤"
+    },
+    {
+        "id": "entity.phantom.swoop",
+        "name": "幻翼：俯冲"
+    },
+    {
+        "id": "entity.pig.ambient",
+        "name": "猪：哼叫"
+    },
+    {
+        "id": "entity.pig.death",
+        "name": "猪：死亡"
+    },
+    {
+        "id": "entity.pig.hurt",
+        "name": "猪：受伤"
+    },
+    {
+        "id": "entity.pig.saddle",
+        "name": "鞍：装备"
+    },
+    {
+        "id": "entity.pig.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.piglin.admiring_item",
+        "name": "猪灵：端详物品"
+    },
+    {
+        "id": "entity.piglin.ambient",
+        "name": "猪灵：哼叫"
+    },
+    {
+        "id": "entity.piglin.angry",
+        "name": "猪灵：愤怒地哼叫"
+    },
+    {
+        "id": "entity.piglin.celebrate",
+        "name": "猪灵：庆祝"
+    },
+    {
+        "id": "entity.piglin.converted_to_zombified",
+        "name": "猪灵：转化为僵尸猪灵"
+    },
+    {
+        "id": "entity.piglin.death",
+        "name": "猪灵：死亡"
+    },
+    {
+        "id": "entity.piglin.hurt",
+        "name": "猪灵：受伤"
+    },
+    {
+        "id": "entity.piglin.jealous",
+        "name": "猪灵：羡慕地哼叫"
+    },
+    {
+        "id": "entity.piglin.retreat",
+        "name": "猪灵：退缩"
+    },
+    {
+        "id": "entity.piglin.step",
+        "name": "猪灵：脚步声"
+    },
+    {
+        "id": "entity.piglin_brute.ambient",
+        "name": "猪灵蛮兵：哼叫"
+    },
+    {
+        "id": "entity.piglin_brute.angry",
+        "name": "猪灵蛮兵：愤怒地哼叫"
+    },
+    {
+        "id": "entity.piglin_brute.converted_to_zombified",
+        "name": "猪灵蛮兵：转化为僵尸猪灵"
+    },
+    {
+        "id": "entity.piglin_brute.death",
+        "name": "猪灵蛮兵：死亡"
+    },
+    {
+        "id": "entity.piglin_brute.hurt",
+        "name": "猪灵蛮兵：受伤"
+    },
+    {
+        "id": "entity.piglin_brute.step",
+        "name": "猪灵蛮兵：脚步声"
+    },
+    {
+        "id": "entity.pillager.ambient",
+        "name": "掠夺者：咕哝"
+    },
+    {
+        "id": "entity.pillager.celebrate",
+        "name": "掠夺者：欢呼"
+    },
+    {
+        "id": "entity.pillager.death",
+        "name": "掠夺者：死亡"
+    },
+    {
+        "id": "entity.pillager.hurt",
+        "name": "掠夺者：受伤"
+    },
+    {
+        "id": "entity.player.attack.crit",
+        "name": "暴击"
+    },
+    {
+        "id": "entity.player.attack.knockback",
+        "name": "击退攻击"
+    },
+    {
+        "id": "entity.player.attack.nodamage",
+        "name": "轻击"
+    },
+    {
+        "id": "entity.player.attack.strong",
+        "name": "重击"
+    },
+    {
+        "id": "entity.player.attack.sweep",
+        "name": "横扫攻击"
+    },
+    {
+        "id": "entity.player.attack.weak",
+        "name": "轻击"
+    },
+    {
+        "id": "entity.player.big_fall",
+        "name": "某物：着地"
+    },
+    {
+        "id": "entity.player.breath",
+        "name": "entity.player.breath"
+    },
+    {
+        "id": "entity.player.burp",
+        "name": "打嗝"
+    },
+    {
+        "id": "entity.player.death",
+        "name": "玩家：死亡"
+    },
+    {
+        "id": "entity.player.hurt",
+        "name": "玩家：受伤"
+    },
+    {
+        "id": "entity.player.hurt_drown",
+        "name": "玩家：溺水"
+    },
+    {
+        "id": "entity.player.hurt_freeze",
+        "name": "玩家：冻伤"
+    },
+    {
+        "id": "entity.player.hurt_on_fire",
+        "name": "玩家：燃烧"
+    },
+    {
+        "id": "entity.player.hurt_sweet_berry_bush",
+        "name": "玩家：受伤"
+    },
+    {
+        "id": "entity.player.levelup",
+        "name": "玩家：升级"
+    },
+    {
+        "id": "entity.player.small_fall",
+        "name": "某物：摔倒"
+    },
+    {
+        "id": "entity.player.splash",
+        "name": "溅起水花"
+    },
+    {
+        "id": "entity.player.splash.high_speed",
+        "name": "溅起水花"
+    },
+    {
+        "id": "entity.player.swim",
+        "name": "游泳"
+    },
+    {
+        "id": "entity.polar_bear.ambient",
+        "name": "北极熊：低吼"
+    },
+    {
+        "id": "entity.polar_bear.ambient_baby",
+        "name": "北极熊：哼哼"
+    },
+    {
+        "id": "entity.polar_bear.death",
+        "name": "北极熊：死亡"
+    },
+    {
+        "id": "entity.polar_bear.hurt",
+        "name": "北极熊：受伤"
+    },
+    {
+        "id": "entity.polar_bear.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.polar_bear.warning",
+        "name": "北极熊：咆哮"
+    },
+    {
+        "id": "entity.puffer_fish.ambient",
+        "name": "entity.puffer_fish.ambient"
+    },
+    {
+        "id": "entity.puffer_fish.blow_out",
+        "name": "河豚：收缩"
+    },
+    {
+        "id": "entity.puffer_fish.blow_up",
+        "name": "河豚：膨胀"
+    },
+    {
+        "id": "entity.puffer_fish.death",
+        "name": "河豚：死亡"
+    },
+    {
+        "id": "entity.puffer_fish.flop",
+        "name": "河豚：扑腾"
+    },
+    {
+        "id": "entity.puffer_fish.hurt",
+        "name": "河豚：受伤"
+    },
+    {
+        "id": "entity.puffer_fish.sting",
+        "name": "河豚：刺蛰"
+    },
+    {
+        "id": "entity.rabbit.ambient",
+        "name": "兔子：吱吱叫"
+    },
+    {
+        "id": "entity.rabbit.attack",
+        "name": "兔子：攻击"
+    },
+    {
+        "id": "entity.rabbit.death",
+        "name": "兔子：死亡"
+    },
+    {
+        "id": "entity.rabbit.hurt",
+        "name": "兔子：受伤"
+    },
+    {
+        "id": "entity.rabbit.jump",
+        "name": "兔子：跳动"
+    },
+    {
+        "id": "entity.ravager.ambient",
+        "name": "劫掠兽：呼噜"
+    },
+    {
+        "id": "entity.ravager.attack",
+        "name": "劫掠兽：撕咬"
+    },
+    {
+        "id": "entity.ravager.celebrate",
+        "name": "劫掠兽：欢呼"
+    },
+    {
+        "id": "entity.ravager.death",
+        "name": "劫掠兽：死亡"
+    },
+    {
+        "id": "entity.ravager.hurt",
+        "name": "劫掠兽：受伤"
+    },
+    {
+        "id": "entity.ravager.roar",
+        "name": "劫掠兽：咆哮"
+    },
+    {
+        "id": "entity.ravager.step",
+        "name": "劫掠兽：脚步声"
+    },
+    {
+        "id": "entity.ravager.stunned",
+        "name": "劫掠兽：眩晕"
+    },
+    {
+        "id": "entity.salmon.ambient",
+        "name": "entity.salmon.ambient"
+    },
+    {
+        "id": "entity.salmon.death",
+        "name": "鲑鱼：死亡"
+    },
+    {
+        "id": "entity.salmon.flop",
+        "name": "鲑鱼：扑腾"
+    },
+    {
+        "id": "entity.salmon.hurt",
+        "name": "鲑鱼：受伤"
+    },
+    {
+        "id": "entity.sheep.ambient",
+        "name": "绵羊：咩~"
+    },
+    {
+        "id": "entity.sheep.death",
+        "name": "绵羊：死亡"
+    },
+    {
+        "id": "entity.sheep.hurt",
+        "name": "绵羊：受伤"
+    },
+    {
+        "id": "entity.sheep.shear",
+        "name": "剪刀：剪断"
+    },
+    {
+        "id": "entity.sheep.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.shulker.ambient",
+        "name": "潜影贝：窥视"
+    },
+    {
+        "id": "entity.shulker.close",
+        "name": "潜影贝：关闭"
+    },
+    {
+        "id": "entity.shulker.death",
+        "name": "潜影贝：死亡"
+    },
+    {
+        "id": "entity.shulker.hurt",
+        "name": "潜影贝：受伤"
+    },
+    {
+        "id": "entity.shulker.hurt_closed",
+        "name": "潜影贝：受伤"
+    },
+    {
+        "id": "entity.shulker.open",
+        "name": "潜影贝：打开"
+    },
+    {
+        "id": "entity.shulker.shoot",
+        "name": "潜影贝：射击"
+    },
+    {
+        "id": "entity.shulker.teleport",
+        "name": "潜影贝：传送"
+    },
+    {
+        "id": "entity.shulker_bullet.hit",
+        "name": "潜影弹：爆炸"
+    },
+    {
+        "id": "entity.shulker_bullet.hurt",
+        "name": "潜影弹：碎裂"
+    },
+    {
+        "id": "entity.silverfish.ambient",
+        "name": "蠹虫：嘶嘶"
+    },
+    {
+        "id": "entity.silverfish.death",
+        "name": "蠹虫：死亡"
+    },
+    {
+        "id": "entity.silverfish.hurt",
+        "name": "蠹虫：受伤"
+    },
+    {
+        "id": "entity.silverfish.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.skeleton.ambient",
+        "name": "骷髅：咯咯声"
+    },
+    {
+        "id": "entity.skeleton.converted_to_stray",
+        "name": "骷髅：转化为流浪者"
+    },
+    {
+        "id": "entity.skeleton.death",
+        "name": "骷髅：死亡"
+    },
+    {
+        "id": "entity.skeleton.hurt",
+        "name": "骷髅：受伤"
+    },
+    {
+        "id": "entity.skeleton.shoot",
+        "name": "骷髅：射击"
+    },
+    {
+        "id": "entity.skeleton.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.skeleton_horse.ambient",
+        "name": "骷髅马：嘶叫"
+    },
+    {
+        "id": "entity.skeleton_horse.ambient_water",
+        "name": "骷髅马：嘶叫"
+    },
+    {
+        "id": "entity.skeleton_horse.death",
+        "name": "骷髅马：死亡"
+    },
+    {
+        "id": "entity.skeleton_horse.gallop_water",
+        "name": "马：奔腾"
+    },
+    {
+        "id": "entity.skeleton_horse.hurt",
+        "name": "骷髅马：受伤"
+    },
+    {
+        "id": "entity.skeleton_horse.jump_water",
+        "name": "entity.skeleton_horse.jump_water"
+    },
+    {
+        "id": "entity.skeleton_horse.step_water",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.skeleton_horse.swim",
+        "name": "骷髅马：游泳"
+    },
+    {
+        "id": "entity.slime.attack",
+        "name": "史莱姆：攻击"
+    },
+    {
+        "id": "entity.slime.death",
+        "name": "史莱姆：死亡"
+    },
+    {
+        "id": "entity.slime.death_small",
+        "name": "史莱姆：死亡"
+    },
+    {
+        "id": "entity.slime.hurt",
+        "name": "史莱姆：受伤"
+    },
+    {
+        "id": "entity.slime.hurt_small",
+        "name": "史莱姆：受伤"
+    },
+    {
+        "id": "entity.slime.jump",
+        "name": "史莱姆：挤压"
+    },
+    {
+        "id": "entity.slime.jump_small",
+        "name": "史莱姆：挤压"
+    },
+    {
+        "id": "entity.slime.squish",
+        "name": "史莱姆：挤压"
+    },
+    {
+        "id": "entity.slime.squish_small",
+        "name": "史莱姆：挤压"
+    },
+    {
+        "id": "entity.snow_golem.ambient",
+        "name": "entity.snow_golem.ambient"
+    },
+    {
+        "id": "entity.snow_golem.death",
+        "name": "雪傀儡：死亡"
+    },
+    {
+        "id": "entity.snow_golem.hurt",
+        "name": "雪傀儡：受伤"
+    },
+    {
+        "id": "entity.snow_golem.shear",
+        "name": "剪刀：剪断"
+    },
+    {
+        "id": "entity.snow_golem.shoot",
+        "name": "雪球：飞出"
+    },
+    {
+        "id": "entity.snowball.throw",
+        "name": "雪球：飞出"
+    },
+    {
+        "id": "entity.spider.ambient",
+        "name": "蜘蛛：嘶嘶"
+    },
+    {
+        "id": "entity.spider.death",
+        "name": "蜘蛛：死亡"
+    },
+    {
+        "id": "entity.spider.hurt",
+        "name": "蜘蛛：受伤"
+    },
+    {
+        "id": "entity.spider.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.splash_potion.break",
+        "name": "玻璃瓶：碎裂"
+    },
+    {
+        "id": "entity.splash_potion.throw",
+        "name": "玻璃瓶：扔出"
+    },
+    {
+        "id": "entity.squid.ambient",
+        "name": "鱿鱼：游动"
+    },
+    {
+        "id": "entity.squid.death",
+        "name": "鱿鱼：死亡"
+    },
+    {
+        "id": "entity.squid.hurt",
+        "name": "鱿鱼：受伤"
+    },
+    {
+        "id": "entity.squid.squirt",
+        "name": "鱿鱼：喷墨"
+    },
+    {
+        "id": "entity.stray.ambient",
+        "name": "流浪者：咯咯声"
+    },
+    {
+        "id": "entity.stray.death",
+        "name": "流浪者：死亡"
+    },
+    {
+        "id": "entity.stray.hurt",
+        "name": "流浪者：受伤"
+    },
+    {
+        "id": "entity.stray.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.strider.ambient",
+        "name": "炽足兽：啾啾"
+    },
+    {
+        "id": "entity.strider.death",
+        "name": "炽足兽：死亡"
+    },
+    {
+        "id": "entity.strider.eat",
+        "name": "炽足兽：进食"
+    },
+    {
+        "id": "entity.strider.happy",
+        "name": "炽足兽：颤鸣"
+    },
+    {
+        "id": "entity.strider.hurt",
+        "name": "炽足兽：受伤"
+    },
+    {
+        "id": "entity.strider.retreat",
+        "name": "炽足兽：退缩"
+    },
+    {
+        "id": "entity.strider.saddle",
+        "name": "entity.strider.saddle"
+    },
+    {
+        "id": "entity.strider.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.strider.step_lava",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.tadpole.death",
+        "name": "蝌蚪：死亡"
+    },
+    {
+        "id": "entity.tadpole.flop",
+        "name": "蝌蚪：扑腾"
+    },
+    {
+        "id": "entity.tadpole.grow_up"
+    },
+    {
+        "id": "entity.tadpole.hurt",
+        "name": "蝌蚪：受伤"
+    },
+    {
+        "id": "entity.tnt.primed",
+        "name": "TNT：嘶嘶作响"
+    },
+    {
+        "id": "entity.tropical_fish.ambient",
+        "name": "entity.tropical_fish.ambient"
+    },
+    {
+        "id": "entity.tropical_fish.death",
+        "name": "热带鱼：死亡"
+    },
+    {
+        "id": "entity.tropical_fish.flop",
+        "name": "热带鱼：扑腾"
+    },
+    {
+        "id": "entity.tropical_fish.hurt",
+        "name": "热带鱼：受伤"
+    },
+    {
+        "id": "entity.turtle.ambient_land",
+        "name": "海龟：啾啾"
+    },
+    {
+        "id": "entity.turtle.death",
+        "name": "海龟：死亡"
+    },
+    {
+        "id": "entity.turtle.death_baby",
+        "name": "幼年海龟：死亡"
+    },
+    {
+        "id": "entity.turtle.egg_break",
+        "name": "海龟蛋：破裂"
+    },
+    {
+        "id": "entity.turtle.egg_crack",
+        "name": "海龟蛋：裂开"
+    },
+    {
+        "id": "entity.turtle.egg_hatch",
+        "name": "海龟蛋：孵化"
+    },
+    {
+        "id": "entity.turtle.hurt",
+        "name": "海龟：受伤"
+    },
+    {
+        "id": "entity.turtle.hurt_baby",
+        "name": "幼年海龟：受伤"
+    },
+    {
+        "id": "entity.turtle.lay_egg",
+        "name": "海龟：产卵"
+    },
+    {
+        "id": "entity.turtle.shamble",
+        "name": "海龟：爬行"
+    },
+    {
+        "id": "entity.turtle.shamble_baby",
+        "name": "幼年海龟：爬行"
+    },
+    {
+        "id": "entity.turtle.swim",
+        "name": "海龟：游动"
+    },
+    {
+        "id": "entity.vex.ambient",
+        "name": "恼鬼：恼人"
+    },
+    {
+        "id": "entity.vex.charge",
+        "name": "恼鬼：尖叫"
+    },
+    {
+        "id": "entity.vex.death",
+        "name": "恼鬼：死亡"
+    },
+    {
+        "id": "entity.vex.hurt",
+        "name": "恼鬼：受伤"
+    },
+    {
+        "id": "entity.villager.ambient",
+        "name": "村民：喃喃自语"
+    },
+    {
+        "id": "entity.villager.celebrate",
+        "name": "村民：欢呼"
+    },
+    {
+        "id": "entity.villager.death",
+        "name": "村民：死亡"
+    },
+    {
+        "id": "entity.villager.hurt",
+        "name": "村民：受伤"
+    },
+    {
+        "id": "entity.villager.no",
+        "name": "村民：拒绝"
+    },
+    {
+        "id": "entity.villager.trade",
+        "name": "村民：交易"
+    },
+    {
+        "id": "entity.villager.work_armorer",
+        "name": "高炉：噼啪作响"
+    },
+    {
+        "id": "entity.villager.work_butcher",
+        "name": "屠夫：工作"
+    },
+    {
+        "id": "entity.villager.work_cartographer",
+        "name": "制图师：工作"
+    },
+    {
+        "id": "entity.villager.work_cleric",
+        "name": "酿造台：冒泡"
+    },
+    {
+        "id": "entity.villager.work_farmer",
+        "name": "农民：工作"
+    },
+    {
+        "id": "entity.villager.work_fisherman",
+        "name": "渔夫：工作"
+    },
+    {
+        "id": "entity.villager.work_fletcher",
+        "name": "制箭师：工作"
+    },
+    {
+        "id": "entity.villager.work_leatherworker",
+        "name": "皮匠：工作"
+    },
+    {
+        "id": "entity.villager.work_librarian",
+        "name": "图书管理员：工作"
+    },
+    {
+        "id": "entity.villager.work_mason",
+        "name": "石匠：工作"
+    },
+    {
+        "id": "entity.villager.work_shepherd",
+        "name": "牧羊人：工作"
+    },
+    {
+        "id": "entity.villager.work_toolsmith",
+        "name": "工具匠：工作"
+    },
+    {
+        "id": "entity.villager.work_weaponsmith",
+        "name": "砂轮：使用"
+    },
+    {
+        "id": "entity.villager.yes",
+        "name": "村民：同意"
+    },
+    {
+        "id": "entity.vindicator.ambient",
+        "name": "卫道士：低语"
+    },
+    {
+        "id": "entity.vindicator.celebrate",
+        "name": "卫道士：欢呼"
+    },
+    {
+        "id": "entity.vindicator.death",
+        "name": "卫道士：死亡"
+    },
+    {
+        "id": "entity.vindicator.hurt",
+        "name": "卫道士：受伤"
+    },
+    {
+        "id": "entity.wandering_trader.ambient",
+        "name": "流浪商人：喃喃自语"
+    },
+    {
+        "id": "entity.wandering_trader.death",
+        "name": "流浪商人：死亡"
+    },
+    {
+        "id": "entity.wandering_trader.disappeared",
+        "name": "流浪商人：隐身"
+    },
+    {
+        "id": "entity.wandering_trader.drink_milk",
+        "name": "流浪商人：喝奶"
+    },
+    {
+        "id": "entity.wandering_trader.drink_potion",
+        "name": "流浪商人：饮用药水"
+    },
+    {
+        "id": "entity.wandering_trader.hurt",
+        "name": "流浪商人：受伤"
+    },
+    {
+        "id": "entity.wandering_trader.no",
+        "name": "流浪商人：拒绝"
+    },
+    {
+        "id": "entity.wandering_trader.reappeared",
+        "name": "流浪商人：现身"
+    },
+    {
+        "id": "entity.wandering_trader.trade",
+        "name": "流浪商人：交易"
+    },
+    {
+        "id": "entity.wandering_trader.yes",
+        "name": "流浪商人：同意"
+    },
+    {
+        "id": "entity.warden.agitated",
+        "name": "监守者：愤怒地呻吟"
+    },
+    {
+        "id": "entity.warden.ambient",
+        "name": "监守者：呻吟"
+    },
+    {
+        "id": "entity.warden.angry",
+        "name": "监守者：狂怒"
+    },
+    {
+        "id": "entity.warden.attack_impact",
+        "name": "监守者：击中"
+    },
+    {
+        "id": "entity.warden.death",
+        "name": "监守者：死亡"
+    },
+    {
+        "id": "entity.warden.dig",
+        "name": "监守者：掘地"
+    },
+    {
+        "id": "entity.warden.emerge",
+        "name": "监守者：现身"
+    },
+    {
+        "id": "entity.warden.heartbeat",
+        "name": "监守者：心跳声"
+    },
+    {
+        "id": "entity.warden.hurt",
+        "name": "监守者：受伤"
+    },
+    {
+        "id": "entity.warden.listening",
+        "name": "监守者：察觉到某物"
+    },
+    {
+        "id": "entity.warden.listening_angry",
+        "name": "监守者：愤怒地察觉到某物"
+    },
+    {
+        "id": "entity.warden.nearby_close",
+        "name": "监守者：接近"
+    },
+    {
+        "id": "entity.warden.nearby_closer",
+        "name": "监守者：逼近"
+    },
+    {
+        "id": "entity.warden.nearby_closest",
+        "name": "监守者：迫近"
+    },
+    {
+        "id": "entity.warden.roar",
+        "name": "监守者：咆哮"
+    },
+    {
+        "id": "entity.warden.sniff",
+        "name": "监守者：嗅闻"
+    },
+    {
+        "id": "entity.warden.sonic_boom",
+        "name": "监守者：发射音波"
+    },
+    {
+        "id": "entity.warden.sonic_charge",
+        "name": "监守者：蓄力"
+    },
+    {
+        "id": "entity.warden.step",
+        "name": "监守者：脚步声"
+    },
+    {
+        "id": "entity.warden.tendril_clicks",
+        "name": "监守者：卷须颤动"
+    },
+    {
+        "id": "entity.witch.ambient",
+        "name": "女巫：暗笑"
+    },
+    {
+        "id": "entity.witch.celebrate",
+        "name": "女巫：欢呼"
+    },
+    {
+        "id": "entity.witch.death",
+        "name": "女巫：死亡"
+    },
+    {
+        "id": "entity.witch.drink",
+        "name": "女巫：饮用药水"
+    },
+    {
+        "id": "entity.witch.hurt",
+        "name": "女巫：受伤"
+    },
+    {
+        "id": "entity.witch.throw",
+        "name": "女巫：投掷"
+    },
+    {
+        "id": "entity.wither.ambient",
+        "name": "凋灵：愤怒"
+    },
+    {
+        "id": "entity.wither.break_block",
+        "name": "凋灵：攻击"
+    },
+    {
+        "id": "entity.wither.death",
+        "name": "凋灵：死亡"
+    },
+    {
+        "id": "entity.wither.hurt",
+        "name": "凋灵：受伤"
+    },
+    {
+        "id": "entity.wither.shoot",
+        "name": "凋灵：攻击"
+    },
+    {
+        "id": "entity.wither.spawn",
+        "name": "凋灵：解放"
+    },
+    {
+        "id": "entity.wither_skeleton.ambient",
+        "name": "凋灵骷髅：咯咯声"
+    },
+    {
+        "id": "entity.wither_skeleton.death",
+        "name": "凋灵骷髅：死亡"
+    },
+    {
+        "id": "entity.wither_skeleton.hurt",
+        "name": "凋灵骷髅：受伤"
+    },
+    {
+        "id": "entity.wither_skeleton.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.wolf.ambient",
+        "name": "狼：喘息"
+    },
+    {
+        "id": "entity.wolf.death",
+        "name": "狼：死亡"
+    },
+    {
+        "id": "entity.wolf.growl",
+        "name": "狼：嚎叫"
+    },
+    {
+        "id": "entity.wolf.howl",
+        "name": "entity.wolf.howl"
+    },
+    {
+        "id": "entity.wolf.hurt",
+        "name": "狼：受伤"
+    },
+    {
+        "id": "entity.wolf.pant",
+        "name": "狼：喘息"
+    },
+    {
+        "id": "entity.wolf.shake",
+        "name": "狼：摇动"
+    },
+    {
+        "id": "entity.wolf.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.wolf.whine",
+        "name": "狼：喘息"
+    },
+    {
+        "id": "entity.zoglin.ambient",
+        "name": "僵尸疣猪兽：咆哮"
+    },
+    {
+        "id": "entity.zoglin.angry",
+        "name": "僵尸疣猪兽：怒吼"
+    },
+    {
+        "id": "entity.zoglin.attack",
+        "name": "僵尸疣猪兽：攻击"
+    },
+    {
+        "id": "entity.zoglin.death",
+        "name": "僵尸疣猪兽：死亡"
+    },
+    {
+        "id": "entity.zoglin.hurt",
+        "name": "僵尸疣猪兽：受伤"
+    },
+    {
+        "id": "entity.zoglin.step",
+        "name": "僵尸疣猪兽：脚步声"
+    },
+    {
+        "id": "entity.zombie.ambient",
+        "name": "僵尸：低吼"
+    },
+    {
+        "id": "entity.zombie.attack_iron_door",
+        "name": "方块：被破坏"
+    },
+    {
+        "id": "entity.zombie.attack_wooden_door",
+        "name": "门：晃动"
+    },
+    {
+        "id": "entity.zombie.break_wooden_door",
+        "name": "门：毁坏"
+    },
+    {
+        "id": "entity.zombie.converted_to_drowned",
+        "name": "僵尸：转化为溺尸"
+    },
+    {
+        "id": "entity.zombie.death",
+        "name": "僵尸：死亡"
+    },
+    {
+        "id": "entity.zombie.destroy_egg",
+        "name": "海龟蛋：被踩踏"
+    },
+    {
+        "id": "entity.zombie.hurt",
+        "name": "僵尸：受伤"
+    },
+    {
+        "id": "entity.zombie.infect",
+        "name": "僵尸：感染"
+    },
+    {
+        "id": "entity.zombie.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.zombie_horse.ambient",
+        "name": "僵尸马：嘶叫"
+    },
+    {
+        "id": "entity.zombie_horse.death",
+        "name": "僵尸马：死亡"
+    },
+    {
+        "id": "entity.zombie_horse.hurt",
+        "name": "僵尸马：受伤"
+    },
+    {
+        "id": "entity.zombie_villager.ambient",
+        "name": "僵尸村民：低吼"
+    },
+    {
+        "id": "entity.zombie_villager.converted",
+        "name": "僵尸村民：哀嚎"
+    },
+    {
+        "id": "entity.zombie_villager.cure",
+        "name": "僵尸村民：撕心裂肺"
+    },
+    {
+        "id": "entity.zombie_villager.death",
+        "name": "僵尸村民：死亡"
+    },
+    {
+        "id": "entity.zombie_villager.hurt",
+        "name": "僵尸村民：受伤"
+    },
+    {
+        "id": "entity.zombie_villager.step",
+        "name": "脚步声"
+    },
+    {
+        "id": "entity.zombified_piglin.ambient",
+        "name": "僵尸猪灵：呼噜"
+    },
+    {
+        "id": "entity.zombified_piglin.angry",
+        "name": "僵尸猪灵：愤怒地呼噜"
+    },
+    {
+        "id": "entity.zombified_piglin.death",
+        "name": "僵尸猪灵：死亡"
+    },
+    {
+        "id": "entity.zombified_piglin.hurt",
+        "name": "僵尸猪灵：受伤"
+    },
+    {
+        "id": "event.raid.horn",
+        "name": "不祥号角：鸣响"
+    },
+    {
+        "id": "item.armor.equip_chain",
+        "name": "锁链盔甲：碰擦"
+    },
+    {
+        "id": "item.armor.equip_diamond",
+        "name": "钻石盔甲：碰擦"
+    },
+    {
+        "id": "item.armor.equip_elytra",
+        "name": "鞘翅：沙沙作响"
+    },
+    {
+        "id": "item.armor.equip_generic",
+        "name": "盔甲：装备"
+    },
+    {
+        "id": "item.armor.equip_gold",
+        "name": "黄金盔甲：叮当"
+    },
+    {
+        "id": "item.armor.equip_iron",
+        "name": "铁质盔甲：铿锵"
+    },
+    {
+        "id": "item.armor.equip_leather",
+        "name": "皮革护甲：摩擦"
+    },
+    {
+        "id": "item.armor.equip_netherite",
+        "name": "下界合金盔甲：铿锵"
+    },
+    {
+        "id": "item.armor.equip_turtle",
+        "name": "海龟壳：咕咚"
+    },
+    {
+        "id": "item.axe.scrape",
+        "name": "斧：刮削"
+    },
+    {
+        "id": "item.axe.strip",
+        "name": "斧：削皮"
+    },
+    {
+        "id": "item.axe.wax_off",
+        "name": "脱蜡"
+    },
+    {
+        "id": "item.bone_meal.use",
+        "name": "骨粉：沙沙作响"
+    },
+    {
+        "id": "item.book.page_turn",
+        "name": "书页：沙沙作响"
+    },
+    {
+        "id": "item.book.put",
+        "name": "书：放置"
+    },
+    {
+        "id": "item.bottle.empty",
+        "name": "玻璃瓶：倒空"
+    },
+    {
+        "id": "item.bottle.fill",
+        "name": "玻璃瓶：装满"
+    },
+    {
+        "id": "item.bottle.fill_dragonbreath",
+        "name": "玻璃瓶：装满"
+    },
+    {
+        "id": "item.bucket.empty",
+        "name": "桶：倒空"
+    },
+    {
+        "id": "item.bucket.empty_axolotl",
+        "name": "桶：倒空"
+    },
+    {
+        "id": "item.bucket.empty_fish",
+        "name": "桶：倒空"
+    },
+    {
+        "id": "item.bucket.empty_lava",
+        "name": "桶：倒空"
+    },
+    {
+        "id": "item.bucket.empty_powder_snow",
+        "name": "桶：倒空"
+    },
+    {
+        "id": "item.bucket.empty_tadpole",
+        "name": "桶：倒空"
+    },
+    {
+        "id": "item.bucket.fill",
+        "name": "桶：装满"
+    },
+    {
+        "id": "item.bucket.fill_axolotl",
+        "name": "美西螈：被装起"
+    },
+    {
+        "id": "item.bucket.fill_fish",
+        "name": "鱼：被捕获"
+    },
+    {
+        "id": "item.bucket.fill_lava",
+        "name": "桶：装满"
+    },
+    {
+        "id": "item.bucket.fill_powder_snow",
+        "name": "桶：装满"
+    },
+    {
+        "id": "item.bucket.fill_tadpole",
+        "name": "蝌蚪：被捕获"
+    },
+    {
+        "id": "item.bundle.drop_contents",
+        "name": "收纳袋：倒空"
+    },
+    {
+        "id": "item.bundle.insert",
+        "name": "物品：装入袋中"
+    },
+    {
+        "id": "item.bundle.remove_one",
+        "name": "物品：从袋中取出"
+    },
+    {
+        "id": "item.chorus_fruit.teleport",
+        "name": "玩家：传送"
+    },
+    {
+        "id": "item.crop.plant",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "item.crossbow.hit",
+        "name": "箭：击中"
+    },
+    {
+        "id": "item.crossbow.loading_end",
+        "name": "弩：装填"
+    },
+    {
+        "id": "item.crossbow.loading_middle",
+        "name": "item.crossbow.loading_middle"
+    },
+    {
+        "id": "item.crossbow.loading_start",
+        "name": "弩：蓄力"
+    },
+    {
+        "id": "item.crossbow.quick_charge_1",
+        "name": "弩：蓄力"
+    },
+    {
+        "id": "item.crossbow.quick_charge_2",
+        "name": "弩：蓄力"
+    },
+    {
+        "id": "item.crossbow.quick_charge_3",
+        "name": "弩：蓄力"
+    },
+    {
+        "id": "item.crossbow.shoot",
+        "name": "弩：发射"
+    },
+    {
+        "id": "item.dye.use",
+        "name": "染料：染色"
+    },
+    {
+        "id": "item.elytra.flying",
+        "name": "item.elytra.flying"
+    },
+    {
+        "id": "item.firecharge.use",
+        "name": "火焰弹：呼啸"
+    },
+    {
+        "id": "item.flintandsteel.use",
+        "name": "打火石：生火"
+    },
+    {
+        "id": "item.glow_ink_sac.use",
+        "name": "荧光墨囊：涂抹"
+    },
+    {
+        "id": "item.goat_horn.sound.0",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.goat_horn.sound.1",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.goat_horn.sound.2",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.goat_horn.sound.3",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.goat_horn.sound.4",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.goat_horn.sound.5",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.goat_horn.sound.6",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.goat_horn.sound.7",
+        "name": "山羊角：吹奏"
+    },
+    {
+        "id": "item.hoe.till",
+        "name": "锄：犁地"
+    },
+    {
+        "id": "item.honey_bottle.drink",
+        "name": "吞咽"
+    },
+    {
+        "id": "item.honeycomb.wax_on",
+        "name": "涂蜡"
+    },
+    {
+        "id": "item.ink_sac.use",
+        "name": "墨囊：涂抹"
+    },
+    {
+        "id": "item.lodestone_compass.lock",
+        "name": "磁石指针：绑定磁石"
+    },
+    {
+        "id": "item.nether_wart.plant",
+        "name": "方块：被放置"
+    },
+    {
+        "id": "item.shield.block",
+        "name": "盾牌：格挡"
+    },
+    {
+        "id": "item.shield.break",
+        "name": "物品：被破坏"
+    },
+    {
+        "id": "item.shovel.flatten",
+        "name": "锹：压地"
+    },
+    {
+        "id": "item.spyglass.stop_using",
+        "name": "望远镜：缩小"
+    },
+    {
+        "id": "item.spyglass.use",
+        "name": "望远镜：放大"
+    },
+    {
+        "id": "item.totem.use",
+        "name": "图腾：发动"
+    },
+    {
+        "id": "item.trident.hit",
+        "name": "三叉戟：突刺"
+    },
+    {
+        "id": "item.trident.hit_ground",
+        "name": "三叉戟：振动"
+    },
+    {
+        "id": "item.trident.return",
+        "name": "三叉戟：收回"
+    },
+    {
+        "id": "item.trident.riptide_1",
+        "name": "三叉戟：突进"
+    },
+    {
+        "id": "item.trident.riptide_2",
+        "name": "三叉戟：突进"
+    },
+    {
+        "id": "item.trident.riptide_3",
+        "name": "三叉戟：突进"
+    },
+    {
+        "id": "item.trident.throw",
+        "name": "三叉戟：铿锵"
+    },
+    {
+        "id": "item.trident.thunder",
+        "name": "三叉戟：电闪雷鸣"
+    },
+    {
+        "id": "music.creative",
+        "name": "music.creative"
+    },
+    {
+        "id": "music.credits",
+        "name": "music.credits"
+    },
+    {
+        "id": "music.dragon",
+        "name": "music.dragon"
+    },
+    {
+        "id": "music.end",
+        "name": "music.end"
+    },
+    {
+        "id": "music.game",
+        "name": "music.game"
+    },
+    {
+        "id": "music.menu",
+        "name": "music.menu"
+    },
+    {
+        "id": "music.nether.basalt_deltas",
+        "name": "music.nether.basalt_deltas"
+    },
+    {
+        "id": "music.nether.crimson_forest",
+        "name": "music.nether.crimson_forest"
+    },
+    {
+        "id": "music.nether.nether_wastes",
+        "name": "music.nether.nether_wastes"
+    },
+    {
+        "id": "music.nether.soul_sand_valley",
+        "name": "music.nether.soul_sand_valley"
+    },
+    {
+        "id": "music.nether.warped_forest",
+        "name": "music.nether.warped_forest"
+    },
+    {
+        "id": "music.overworld.deep_dark",
+        "name": "music.overworld.deep_dark"
+    },
+    {
+        "id": "music.overworld.dripstone_caves",
+        "name": "music.overworld.dripstone_caves"
+    },
+    {
+        "id": "music.overworld.frozen_peaks",
+        "name": "music.overworld.frozen_peaks"
+    },
+    {
+        "id": "music.overworld.grove",
+        "name": "music.overworld.grove"
+    },
+    {
+        "id": "music.overworld.jagged_peaks",
+        "name": "music.overworld.jagged_peaks"
+    },
+    {
+        "id": "music.overworld.jungle_and_forest",
+        "name": "music.overworld.jungle_and_forest"
+    },
+    {
+        "id": "music.overworld.lush_caves",
+        "name": "music.overworld.lush_caves"
+    },
+    {
+        "id": "music.overworld.meadow",
+        "name": "music.overworld.meadow"
+    },
+    {
+        "id": "music.overworld.old_growth_taiga",
+        "name": "music.overworld.old_growth_taiga"
+    },
+    {
+        "id": "music.overworld.snowy_slopes",
+        "name": "music.overworld.snowy_slopes"
+    },
+    {
+        "id": "music.overworld.stony_peaks",
+        "name": "music.overworld.stony_peaks"
+    },
+    {
+        "id": "music.overworld.swamp",
+        "name": "music.overworld.swamp"
+    },
+    {
+        "id": "music.under_water",
+        "name": "music.under_water"
+    },
+    {
+        "id": "music_disc.11",
+        "name": "music_disc.11"
+    },
+    {
+        "id": "music_disc.13",
+        "name": "music_disc.13"
+    },
+    {
+        "id": "music_disc.5",
+        "name": "music_disc.5"
+    },
+    {
+        "id": "music_disc.blocks",
+        "name": "music_disc.blocks"
+    },
+    {
+        "id": "music_disc.cat",
+        "name": "music_disc.cat"
+    },
+    {
+        "id": "music_disc.chirp",
+        "name": "music_disc.chirp"
+    },
+    {
+        "id": "music_disc.far",
+        "name": "music_disc.far"
+    },
+    {
+        "id": "music_disc.mall",
+        "name": "music_disc.mall"
+    },
+    {
+        "id": "music_disc.mellohi",
+        "name": "music_disc.mellohi"
+    },
+    {
+        "id": "music_disc.otherside",
+        "name": "music_disc.otherside"
+    },
+    {
+        "id": "music_disc.pigstep",
+        "name": "music_disc.pigstep"
+    },
+    {
+        "id": "music_disc.stal",
+        "name": "music_disc.stal"
+    },
+    {
+        "id": "music_disc.strad",
+        "name": "music_disc.strad"
+    },
+    {
+        "id": "music_disc.wait",
+        "name": "music_disc.wait"
+    },
+    {
+        "id": "music_disc.ward",
+        "name": "music_disc.ward"
+    },
+    {
+        "id": "particle.soul_escape",
+        "name": "灵魂：逸散"
+    },
+    {
+        "id": "ui.button.click",
+        "name": "ui.button.click"
+    },
+    {
+        "id": "ui.cartography_table.take_result",
+        "name": "地图：绘制"
+    },
+    {
+        "id": "ui.loom.select_pattern",
+        "name": "ui.loom.select_pattern"
+    },
+    {
+        "id": "ui.loom.take_result",
+        "name": "织布机：使用"
+    },
+    {
+        "id": "ui.stonecutter.select_recipe",
+        "name": "ui.stonecutter.select_recipe"
+    },
+    {
+        "id": "ui.stonecutter.take_result",
+        "name": "切石机：使用"
+    },
+    {
+        "id": "ui.toast.challenge_complete",
+        "name": "ui.toast.challenge_complete"
+    },
+    {
+        "id": "ui.toast.in",
+        "name": "ui.toast.in"
+    },
+    {
+        "id": "ui.toast.out",
+        "name": "ui.toast.out"
+    },
+    {
+        "id": "weather.rain",
+        "name": "雨：落下"
+    },
+    {
+        "id": "weather.rain.above",
+        "name": "雨：落下"
+    }
+]

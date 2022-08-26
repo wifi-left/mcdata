@@ -170,3 +170,28 @@ function getEffects(lang){
     return result;
     //effect.minecraft.
 }
+function getGamerules(lang){
+    var result = [];
+    for (var i in lang) {
+        if (i.substring(0, "gamerule.".length) == "gamerule.") {
+            let id = i.substring("gamerule.".length);
+            if (id.search(/\./) != -1) {
+                // if(id.search("\.des"))
+                // console.log(id)
+                continue;
+            }
+            let name = lang[i];
+            let des = lang[i + ".desc"];
+
+            if (des != undefined) {
+                result[result.length] = { id: id, name: name + " - " + des };
+            } else {
+                result[result.length] = { id: id, name: name };
+            }
+            // console.log(name);
+        }
+    }
+    return result;
+    //effect.minecraft.
+
+}

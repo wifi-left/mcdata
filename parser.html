@@ -28,6 +28,8 @@
     <textarea id="result_enchantment"></textarea>
     <h1>输出：药水ID</h1>
     <textarea id="result_effect"></textarea>
+    <h1>输出：游戏规则</h1>
+    <textarea id="result_gamerules"></textarea>
     <h1>输出：错误信息</h1>
     <span id="errormessage">
         无
@@ -42,6 +44,7 @@
             result_entity.value = JSON.stringify(getEntities(lang));
             result_enchantment.value = JSON.stringify(getEnchantments(lang));
             result_effect.value = JSON.stringify(getEffects(lang));
+            result_gamerules.value = JSON.stringify(getGamerules(lang));
 
         } catch (e) {
             errormessage.innerText = "错误信息：" + e;

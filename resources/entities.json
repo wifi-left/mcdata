@@ -1,0 +1,458 @@
+[
+    {
+        "id": "area_effect_cloud",
+        "name": "区域效果云"
+    },
+    {
+        "id": "armor_stand",
+        "name": "盔甲架"
+    },
+    {
+        "id": "arrow",
+        "name": "箭"
+    },
+    {
+        "id": "axolotl",
+        "name": "美西螈"
+    },
+    {
+        "id": "bat",
+        "name": "蝙蝠"
+    },
+    {
+        "id": "bee",
+        "name": "蜜蜂"
+    },
+    {
+        "id": "blaze",
+        "name": "烈焰人"
+    },
+    {
+        "id": "boat",
+        "name": "船"
+    },
+    {
+        "id": "cat",
+        "name": "猫"
+    },
+    {
+        "id": "cave_spider",
+        "name": "洞穴蜘蛛"
+    },
+    {
+        "id": "chest_minecart",
+        "name": "运输矿车"
+    },
+    {
+        "id": "chicken",
+        "name": "鸡"
+    },
+    {
+        "id": "cod",
+        "name": "鳕鱼"
+    },
+    {
+        "id": "command_block_minecart",
+        "name": "命令方块矿车"
+    },
+    {
+        "id": "cow",
+        "name": "牛"
+    },
+    {
+        "id": "creeper",
+        "name": "苦力怕"
+    },
+    {
+        "id": "dolphin",
+        "name": "海豚"
+    },
+    {
+        "id": "donkey",
+        "name": "驴"
+    },
+    {
+        "id": "dragon_fireball",
+        "name": "末影龙火球"
+    },
+    {
+        "id": "drowned",
+        "name": "溺尸"
+    },
+    {
+        "id": "egg",
+        "name": "掷出的鸡蛋"
+    },
+    {
+        "id": "elder_guardian",
+        "name": "远古守卫者"
+    },
+    {
+        "id": "end_crystal",
+        "name": "末影水晶"
+    },
+    {
+        "id": "ender_dragon",
+        "name": "末影龙"
+    },
+    {
+        "id": "ender_pearl",
+        "name": "掷出的末影珍珠"
+    },
+    {
+        "id": "enderman",
+        "name": "末影人"
+    },
+    {
+        "id": "endermite",
+        "name": "末影螨"
+    },
+    {
+        "id": "evoker",
+        "name": "唤魔者"
+    },
+    {
+        "id": "evoker_fangs",
+        "name": "唤魔者尖牙"
+    },
+    {
+        "id": "experience_bottle",
+        "name": "掷出的附魔之瓶"
+    },
+    {
+        "id": "experience_orb",
+        "name": "经验球"
+    },
+    {
+        "id": "eye_of_ender",
+        "name": "末影之眼"
+    },
+    {
+        "id": "falling_block",
+        "name": "下落的方块"
+    },
+    {
+        "id": "fireball",
+        "name": "火球"
+    },
+    {
+        "id": "firework_rocket",
+        "name": "烟花火箭"
+    },
+    {
+        "id": "fishing_bobber",
+        "name": "浮漂"
+    },
+    {
+        "id": "fox",
+        "name": "狐狸"
+    },
+    {
+        "id": "furnace_minecart",
+        "name": "动力矿车"
+    },
+    {
+        "id": "ghast",
+        "name": "恶魂"
+    },
+    {
+        "id": "giant",
+        "name": "巨人"
+    },
+    {
+        "id": "glow_item_frame",
+        "name": "荧光物品展示框"
+    },
+    {
+        "id": "glow_squid",
+        "name": "发光鱿鱼"
+    },
+    {
+        "id": "goat",
+        "name": "山羊"
+    },
+    {
+        "id": "guardian",
+        "name": "守卫者"
+    },
+    {
+        "id": "hoglin",
+        "name": "疣猪兽"
+    },
+    {
+        "id": "hopper_minecart",
+        "name": "漏斗矿车"
+    },
+    {
+        "id": "horse",
+        "name": "马"
+    },
+    {
+        "id": "husk",
+        "name": "尸壳"
+    },
+    {
+        "id": "illusioner",
+        "name": "幻术师"
+    },
+    {
+        "id": "iron_golem",
+        "name": "铁傀儡"
+    },
+    {
+        "id": "item",
+        "name": "物品"
+    },
+    {
+        "id": "item_frame",
+        "name": "物品展示框"
+    },
+    {
+        "id": "killer_bunny",
+        "name": "杀手兔"
+    },
+    {
+        "id": "leash_knot",
+        "name": "拴绳结"
+    },
+    {
+        "id": "lightning_bolt",
+        "name": "闪电束"
+    },
+    {
+        "id": "llama",
+        "name": "羊驼"
+    },
+    {
+        "id": "llama_spit",
+        "name": "羊驼唾沫"
+    },
+    {
+        "id": "magma_cube",
+        "name": "岩浆怪"
+    },
+    {
+        "id": "marker",
+        "name": "标记"
+    },
+    {
+        "id": "minecart",
+        "name": "矿车"
+    },
+    {
+        "id": "mooshroom",
+        "name": "哞菇"
+    },
+    {
+        "id": "mule",
+        "name": "骡"
+    },
+    {
+        "id": "ocelot",
+        "name": "豹猫"
+    },
+    {
+        "id": "painting",
+        "name": "画"
+    },
+    {
+        "id": "panda",
+        "name": "熊猫"
+    },
+    {
+        "id": "parrot",
+        "name": "鹦鹉"
+    },
+    {
+        "id": "phantom",
+        "name": "幻翼"
+    },
+    {
+        "id": "pig",
+        "name": "猪"
+    },
+    {
+        "id": "piglin",
+        "name": "猪灵"
+    },
+    {
+        "id": "piglin_brute",
+        "name": "猪灵蛮兵"
+    },
+    {
+        "id": "pillager",
+        "name": "掠夺者"
+    },
+    {
+        "id": "player",
+        "name": "玩家"
+    },
+    {
+        "id": "polar_bear",
+        "name": "北极熊"
+    },
+    {
+        "id": "potion",
+        "name": "药水"
+    },
+    {
+        "id": "pufferfish",
+        "name": "河豚"
+    },
+    {
+        "id": "rabbit",
+        "name": "兔子"
+    },
+    {
+        "id": "ravager",
+        "name": "劫掠兽"
+    },
+    {
+        "id": "salmon",
+        "name": "鲑鱼"
+    },
+    {
+        "id": "sheep",
+        "name": "绵羊"
+    },
+    {
+        "id": "shulker",
+        "name": "潜影贝"
+    },
+    {
+        "id": "shulker_bullet",
+        "name": "潜影贝导弹"
+    },
+    {
+        "id": "silverfish",
+        "name": "蠹虫"
+    },
+    {
+        "id": "skeleton",
+        "name": "骷髅"
+    },
+    {
+        "id": "skeleton_horse",
+        "name": "骷髅马"
+    },
+    {
+        "id": "slime",
+        "name": "史莱姆"
+    },
+    {
+        "id": "small_fireball",
+        "name": "小火球"
+    },
+    {
+        "id": "snow_golem",
+        "name": "雪傀儡"
+    },
+    {
+        "id": "snowball",
+        "name": "雪球"
+    },
+    {
+        "id": "spawner_minecart",
+        "name": "刷怪笼矿车"
+    },
+    {
+        "id": "spectral_arrow",
+        "name": "光灵箭"
+    },
+    {
+        "id": "spider",
+        "name": "蜘蛛"
+    },
+    {
+        "id": "squid",
+        "name": "鱿鱼"
+    },
+    {
+        "id": "stray",
+        "name": "流浪者"
+    },
+    {
+        "id": "strider",
+        "name": "炽足兽"
+    },
+    {
+        "id": "tnt",
+        "name": "被激活的TNT"
+    },
+    {
+        "id": "tnt_minecart",
+        "name": "TNT矿车"
+    },
+    {
+        "id": "trader_llama",
+        "name": "行商羊驼"
+    },
+    {
+        "id": "trident",
+        "name": "三叉戟"
+    },
+    {
+        "id": "tropical_fish",
+        "name": "热带鱼"
+    },
+    {
+        "id": "turtle",
+        "name": "海龟"
+    },
+    {
+        "id": "vex",
+        "name": "恼鬼"
+    },
+    {
+        "id": "villager",
+        "name": "村民"
+    },
+    {
+        "id": "vindicator",
+        "name": "卫道士"
+    },
+    {
+        "id": "wandering_trader",
+        "name": "流浪商人"
+    },
+    {
+        "id": "witch",
+        "name": "女巫"
+    },
+    {
+        "id": "wither",
+        "name": "凋灵"
+    },
+    {
+        "id": "wither_skeleton",
+        "name": "凋灵骷髅"
+    },
+    {
+        "id": "wither_skull",
+        "name": "凋灵之首"
+    },
+    {
+        "id": "wolf",
+        "name": "狼"
+    },
+    {
+        "id": "zoglin",
+        "name": "僵尸疣猪兽"
+    },
+    {
+        "id": "zombie",
+        "name": "僵尸"
+    },
+    {
+        "id": "zombie_horse",
+        "name": "僵尸马"
+    },
+    {
+        "id": "zombie_villager",
+        "name": "僵尸村民"
+    },
+    {
+        "id": "zombified_piglin",
+        "name": "僵尸猪灵"
+    }
+]

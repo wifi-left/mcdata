@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Minecraft 数据收集解析器 - Gamom's Website</title>
+    <!-- <link rel="stylesheet" type="text/css" href="st_ga.css"> -->
+    <script src="js/gquery.js"></script>
+    <script src="parser.js"></script>
+    <style>
+        textarea{
+            width:800px;
+            height:400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>输入：语言文件</h1>
+    <textarea id="input"></textarea>
+    <button onclick="getResult()">开始处理</button>
+    <h1>输出：物品ID</h1>
+    <textarea id="result_item"></textarea>
+    <h1>输出：方块ID</h1>
+    <textarea id="result_block"></textarea>
+    <h1>输出：实体ID</h1>
+    <textarea id="result_entity"></textarea>
+    <h1>输出：错误信息</h1>
+    <span id="errormessage"></span>
+</body>
+<script>
+    function getResult() {
+        try {
+            var lang = JSON.parse(document.getElementById("input").value);
+            result_item.value = JSON.stringify(getItems(lang));
+            result_block.value = JSON.stringify(getBlocks(lang));
+            result_entity.value = JSON.stringify(getEntities(lang));
+
+        } catch (e) {
+            errormessage.innerTEXT = "错误信息：" + e;
+        }
+    }
+</script>
+
+</html>

@@ -1,5 +1,9 @@
 [
     {
+        "id": "allay",
+        "name": "悦灵"
+    },
+    {
         "id": "area_effect_cloud",
         "name": "区域效果云"
     },
@@ -38,6 +42,10 @@
     {
         "id": "cave_spider",
         "name": "洞穴蜘蛛"
+    },
+    {
+        "id": "chest_boat",
+        "name": "运输船"
     },
     {
         "id": "chest_minecart",
@@ -89,7 +97,7 @@
     },
     {
         "id": "end_crystal",
-        "name": "末影水晶"
+        "name": "末地水晶"
     },
     {
         "id": "ender_dragon",
@@ -146,6 +154,10 @@
     {
         "id": "fox",
         "name": "狐狸"
+    },
+    {
+        "id": "frog",
+        "name": "青蛙"
     },
     {
         "id": "furnace_minecart",
@@ -321,7 +333,7 @@
     },
     {
         "id": "shulker_bullet",
-        "name": "潜影贝导弹"
+        "name": "潜影弹"
     },
     {
         "id": "silverfish",
@@ -376,6 +388,10 @@
         "name": "炽足兽"
     },
     {
+        "id": "tadpole",
+        "name": "蝌蚪"
+    },
+    {
         "id": "tnt",
         "name": "被激活的TNT"
     },
@@ -414,6 +430,10 @@
     {
         "id": "wandering_trader",
         "name": "流浪商人"
+    },
+    {
+        "id": "warden",
+        "name": "监守者"
     },
     {
         "id": "witch",

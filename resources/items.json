@@ -365,19 +365,19 @@
     },
     {
         "id": "brick_slab",
-        "name": "砖台阶"
+        "name": "红砖台阶"
     },
     {
         "id": "brick_stairs",
-        "name": "砖楼梯"
+        "name": "红砖楼梯"
     },
     {
         "id": "brick_wall",
-        "name": "砖块墙"
+        "name": "红砖墙"
     },
     {
         "id": "bricks",
-        "name": "砖块"
+        "name": "红砖块"
     },
     {
         "id": "brown_banner",
@@ -501,7 +501,7 @@
     },
     {
         "id": "cave_vines_plant",
-        "name": "洞穴藤蔓植物"
+        "name": "洞穴藤蔓植株"
     },
     {
         "id": "chain",
@@ -553,7 +553,7 @@
     },
     {
         "id": "chorus_plant",
-        "name": "紫颂植物"
+        "name": "紫颂植株"
     },
     {
         "id": "clay",
@@ -1188,6 +1188,10 @@
         "name": "盛开的杜鹃树叶"
     },
     {
+        "id": "frogspawn",
+        "name": "青蛙卵"
+    },
+    {
         "id": "frosted_ice",
         "name": "霜冰"
     },
@@ -1549,7 +1553,7 @@
     },
     {
         "id": "light",
-        "name": "光"
+        "name": "光源方块"
     },
     {
         "id": "light_blue_banner",
@@ -1776,6 +1780,66 @@
         "name": "岩浆块"
     },
     {
+        "id": "mangrove_button",
+        "name": "红树木按钮"
+    },
+    {
+        "id": "mangrove_door",
+        "name": "红树木门"
+    },
+    {
+        "id": "mangrove_fence",
+        "name": "红树木栅栏"
+    },
+    {
+        "id": "mangrove_fence_gate",
+        "name": "红树木栅栏门"
+    },
+    {
+        "id": "mangrove_leaves",
+        "name": "红树树叶"
+    },
+    {
+        "id": "mangrove_log",
+        "name": "红树原木"
+    },
+    {
+        "id": "mangrove_planks",
+        "name": "红树木板"
+    },
+    {
+        "id": "mangrove_pressure_plate",
+        "name": "红树木压力板"
+    },
+    {
+        "id": "mangrove_propagule",
+        "name": "红树胎生苗"
+    },
+    {
+        "id": "mangrove_roots",
+        "name": "红树根"
+    },
+    {
+        "id": "mangrove_sign",
+        "name": "红树木告示牌"
+    },
+    {
+        "id": "mangrove_slab",
+        "name": "红树木台阶"
+    },
+    {
+        "id": "mangrove_stairs",
+        "name": "红树木楼梯"
+    },
+    {
+        "id": "mangrove_trapdoor",
+        "name": "红树木活板门"
+    },
+    {
+        "id": "mangrove_wood",
+        "name": "红树木"
+    },
+    {
         "id": "medium_amethyst_bud",
         "name": "中型紫晶芽"
     },
@@ -1830,6 +1894,30 @@
     {
         "id": "moving_piston",
         "name": "移动的活塞"
+    },
+    {
+        "id": "mud",
+        "name": "泥巴"
+    },
+    {
+        "id": "mud_brick_slab",
+        "name": "泥砖台阶"
+    },
+    {
+        "id": "mud_brick_stairs",
+        "name": "泥砖楼梯"
+    },
+    {
+        "id": "mud_brick_wall",
+        "name": "泥砖墙"
+    },
+    {
+        "id": "mud_bricks",
+        "name": "泥砖"
+    },
+    {
+        "id": "muddy_mangrove_roots",
+        "name": "沾泥的红树根"
     },
     {
         "id": "mushroom_stem",
@@ -1960,6 +2048,10 @@
         "name": "黑曜石"
     },
     {
+        "id": "ochre_froglight",
+        "name": "赭黄蛙明灯"
+    },
+    {
         "id": "ominous_banner",
         "name": "灾厄旗帜"
     },
@@ -2040,6 +2132,14 @@
         "name": "浮冰"
     },
     {
+        "id": "packed_mud",
+        "name": "泥坯"
+    },
+    {
+        "id": "pearlescent_froglight",
+        "name": "珠光蛙明灯"
+    },
+    {
         "id": "peony",
         "name": "牡丹"
     },
@@ -2109,7 +2209,7 @@
     },
     {
         "id": "player_head",
-        "name": "玩家头颅"
+        "name": "玩家的头"
     },
     {
         "id": "podzol",
@@ -2300,6 +2400,10 @@
         "name": "铃兰盆栽"
     },
     {
+        "id": "potted_mangrove_propagule",
+        "name": "红树胎生苗盆栽"
+    },
+    {
         "id": "potted_oak_sapling",
         "name": "橡树树苗盆栽"
     },
@@ -2353,7 +2457,7 @@
     },
     {
         "id": "powered_rail",
-        "name": "充能铁轨"
+        "name": "动力铁轨"
     },
     {
         "id": "prismarine",
@@ -2608,6 +2712,10 @@
         "name": "红石线"
     },
     {
+        "id": "reinforced_deepslate",
+        "name": "强化深板岩"
+    },
+    {
         "id": "repeater",
         "name": "红石中继器"
     },
@@ -2652,8 +2760,24 @@
         "name": "脚手架"
     },
     {
+        "id": "sculk",
+        "name": "幽匿块"
+    },
+    {
+        "id": "sculk_catalyst",
+        "name": "幽匿催发体"
+    },
+    {
         "id": "sculk_sensor",
-        "name": "潜声传感器"
+        "name": "幽匿感测体"
+    },
+    {
+        "id": "sculk_shrieker",
+        "name": "幽匿尖啸体"
+    },
+    {
+        "id": "sculk_vein",
+        "name": "幽匿脉络"
     },
     {
         "id": "sea_lantern",
@@ -2749,7 +2873,7 @@
     },
     {
         "id": "smooth_stone_slab",
-        "name": "平滑石台阶"
+        "name": "平滑石头台阶"
     },
     {
         "id": "snow",
@@ -2881,15 +3005,15 @@
     },
     {
         "id": "stone_pressure_plate",
-        "name": "石质压力板"
+        "name": "石头压力板"
     },
     {
         "id": "stone_slab",
-        "name": "石台阶"
+        "name": "石头台阶"
     },
     {
         "id": "stone_stairs",
-        "name": "石楼梯"
+        "name": "石头楼梯"
     },
     {
         "id": "stonecutter",
@@ -2934,6 +3058,14 @@
     {
         "id": "stripped_jungle_wood",
         "name": "去皮丛林木"
+    },
+    {
+        "id": "stripped_mangrove_log",
+        "name": "去皮红树原木"
+    },
+    {
+        "id": "stripped_mangrove_wood",
+        "name": "去皮红树木"
     },
     {
         "id": "stripped_oak_log",
@@ -3045,7 +3177,11 @@
     },
     {
         "id": "twisting_vines_plant",
-        "name": "缠怨藤植物"
+        "name": "缠怨藤植株"
+    },
+    {
+        "id": "verdant_froglight",
+        "name": "青翠蛙明灯"
     },
     {
         "id": "vine",
@@ -3205,7 +3341,7 @@
     },
     {
         "id": "weeping_vines_plant",
-        "name": "垂泪藤植物"
+        "name": "垂泪藤植株"
     },
     {
         "id": "wet_sponge",
@@ -3332,6 +3468,14 @@
         "name": "金合欢木船"
     },
     {
+        "id": "acacia_chest_boat",
+        "name": "金合欢木运输船"
+    },
+    {
+        "id": "allay_spawn_egg",
+        "name": "悦灵刷怪蛋"
+    },
+    {
         "id": "amethyst_shard",
         "name": "紫水晶碎片"
     },
@@ -3386,6 +3530,10 @@
     {
         "id": "birch_boat",
         "name": "白桦木船"
+    },
+    {
+        "id": "birch_chest_boat",
+        "name": "白桦木运输船"
     },
     {
         "id": "black_dye",
@@ -3604,6 +3752,10 @@
         "name": "深色橡木船"
     },
     {
+        "id": "dark_oak_chest_boat",
+        "name": "深色橡木运输船"
+    },
+    {
         "id": "debug_stick",
         "name": "调试棒"
     },
@@ -3652,6 +3804,10 @@
         "name": "钻石剑"
     },
     {
+        "id": "disc_fragment_5",
+        "name": "唱片残片 - 音乐唱片 - 5"
+    },
+    {
         "id": "dolphin_spawn_egg",
         "name": "海豚刷怪蛋"
     },
@@ -3670,6 +3826,10 @@
     {
         "id": "drowned_spawn_egg",
         "name": "溺尸刷怪蛋"
+    },
+    {
+        "id": "echo_shard",
+        "name": "回响碎片"
     },
     {
         "id": "egg",
@@ -3697,7 +3857,7 @@
     },
     {
         "id": "end_crystal",
-        "name": "末影水晶"
+        "name": "末地水晶"
     },
     {
         "id": "ender_eye",
@@ -3772,6 +3932,10 @@
         "name": "狐狸刷怪蛋"
     },
     {
+        "id": "frog_spawn_egg",
+        "name": "青蛙刷怪蛋"
+    },
+    {
         "id": "furnace_minecart",
         "name": "动力矿车"
     },
@@ -3814,6 +3978,10 @@
     {
         "id": "glowstone_dust",
         "name": "荧石粉"
+    },
+    {
+        "id": "goat_horn",
+        "name": "山羊角"
     },
     {
         "id": "goat_spawn_egg",
@@ -3980,6 +4148,10 @@
         "name": "丛林木船"
     },
     {
+        "id": "jungle_chest_boat",
+        "name": "丛林木运输船"
+    },
+    {
         "id": "knowledge_book",
         "name": "知识之书"
     },
@@ -4052,6 +4224,14 @@
         "name": "岩浆怪刷怪蛋"
     },
     {
+        "id": "mangrove_boat",
+        "name": "红树木船"
+    },
+    {
+        "id": "mangrove_chest_boat",
+        "name": "红树木运输船"
+    },
+    {
         "id": "map",
         "name": "空地图"
     },
@@ -4096,6 +4276,10 @@
         "name": "音乐唱片 - C418 - 13"
     },
     {
+        "id": "music_disc_5",
+        "name": "音乐唱片 - Samuel Åberg - 5"
+    },
+    {
         "id": "music_disc_blocks",
         "name": "音乐唱片 - C418 - blocks"
     },
@@ -4118,6 +4302,10 @@
     {
         "id": "music_disc_mellohi",
         "name": "音乐唱片 - C418 - mellohi"
+    },
+    {
+        "id": "music_disc_otherside",
+        "name": "音乐唱片 - Lena Raine - otherside"
     },
     {
         "id": "music_disc_pigstep",
@@ -4210,6 +4398,10 @@
     {
         "id": "oak_boat",
         "name": "橡木船"
+    },
+    {
+        "id": "oak_chest_boat",
+        "name": "橡木运输船"
     },
     {
         "id": "ocelot_spawn_egg",
@@ -4368,6 +4560,10 @@
         "name": "粗铁"
     },
     {
+        "id": "recovery_compass",
+        "name": "追溯指针"
+    },
+    {
         "id": "red_dye",
         "name": "红色染料"
     },
@@ -4472,6 +4668,10 @@
         "name": "云杉木船"
     },
     {
+        "id": "spruce_chest_boat",
+        "name": "云杉木运输船"
+    },
+    {
         "id": "spyglass",
         "name": "望远镜"
     },
@@ -4528,6 +4728,14 @@
         "name": "甜浆果"
     },
     {
+        "id": "tadpole_bucket",
+        "name": "蝌蚪桶"
+    },
+    {
+        "id": "tadpole_spawn_egg",
+        "name": "蝌蚪刷怪蛋"
+    },
+    {
         "id": "tipped_arrow",
         "name": "药箭"
     },
@@ -4582,6 +4790,10 @@
     {
         "id": "wandering_trader_spawn_egg",
         "name": "流浪商人刷怪蛋"
+    },
+    {
+        "id": "warden_spawn_egg",
+        "name": "监守者刷怪蛋"
     },
     {
         "id": "warped_fungus_on_a_stick",

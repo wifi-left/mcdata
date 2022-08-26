@@ -96,14 +96,6 @@
         "name": "铁砧"
     },
     {
-        "id": "attached_melon_stem",
-        "name": "结果的西瓜茎"
-    },
-    {
-        "id": "attached_pumpkin_stem",
-        "name": "结果的南瓜茎"
-    },
-    {
         "id": "azalea",
         "name": "杜鹃花丛"
     },
@@ -236,10 +228,6 @@
         "name": "黑色蜡烛"
     },
     {
-        "id": "black_candle_cake",
-        "name": "插上黑色蜡烛的蛋糕"
-    },
-    {
         "id": "black_carpet",
         "name": "黑色地毯"
     },
@@ -306,10 +294,6 @@
     {
         "id": "blue_candle",
         "name": "蓝色蜡烛"
-    },
-    {
-        "id": "blue_candle_cake",
-        "name": "插上蓝色蜡烛的蛋糕"
     },
     {
         "id": "blue_carpet",
@@ -408,10 +392,6 @@
         "name": "棕色蜡烛"
     },
     {
-        "id": "brown_candle_cake",
-        "name": "插上棕色蜡烛的蛋糕"
-    },
-    {
         "id": "brown_carpet",
         "name": "棕色地毯"
     },
@@ -494,10 +474,6 @@
     {
         "id": "candle",
         "name": "蜡烛"
-    },
-    {
-        "id": "candle_cake",
-        "name": "插上蜡烛的蛋糕"
     },
     {
         "id": "carrots",
@@ -794,10 +770,6 @@
     {
         "id": "cyan_candle",
         "name": "青色蜡烛"
-    },
-    {
-        "id": "cyan_candle_cake",
-        "name": "插上青色蜡烛的蛋糕"
     },
     {
         "id": "cyan_carpet",
@@ -1292,10 +1264,6 @@
         "name": "灰色蜡烛"
     },
     {
-        "id": "gray_candle_cake",
-        "name": "插上灰色蜡烛的蛋糕"
-    },
-    {
         "id": "gray_carpet",
         "name": "灰色地毯"
     },
@@ -1342,10 +1310,6 @@
     {
         "id": "green_candle",
         "name": "绿色蜡烛"
-    },
-    {
-        "id": "green_candle_cake",
-        "name": "插上绿色蜡烛的蛋糕"
     },
     {
         "id": "green_carpet",
@@ -1576,10 +1540,6 @@
         "name": "大型蕨"
     },
     {
-        "id": "lava_cauldron",
-        "name": "装有熔岩的炼药锅"
-    },
-    {
         "id": "lectern",
         "name": "讲台"
     },
@@ -1602,10 +1562,6 @@
     {
         "id": "light_blue_candle",
         "name": "淡蓝色蜡烛"
-    },
-    {
-        "id": "light_blue_candle_cake",
-        "name": "插上淡蓝色蜡烛的蛋糕"
     },
     {
         "id": "light_blue_carpet",
@@ -1654,10 +1610,6 @@
     {
         "id": "light_gray_candle",
         "name": "淡灰色蜡烛"
-    },
-    {
-        "id": "light_gray_candle_cake",
-        "name": "插上淡灰色蜡烛的蛋糕"
     },
     {
         "id": "light_gray_carpet",
@@ -1728,10 +1680,6 @@
         "name": "黄绿色蜡烛"
     },
     {
-        "id": "lime_candle_cake",
-        "name": "插上黄绿色蜡烛的蛋糕"
-    },
-    {
         "id": "lime_carpet",
         "name": "黄绿色地毯"
     },
@@ -1786,10 +1734,6 @@
     {
         "id": "magenta_candle",
         "name": "品红色蜡烛"
-    },
-    {
-        "id": "magenta_candle_cake",
-        "name": "插上品红色蜡烛的蛋糕"
     },
     {
         "id": "magenta_carpet",
@@ -2032,10 +1976,6 @@
         "name": "橙色蜡烛"
     },
     {
-        "id": "orange_candle_cake",
-        "name": "插上橙色蜡烛的蛋糕"
-    },
-    {
         "id": "orange_carpet",
         "name": "橙色地毯"
     },
@@ -2118,10 +2058,6 @@
     {
         "id": "pink_candle",
         "name": "粉红色蜡烛"
-    },
-    {
-        "id": "pink_candle_cake",
-        "name": "插上粉红色蜡烛的蛋糕"
     },
     {
         "id": "pink_carpet",
@@ -2416,10 +2352,6 @@
         "name": "细雪"
     },
     {
-        "id": "powder_snow_cauldron",
-        "name": "装有细雪的炼药锅"
-    },
-    {
         "id": "powered_rail",
         "name": "充能铁轨"
     },
@@ -2470,10 +2402,6 @@
     {
         "id": "purple_candle",
         "name": "紫色蜡烛"
-    },
-    {
-        "id": "purple_candle_cake",
-        "name": "插上紫色蜡烛的蛋糕"
     },
     {
         "id": "purple_carpet",
@@ -2574,10 +2502,6 @@
     {
         "id": "red_candle",
         "name": "红色蜡烛"
-    },
-    {
-        "id": "red_candle_cake",
-        "name": "插上红色蜡烛的蛋糕"
     },
     {
         "id": "red_carpet",
@@ -3196,10 +3120,6 @@
         "name": "诡异疣块"
     },
     {
-        "id": "water_cauldron",
-        "name": "装有水的炼药锅"
-    },
-    {
         "id": "waxed_copper_block",
         "name": "涂蜡铜块"
     },
@@ -3308,10 +3228,6 @@
         "name": "白色蜡烛"
     },
     {
-        "id": "white_candle_cake",
-        "name": "插上白色蜡烛的蛋糕"
-    },
-    {
         "id": "white_carpet",
         "name": "白色地毯"
     },
@@ -3370,10 +3286,6 @@
     {
         "id": "yellow_candle",
         "name": "黄色蜡烛"
-    },
-    {
-        "id": "yellow_candle_cake",
-        "name": "插上黄色蜡烛的蛋糕"
     },
     {
         "id": "yellow_carpet",

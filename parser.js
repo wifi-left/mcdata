@@ -37,7 +37,26 @@ function getItems(lang) {
                 // console.log(id)
                 continue;
             }
-            //wall_
+            if (id.search("attached_") != -1) {
+                // if(id.search("\.des"))
+                // console.log(id)
+                continue;
+            }
+            if (id.search("_cake") != -1) {
+                // if(id.search("\.des"))
+                // console.log(id)
+                continue;
+            }
+            if (id.search("_cauldron") != -1) {
+                // if(id.search("\.des"))
+                // console.log(id)
+                continue;
+            }
+            /*wall_
+            attached_
+            _cake
+            _cauldron
+            */
             /*
             手动排除列表
             */

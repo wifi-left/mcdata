@@ -122,3 +122,51 @@ function getEntities(lang) {
     }
     return result;
 }
+function getEnchantments(lang){
+    //enchantment.minecraft.
+    var result = [];
+    for (var i in lang) {
+        if (i.substring(0, "enchantment.minecraft.".length) == "enchantment.minecraft.") {
+            let id = i.substring("enchantment.minecraft.".length);
+            if (id.search(/\./) != -1) {
+                // if(id.search("\.des"))
+                // console.log(id)
+                continue;
+            }
+            let name = lang[i];
+            let des = lang[i + ".desc"];
+
+            if (des != undefined) {
+                result[result.length] = { id: id, name: name + " - " + des };
+            } else {
+                result[result.length] = { id: id, name: name };
+            }
+            // console.log(name);
+        }
+    }
+    return result;
+}
+function getEffects(lang){
+    var result = [];
+    for (var i in lang) {
+        if (i.substring(0, "effect.minecraft.".length) == "effect.minecraft.") {
+            let id = i.substring("effect.minecraft.".length);
+            if (id.search(/\./) != -1) {
+                // if(id.search("\.des"))
+                // console.log(id)
+                continue;
+            }
+            let name = lang[i];
+            let des = lang[i + ".desc"];
+
+            if (des != undefined) {
+                result[result.length] = { id: id, name: name + " - " + des };
+            } else {
+                result[result.length] = { id: id, name: name };
+            }
+            // console.log(name);
+        }
+    }
+    return result;
+    //effect.minecraft.
+}

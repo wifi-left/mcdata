@@ -24,6 +24,10 @@
     <textarea id="result_block"></textarea>
     <h1>输出：实体ID</h1>
     <textarea id="result_entity"></textarea>
+    <h1>输出：附魔ID</h1>
+    <textarea id="result_enchantment"></textarea>
+    <h1>输出：药水ID</h1>
+    <textarea id="result_effect"></textarea>
     <h1>输出：错误信息</h1>
     <span id="errormessage">
         无
@@ -36,6 +40,8 @@
             result_item.value = JSON.stringify(getItems(lang));
             result_block.value = JSON.stringify(getBlocks(lang));
             result_entity.value = JSON.stringify(getEntities(lang));
+            result_enchantment.value = JSON.stringify(getEnchantments(lang));
+            result_effect.value = JSON.stringify(getEffects(lang));
 
         } catch (e) {
             errormessage.innerText = "错误信息：" + e;

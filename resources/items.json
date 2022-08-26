@@ -52,10 +52,6 @@
         "name": "金合欢木活板门"
     },
     {
-        "id": "acacia_wall_sign",
-        "name": "墙上的金合欢木告示牌"
-    },
-    {
         "id": "acacia_wood",
         "name": "金合欢木"
     },
@@ -224,10 +220,6 @@
         "name": "白桦木活板门"
     },
     {
-        "id": "birch_wall_sign",
-        "name": "墙上的白桦木告示牌"
-    },
-    {
         "id": "birch_wood",
         "name": "白桦木"
     },
@@ -384,10 +376,6 @@
         "name": "脑纹珊瑚扇"
     },
     {
-        "id": "brain_coral_wall_fan",
-        "name": "墙上的脑纹珊瑚扇"
-    },
-    {
         "id": "brewing_stand",
         "name": "酿造台"
     },
@@ -482,10 +470,6 @@
     {
         "id": "bubble_coral_fan",
         "name": "气泡珊瑚扇"
-    },
-    {
-        "id": "bubble_coral_wall_fan",
-        "name": "墙上的气泡珊瑚扇"
     },
     {
         "id": "budding_amethyst",
@@ -708,10 +692,6 @@
         "name": "苦力怕的头"
     },
     {
-        "id": "creeper_wall_head",
-        "name": "墙上的苦力怕头颅"
-    },
-    {
         "id": "crimson_button",
         "name": "绯红木按钮"
     },
@@ -770,10 +750,6 @@
     {
         "id": "crimson_trapdoor",
         "name": "绯红木活板门"
-    },
-    {
-        "id": "crimson_wall_sign",
-        "name": "墙上的绯红木告示牌"
     },
     {
         "id": "crying_obsidian",
@@ -920,10 +896,6 @@
         "name": "深色橡木活板门"
     },
     {
-        "id": "dark_oak_wall_sign",
-        "name": "墙上的深色橡木告示牌"
-    },
-    {
         "id": "dark_oak_wood",
         "name": "深色橡木"
     },
@@ -956,10 +928,6 @@
         "name": "失活的脑纹珊瑚扇"
     },
     {
-        "id": "dead_brain_coral_wall_fan",
-        "name": "墙上的失活脑纹珊瑚扇"
-    },
-    {
         "id": "dead_bubble_coral",
         "name": "失活的气泡珊瑚"
     },
@@ -970,10 +938,6 @@
     {
         "id": "dead_bubble_coral_fan",
         "name": "失活的气泡珊瑚扇"
-    },
-    {
-        "id": "dead_bubble_coral_wall_fan",
-        "name": "墙上的失活气泡珊瑚扇"
     },
     {
         "id": "dead_bush",
@@ -992,10 +956,6 @@
         "name": "失活的火珊瑚扇"
     },
     {
-        "id": "dead_fire_coral_wall_fan",
-        "name": "墙上的失活火珊瑚扇"
-    },
-    {
         "id": "dead_horn_coral",
         "name": "失活的鹿角珊瑚"
     },
@@ -1008,10 +968,6 @@
         "name": "失活的鹿角珊瑚扇"
     },
     {
-        "id": "dead_horn_coral_wall_fan",
-        "name": "墙上的失活鹿角珊瑚扇"
-    },
-    {
         "id": "dead_tube_coral",
         "name": "失活的管珊瑚"
     },
@@ -1022,10 +978,6 @@
     {
         "id": "dead_tube_coral_fan",
         "name": "失活的管珊瑚扇"
-    },
-    {
-        "id": "dead_tube_coral_wall_fan",
-        "name": "墙上的失活管珊瑚扇"
     },
     {
         "id": "deepslate",
@@ -1144,10 +1096,6 @@
         "name": "龙首"
     },
     {
-        "id": "dragon_wall_head",
-        "name": "墙上的龙首"
-    },
-    {
         "id": "dried_kelp_block",
         "name": "干海带块"
     },
@@ -1250,10 +1198,6 @@
     {
         "id": "fire_coral_fan",
         "name": "火珊瑚扇"
-    },
-    {
-        "id": "fire_coral_wall_fan",
-        "name": "墙上的火珊瑚扇"
     },
     {
         "id": "fletching_table",
@@ -1480,10 +1424,6 @@
         "name": "鹿角珊瑚扇"
     },
     {
-        "id": "horn_coral_wall_fan",
-        "name": "墙上的鹿角珊瑚扇"
-    },
-    {
         "id": "ice",
         "name": "冰"
     },
@@ -1598,10 +1538,6 @@
     {
         "id": "jungle_trapdoor",
         "name": "丛林木活板门"
-    },
-    {
-        "id": "jungle_wall_sign",
-        "name": "墙上的丛林木告示牌"
     },
     {
         "id": "jungle_wood",
@@ -2068,10 +2004,6 @@
         "name": "橡木活板门"
     },
     {
-        "id": "oak_wall_sign",
-        "name": "墙上的橡木告示牌"
-    },
-    {
         "id": "oak_wood",
         "name": "橡木"
     },
@@ -2242,10 +2174,6 @@
     {
         "id": "player_head",
         "name": "玩家头颅"
-    },
-    {
-        "id": "player_wall_head",
-        "name": "墙上的玩家头颅"
     },
     {
         "id": "podzol",
@@ -2752,10 +2680,6 @@
         "name": "红石火把"
     },
     {
-        "id": "redstone_wall_torch",
-        "name": "墙上的红石火把"
-    },
-    {
         "id": "redstone_wire",
         "name": "红石线"
     },
@@ -2834,10 +2758,6 @@
     {
         "id": "skeleton_skull",
         "name": "骷髅头颅"
-    },
-    {
-        "id": "skeleton_wall_skull",
-        "name": "墙上的骷髅头颅"
     },
     {
         "id": "slime_block",
@@ -2940,10 +2860,6 @@
         "name": "灵魂火把"
     },
     {
-        "id": "soul_wall_torch",
-        "name": "墙上的灵魂火把"
-    },
-    {
         "id": "spawner",
         "name": "刷怪笼"
     },
@@ -3006,10 +2922,6 @@
     {
         "id": "spruce_trapdoor",
         "name": "云杉木活板门"
-    },
-    {
-        "id": "spruce_wall_sign",
-        "name": "墙上的云杉木告示牌"
     },
     {
         "id": "spruce_wood",
@@ -3196,10 +3108,6 @@
         "name": "管珊瑚扇"
     },
     {
-        "id": "tube_coral_wall_fan",
-        "name": "墙上的管珊瑚扇"
-    },
-    {
         "id": "tuff",
         "name": "凝灰岩"
     },
@@ -3222,10 +3130,6 @@
     {
         "id": "void_air",
         "name": "虚空空气"
-    },
-    {
-        "id": "wall_torch",
-        "name": "墙上的火把"
     },
     {
         "id": "warped_button",
@@ -3286,10 +3190,6 @@
     {
         "id": "warped_trapdoor",
         "name": "诡异木活板门"
-    },
-    {
-        "id": "warped_wall_sign",
-        "name": "墙上的诡异木告示牌"
     },
     {
         "id": "warped_wart_block",
@@ -3460,10 +3360,6 @@
         "name": "凋灵骷髅头颅"
     },
     {
-        "id": "wither_skeleton_wall_skull",
-        "name": "墙上的凋灵骷髅头颅"
-    },
-    {
         "id": "yellow_banner",
         "name": "黄色旗帜"
     },
@@ -3518,10 +3414,6 @@
     {
         "id": "zombie_head",
         "name": "僵尸的头"
-    },
-    {
-        "id": "zombie_wall_head",
-        "name": "墙上的僵尸头颅"
     },
     {
         "id": "acacia_boat",

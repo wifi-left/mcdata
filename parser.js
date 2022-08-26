@@ -32,6 +32,12 @@ function getItems(lang) {
                 // console.log(id)
                 continue;
             }
+            if (id.search("wall_") != -1) {
+                // if(id.search("\.des"))
+                // console.log(id)
+                continue;
+            }
+            //wall_
             /*
             手动排除列表
             */

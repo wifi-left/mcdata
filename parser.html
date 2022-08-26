@@ -25,7 +25,9 @@
     <h1>输出：实体ID</h1>
     <textarea id="result_entity"></textarea>
     <h1>输出：错误信息</h1>
-    <span id="errormessage"></span>
+    <span id="errormessage">
+        无
+    </span>
 </body>
 <script>
     function getResult() {
@@ -36,7 +38,7 @@
             result_entity.value = JSON.stringify(getEntities(lang));
 
         } catch (e) {
-            errormessage.innerTEXT = "错误信息：" + e;
+            errormessage.innerText = "错误信息：" + e;
         }
     }
 </script>

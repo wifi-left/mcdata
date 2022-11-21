@@ -121,7 +121,7 @@
             "head": "$item|头部",
             "chest": "$item|胸部",
             "legs": "$item|腿部",
-            "feet": "$item脚部手"
+            "feet": "$item|脚部手"
         },
         "flags": {
             "DES": "实体特质（Predicate Flags）",

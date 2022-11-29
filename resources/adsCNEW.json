@@ -1,0 +1,563 @@
+{
+    "lists": [
+        "bee_nest_destroyed",
+        "bred_animals",
+        "brewed_potion",
+        "changed_dimension",
+        "channeled_lightning",
+        "construct_beacon",
+        "consume_item",
+        "cured_zombie_villager",
+        "effects_changed",
+        "enchanted_item",
+        "enter_block",
+        "entity_hurt_player",
+        "entity_killed_player",
+        "filled_bucket",
+        "fishing_rod_hooked",
+        "hero_of_the_village",
+        "impossible",
+        "inventory_changed",
+        "item_durability_changed",
+        "item_used_on_block",
+        "killed_by_crossbow",
+        "levitation",
+        "lightning_strike",
+        "location",
+        "nether_travel",
+        "placed_block",
+        "player_generates_container_loot",
+        "player_hurt_entity",
+        "player_interacted_with_entity",
+        "player_killed_entity",
+        "recipe_unlocked",
+        "shot_crossbow",
+        "slept_in_bed",
+        "slide_down_block",
+        "started_riding",
+        "summoned_entity",
+        "tame_animal",
+        "target_hit",
+        "thrown_item_picked_up_by_entity",
+        "tick",
+        "used_ender_eye",
+        "used_totem",
+        "using_item",
+        "villager_trade",
+        "voluntary_exile",
+        "allay_drop_item_on_block",
+        "avoid_vibration",
+        "kill_mob_near_sculk_catalyst",
+        "thrown_item_picked_up_by_player"
+    ],
+    "position": {
+        "x": "$number|x 坐标",
+        "y": "$number|y 坐标",
+        "z": "$number|z 坐标"
+    },
+    "tlocation": {
+        "biome": "$text|生物群系",
+        "block": {
+            "DES": "此位置处的方块",
+            "blocks": {
+                "DES": "方块 ID 列表",
+                "TYPE": "ARRAY"
+            },
+            "tag": "$text|方块标签",
+            "nbt": "$text|方块的NBT",
+            "state": {
+                "DES": "方块状态",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "T": "true",
+                    "key": "$number|方块属性的键值"
+                }
+            }
+        },
+        "dimension": "$text|实体所在维度。支持：overworld、the_nether和the_end",
+        "feature": "$text|结构名称",
+        "fluid": {
+            "DES": "此处的液体",
+            "fluid": "$text|液体 ID",
+            "tag": "$text|液体标签",
+            "state": {
+                "DES": "液体方块状态",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "T": "true",
+                    "key": "$number|液体方块属性的键值"
+                }
+            }
+        },
+        "light": "$number|此位置处的亮度。使用max(sky-darkening, block)计算",
+        "position": "$position|坐标",
+        "smokey": "$text|如果该方块位于一个营火或灵魂营火的上方则为真"
+    },
+    "entity": {
+        "T": "true",
+        "distance": {
+            "DES": "距离与坐标",
+            "absolute": "$number|绝对距离",
+            "horizontal": "$number|水平距离",
+            "x": "$number|x 坐标",
+            "y": "$number|y 坐标",
+            "z": "$number|z 坐标"
+        },
+        "effects": {
+            "DES": "状态效果列表",
+            "TYPE": "JSON",
+            "LISTCONTENT": {
+                "key": {
+                    "DES": "状态效果名称",
+                    "amplifier": "$number|效果等级",
+                    "duration": "$number|效果持续时间，以刻为单位"
+                }
+            }
+        },
+        "equipment": {
+            "DES": "实体装备",
+            "mainhand": "$item|主手",
+            "offhand": "$item|副手",
+            "head": "$item|头部",
+            "chest": "$item|胸部",
+            "legs": "$item|腿部",
+            "feet": "$item|脚部手"
+        },
+        "flags": {
+            "DES": "实体特质（Predicate Flags）",
+            "is_on_fire": "$text|测试该实体是否正在着火。",
+            "is_sneaking": "$text|测试该实体是否正在潜行",
+            "is_sprinting": "$text|测试该实体是否正在疾跑",
+            "is_swimming": "$text|测试该实体是否正在游泳",
+            "is_baby": "$text|测试该实体是否是幼体"
+        },
+        "fishing_hook": {
+            "DES": "对鱼钩实体的判定条件",
+            "in_open_water": "$text|测试该鱼钩是否位于开阔水域。开阔水域默认最小为以鱼钩为中心向外延伸5格的矩形水域。"
+        },
+        "lightning_bolt": {
+            "DES": "对闪电实体的判定条件。若目标不是闪电则判定失败。",
+            "blocks_set_on_fire": "$text|被该闪电点燃的方块数",
+            "entity_struck": "$entity|被闪电击中的实体属性"
+        },
+        "location": "$tlocation|实体位置",
+        "nbt": "$text|实体的NBT",
+        "player": {
+            "DES": "检查玩家属性。如果实体不是玩家则失败。",
+            "advancements": {
+                "DES": "要检查的进度的映射。",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "key": "$text|进度ID。使用 “|” 分割进度名以及是否有进度。是否有进度：支持true, false。例如：minecraft:root|true"
+                }
+            },
+            "gamemode": "$text|玩家的游戏模式。必须是survival、adventure、creative或spectator。",
+            "level": "$number|玩家的经验等级",
+            "looking_at": "$entity|玩家正在观察的实体，需要其可见且在100个方块内。可见是通过玩家眼睛到该实体眼睛的线来定义的，而不是玩家正在看的方向。",
+            "recipes": {
+                "DES": "配方",
+                "TYPE": "JSON",
+                "LISTCONTENT": {
+                    "key": "$text|玩家是否有这个配方。true或false。使用 “|” 分割配方名称和是否拥有配方。minecraft:root|true"
+                }
+            },
+            "stats": {
+                "DES": "列举要匹配的统计。需要注意的是，与添加记分项不同，统计的类型与实际的统计ID不使用.连接格式（也就是类似于minecraft.custom:minecraft.sneak_time的格式），而是要分开在下面的type指定类型（比如minecraft:custom）和下面的stat指定统计ID（比如minecraft:sneak_time），并且都要正确写出命名空间ID",
+                "TYPE": "JSONARRAY",
+                "LISTCONTENT": {
+                    "type": "$text|类型。接受的值有minecraft:broken、minecraft:crafted、minecraft:custom、minecraft:dropped、minecraft:killed、minecraft:killed_by、minecraft:mined、minecraft:picked_up和minecraft:used",
+                    "stat": "$text|统计ID。和定义记分项的准则差不多",
+                    "value": "$number|统计的值"
+                }
+            }
+        },
+        "team": "$text|实体属于的队伍",
+        "type": "$text|实体ID",
+        "targeted_entity": "$entity|实体要瞄准攻击的实体",
+        "vehicle": "$entity|实体正在骑乘的实体"
+    },
+    "number": {
+        "T": "true",
+        "min": "$double|最小值",
+        "max": "$double|最大值"
+    },
+    "item": {
+        "count": "$number|物品数量",
+        "durability": "$number|耐久度",
+        "enchantments": {
+            "DES": "魔咒列表",
+            "TYPE": "JSONARRAY",
+            "LISTCONTENT": {
+                "enchantment": "$text|一个魔咒ID",
+                "levels": "$number|等级"
+            }
+        },
+        "stored_enchantments": {
+            "DES": "附魔书中储存的魔咒的列表",
+            "TYPE": "JSONARRAY",
+            "LISTCONTENT": {
+                "enchantment": "$text|一个魔咒ID",
+                "levels": "$number|等级"
+            }
+        },
+        "items": {
+            "DES": "物品ID列表",
+            "TYPE": "ARRAY"
+        },
+        "nbt": "$text|物品的NBT",
+        "potion": "$text|酿造药水的ID",
+        "tag": "$text|物品标签"
+    },
+    "damageType": {
+        "bypasses_armor": "$text|检查伤害是否忽视玩家装甲（以窒息伤害为主）。",
+        "bypasses_invulnerability": "$text|检查伤害是否忽视玩家无敌模式（虚空伤害或 /kill 伤害）",
+        "bypasses_magic": "$text|检查伤害是否由饥饿引起。",
+        "direct_entity": "$entity|直接造成伤害的实体",
+        "is_explosion": "$text|检查伤害是否由爆炸引起。",
+        "is_fire": "$text|检查伤害是否由火引起。",
+        "is_magic": "$text|检查伤害是否由魔法引起。",
+        "is_projectile": "$text|检查伤害是否由弹射物引起。",
+        "is_lightning": "$text|检查伤害是否由闪电引起。",
+        "source_entity": "$entity|伤害的直接来源实体。"
+    },
+    "damage": {
+        "blocked": "$text|检查伤害是否被成功阻挡",
+        "dealt": "$number|在减少伤害前检查实体即将受到的伤害总量。",
+        "direct_entity": "$entity|伤害的直接来源实体。",
+        "source_entity": "$entity|检查伤害的直接来源实体",
+        "taken": "$number|在减少伤害后检查实体即将受到的伤害总量。",
+        "type": "$damageType|检查伤害的类型。"
+    },
+    "ALL": {},
+    "allay_drop_item_on_block":{
+        "DES":"当悦灵将物品投掷至方块时触发",
+        "location":"$tlocation|物品投掷至的方块中心位置",
+        "item":"$item|物品投掷至的方块",
+        "player":"$entity|获得进度的玩家"
+    },
+    "avoid_vibration":{
+        "DES":"当振动因其来源玩家处于潜行状态而被忽略时触发",
+        "player":"$entity|获得进度的玩家"
+    },
+    "kill_mob_near_sculk_catalyst":{
+        "DES":"当玩家是在幽匿催发体附近的一个生物或玩家被杀死的伤害来源时触发",
+        "entity":"$entity|杀死的实体对象",
+        "killing_blow":"$damageType|杀死实体的伤害类型",
+        "player":"$entity|获得进度的玩家"
+    },
+    "thrown_item_picked_up_by_player":{
+        "DES":"在玩家拾起实体掷出的物品时触发",
+        "item":"$item|互动的物品",
+        "entity":"$entity|投掷物品的实体的谓词",
+        "player":"$entity|获得进度的玩家"
+    },
+    "bee_nest_destroyed": {
+        "block": "$text|被摧毁的方块（minecraft:beehive 或 minecraft:bee_nest）",
+        "item": "$item|破坏该方块的物品",
+        "num_bees_inside": "$long|在破坏前其中含有的蜜蜂数",
+        "player": "$entity|获得进度的玩家",
+        "DES": "玩家破坏蜂箱、蜂巢"
+    },
+    "entityArr": {
+        "T": "true",
+        "TYPE": "JSONARRAY"
+    },
+    "bred_animals": {
+        "child": "$entity|繁殖出的孩子",
+        "parent": "$entity|父或母",
+        "partner": "$entity|配偶",
+        "player": "$entity|获得进度的玩家",
+        "DES": "动物繁殖"
+    },
+    "brewed_potion": {
+        "DES": "玩家从酿造台中拿出一瓶药水时触发",
+        "potion": "$text|酿造药水的ID",
+        "player": "$entity|获得进度的玩家"
+    },
+    "changed_dimension": {
+        "DES":"玩家在两个维度间旅行时触发",
+        "from": "$text|实体出发的维度。默认有minecraft:overworld（主世界）、minecraft:the_nether（下界）或minecraft:the_end（末地）",
+        "to": "$text|实体到达的维度。默认有minecraft:overworld（主世界）、minecraft:the_nether（下界）或minecraft:the_end（末地）",
+        "player": "$entity|获得进度的玩家"
+    },
+    "channeled_lightning": {
+        "DES": "玩家成功使用引雷附魔击杀实体时触发",
+        "victims": {
+            "DES": "被引雷附魔召唤的闪电击中的实体。列表中的所有实体都必须被击中",
+            "TYPE": "JSONARRAY",
+            "LISTCONTENT": "$entity|一个被该闪电击中的实体"
+        }
+    },
+    "construct_beacon": {
+        "DES": "玩家更改信标结构时触发",
+        "level": "$number|信标等级（层数）",
+        "player": "$entity|获得进度的玩家"
+    },
+    "consume_item": {
+        "DES": "玩家损耗了物品时触发",
+        "item": "$item|被损耗的物品",
+        "player": "$entity|获得进度的玩家"
+    },
+    "cured_zombie_villager": {
+        "DES": "玩家治愈了僵尸村民时触发",
+        "villager": "$entity|被治愈后的村民",
+        "zombie": "$entity|被治愈前的僵尸",
+        "player": "$entity|获得进度的玩家"
+    },
+    "effects_changed": {
+        "DES": "玩家获得/消除状态效果时触发",
+        "effects": {
+            "DES": "状态效果列表",
+            "TYPE": "JSON",
+            "LISTCONTENT": {
+                "key": {
+                    "amplifier": "$number|效果等级",
+                    "duration": "$number|效果持续时间，以刻为单位"
+                }
+            }
+        },
+        "source": "$entity|状态来源实体",
+        "player": "$entity|获得进度的玩家"
+    },
+    "enchanted_item": {
+        "DES": "玩家通过附魔台附魔物品时触发",
+        "item": "$item|附魔的物品",
+        "levels": "$number|附魔花费的经验等级",
+        "player": "$entity|获得进度的玩家"
+    },
+    "enter_block": {
+        "DES": "玩家进入方块时触发",
+        "block": "$text|方块 ID",
+        "state": {
+            "DES": "方块状态",
+            "TYPE": "JSON",
+            "LISTCONTENT": {
+                "T": "true",
+                "key": "$number|方块属性的键值"
+            }
+        },
+        "player": "$entity|获得进度的玩家"
+    },
+    "entity_hurt_player": {
+        "DES": "实体伤害玩家时触发 [也在玩家受伤但没有实体时触发]",
+        "damage": "$damage|检查对玩家造成伤害",
+        "player": "$entity|获得进度的玩家"
+    },
+    "entity_killed_player": {
+        "DES": "实体杀死玩家时触发",
+        "entity": "$entity|伤害的直接来源实体",
+        "killing_blow": "$damageType",
+        "player": "$entity|获得进度的玩家"
+    },
+    "filled_bucket": {
+        "DES": "玩家填充桶时触发",
+        "item": "$item|填满后的物品",
+        "player": "$entity|获得进度的玩家"
+    },
+    "fishing_rod_hooked": {
+        "DES": "玩家成功通过钓鱼竿取得物品或者使用钓鱼竿拉实体时触发",
+        "entity": "$entity|被拉的实体",
+        "item": "$item|被取得的物品",
+        "rod": "$item|使用的鱼竿",
+        "player": "$entity|获得进度的玩家"
+    },
+    "hero_of_the_village": {
+        "DES": "玩家击败袭击时触发",
+        "location": "$tlocation|玩家位置",
+        "player": "$entity|获得进度的玩家"
+    },
+    "inventory_changed": {
+        "DES": "物品栏改变",
+        "items": {
+            "DES": "物品列表",
+            "TYPE": "JSONARRAY",
+            "LISTCONTENT": "$item|一个物品"
+        },
+        "slots": {
+            "DES": "玩家物品栏",
+            "empty": "$number|物品栏中空槽位数量。",
+            "full": "$number|物品栏中已被完全使用（填充了一组物品）槽位数量。",
+            "occupied": "$number|物品栏中已使用槽位数量。"
+        },
+        "player": "$entity|获得进度的玩家"
+    },
+    "impossible": {
+        "DES": "不可能触发（除非指令）",
+        "disable": true
+    },
+    "item_durability_changed": {
+        "DES": "物品栏中任何物品以任何形式损害时触发",
+        "delta": "$number|耐久度差值（此次消耗的耐久度）",
+        "durability": "$number|耐久度",
+        "item": "$item|损耗的物品",
+        "player": "$entity|获得进度的玩家"
+    },
+    "item_used_on_block": {
+        "DES": "玩家对方块空手或手持物品时进行使用操作时触发",
+        "location": "$tlocation|方块位置",
+        "item": "$item|玩家使用的物品",
+        "player": "$entity|获得进度的玩家"
+    },
+    "killed_by_crossbow": {
+        "DES": "玩家使用弩远程杀死生物或玩家时触发",
+        "unique_entity_types": "$number|杀死的实体种类的准确数量。",
+        "victims": {
+            "DES": "被杀死的任意实体",
+            "LISTCONTENT": "$entity|对被杀死的任意实体的谓词"
+        },
+        "player": "$entity|获得进度的玩家"
+    },
+    "levitation": {
+        "DES": "玩家获得漂浮状态效果时触发",
+        "distance": {
+            "DES": "距离与坐标",
+            "absolute": "$number|绝对距离",
+            "horizontal": "$number|水平距离",
+            "x": "$number|x 坐标",
+            "y": "$number|y 坐标",
+            "z": "$number|z 坐标"
+        },
+        "duration": "$number|漂浮时间",
+        "player": "$entity|获得进度的玩家"
+    },
+    "lightning_strike": {
+        "DES": "当一束闪电消失，玩家在以该闪电为中心的256格范围内时触发",
+        "lightning": "$entity|消失的闪电",
+        "bystander": "$entity|一个被该闪电击中，但是没有被其伤害的实体",
+        "player": "$entity|获得进度的玩家"
+    },
+    "location": {
+        "DES": "每20游戏刻（理想情况下为1秒）检查玩家的位置",
+        "location": "$tlocation|玩家位置",
+        "player": "$entity|获得进度的玩家"
+    },
+    "nether_travel": {
+        "DES": "玩家进入下界，然后返回主世界时触发",
+        "entered": "$tlocation|玩家离开下界前的位置",
+        "exited": "$tlocation|玩家离开下界后，在主世界的位置",
+        "distance": {
+            "DES": "距离与坐标",
+            "absolute": "$number|绝对距离",
+            "horizontal": "$number|水平距离",
+            "x": "$number|x 坐标",
+            "y": "$number|y 坐标",
+            "z": "$number|z 坐标"
+        },
+        "player": "$entity|获得进度的玩家"
+    },
+    "placed_block": {
+        "DES": "玩家放置方块时触发",
+        "block": "$text|放置的方块 ID",
+        "item": "$item|放置的物品",
+        "location": "$tlocation|方块位置",
+        "state": {
+            "DES": "方块状态",
+            "TYPE": "JSON",
+            "LISTCONTENT": {
+                "T": "true",
+                "key": "$number|方块属性的键值"
+            }
+        },
+        "player": "$entity|获得进度的玩家"
+    },
+    "player_generates_container_loot": {
+        "DES": "当玩家打开容器，并且触发战利品表",
+        "loot_table": "$text|被用来生成物品的战利品表",
+        "player": "$entity|获得进度的玩家"
+    },
+    "player_hurt_entity": {
+        "DES": "玩家伤害实体（包括自己）时触发",
+        "damage": "$damage|造成的伤害",
+        "entity": "$entity|被伤害的实体",
+        "player": "$entity|获得进度的玩家"
+    },
+    "player_interacted_with_entity":{
+        "DES":"玩家用手中物品与实体互动时触发",
+        "item":"$item|互动的物品",
+        "entity":"$entity|互动的实体对象",
+        "player":"$entity|获得进度的玩家"
+    },
+    "player_killed_entity":{
+        "DES":"玩家杀死实体时触发（经测试不包含矿车等实体）",
+        "entity":"$entity|被杀死的实体",
+        "killing_blow":"$damageType|杀死实体的伤害类型",
+        "player":"$entity|获得进度的玩家"
+    },
+    "recipe_unlocked":{
+        "DES":"玩家解锁配方时触发（包括知识之书）（用配方合成物品后将自动解锁该配方，可用此原理自定义合成）",
+        "recipe":"$text|被解锁的配方",
+        "player":"$entity|获得进度的玩家"
+    },
+    "shot_crossbow":{
+        "DES":"玩家使用弩时触发",
+        "item":"$item|被使用的物品",
+        "player":"$entity|获得进度的玩家"
+    },
+    "slept_in_bed":{
+        "DES":"玩家上床睡觉时触发",
+        "location":"$tlocation|玩家位置",
+        "player":"$entity|获得进度的玩家"
+    },
+    "slide_down_block":{
+        "DES":"玩家滑下方块时触发",
+        "block":"$text|玩家滑下的方块",
+        "player":"$entity|获得进度的玩家"
+    },
+    "started_riding":{
+        "DES":"在玩家开始骑乘载具、或实体开始骑乘玩家正在骑乘的载具时被触发",
+        "player":"$entity|获得进度的玩家"
+    },
+    "summoned_entity":{
+        "DES":"玩家召唤了实体时触发。使用发射器来放置凋灵骷髅头颅或南瓜也能激活此触发器。刷怪蛋、命令和刷怪笼不会激活此触发器。",
+        "entity":"$entity|被召唤的实体",
+        "player":"$entity|获得进度的玩家"
+    },
+    "tame_animal":{
+        "DES":"玩家驯服动物时触发",
+        "entity":"$entity|被驯服的实体",
+        "player":"$entity|获得进度的玩家"
+    },
+    "target_hit":{
+        "DES":"玩家射中标靶时触发",
+        "signal_strength":"$long|标靶将产生的红石信号",
+        "projectile":"$text|被用来射击标靶的弹射物（物品ID）",
+        "shooter":"$entity|作为射击者的玩家",
+        "player":"$entity|获得进度的玩家"
+    },
+    "thrown_item_picked_up_by_entity":{
+        "DES":"在实体捡起玩家扔出的物品时触发",
+        "item":"$item|被捡起的的物品",
+        "entity":"$entity|捡起物品的的实体",
+        "player":"$entity|获得进度的玩家"
+    },
+    "tick":{
+        "DES":"每游戏刻（理想情况下1秒内有20游戏刻）触发一次",
+        "player":"$entity|获得进度的玩家"
+    },
+    "used_ender_eye":{
+        "DES":"玩家使用末影之眼（在有要塞生成的世界）时触发",
+        "distance":"$number|玩家与要塞的水平距离",
+        "player":"$entity|获得进度的玩家"
+    },
+    "used_totem":{
+        "DES":"玩家使用图腾时触发",
+        "item":"$item|物品（仅图腾有效）",
+        "player":"$entity|获得进度的玩家"
+    },
+    "using_item":{
+        "DES":"每个游戏刻玩家使用持续使用的物品时触发",
+        "item":"$item|被使用的物品",
+        "player":"$entity|获得进度的玩家"
+    },
+    "villager_trade":{
+        "DES":"玩家与村民交易时触发",
+        "item":"$item|购买的物品",
+        "villager":"$entity|参与交易的村民",
+        "player":"$entity|获得进度的玩家"
+    },
+    "voluntary_exile":{
+        "DES":"玩家触发袭击时触发",
+        "location":"$tlocation|玩家位置",
+        "player":"$entity|获得进度的玩家"
+    }
+}
